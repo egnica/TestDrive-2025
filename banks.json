@@ -1,534 +1,530 @@
 {
   "key_Data": [
     {
-      "categorys": [
+      "name": "Desktop: Enrolling/Applying",
+      "score": 288,
+      "desktop": true,
+      "icon": "./images/category-icons/Enrolling_and_Applying.svg",
+      "features": [
         {
-          "name": "Desktop: Enrolling/Applying",
-          "score": 288,
-          "desktop": true,
-          "icon": "./images/category-icons/Enrolling_and_Applying.svg",
-          "features": [
-            {
-              "name": "Business checking and savings account pricing and detailed fee information",
-              "points": 63
-            },
-            {
-              "name": "Checking and savings product feature comparison chart",
-              "points": 45
-            },
-            {
-              "name": "Product or services recommendations based on your company's needs ",
-              "points": 39
-            },
-            {
-              "name": "Ability to open your business checking and savings account(s) online",
-              "points": 43
-            },
-            {
-              "name": "Ability to apply for a business loan or line of credit online",
-              "points": 33
-            },
-            {
-              "name": "Ability to apply for a business credit card online",
-              "points": 38
-            },
-            {
-              "name": "Ability to enroll online for credit/debit card processing (point-of-sale, online, mobile, etc.)",
-              "points": 27
-            }
-          ]
+          "name": "Business checking and savings account pricing and detailed fee information",
+          "points": 63
         },
         {
-          "name": "Desktop: Security and Profile Management",
-          "score": 677,
-          "desktop": true,
-          "icon": "./images/category-icons/Security_Management.svg",
-          "features": [
-            {
-              "name": "Login screen located on the front page of the bank's website",
-              "points": 78
-            },
-            {
-              "name": "Additional security such as an authentication code or challenge question at login",
-              "points": 69
-            },
-            {
-              "name": "Ability to personalize your username or change your password",
-              "points": 79
-            },
-            {
-              "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
-              "points": 82
-            },
-            {
-              "name": "Ability to set up email or phone alerts to notify you of financial transactions",
-              "points": 76
-            },
-            {
-              "name": "Ability to view login history and/or manage remembered devices",
-              "points": 56
-            },
-            {
-              "name": "Ability to view your company's current credit score",
-              "points": 45
-            },
-            {
-              "name": "Ability to update your profile (i.e., address, phone number, email address, etc.)",
-              "points": 80
-            },
-            {
-              "name": "Ability to view full routing and account numbers for business accounts",
-              "points": 56
-            },
-            {
-              "name": "Ability to view and manage the authorized signers for the business checking account",
-              "points": 56
-            }
-          ]
+          "name": "Checking and savings product feature comparison chart",
+          "points": 45
         },
         {
-          "name": "Desktop: Managing Paper",
-          "score": 460,
-          "desktop": true,
-          "icon": "./images/category-icons/Managing_Paper.svg",
-          "features": [
-            {
-              "name": "Ability to view an image of the front and back of a check",
-              "points": 83
-            },
-            {
-              "name": "Access an archive of check images greater than 12 months old",
-              "points": 65
-            },
-            {
-              "name": "Ability to view an image of a deposited third-party check",
-              "points": 67
-            },
-            {
-              "name": "Ability to view seven years of statement history online",
-              "points": 49
-            },
-            {
-              "name": "Ability to view check images on your online statement",
-              "points": 81
-            },
-            {
-              "name": "Ability to enroll or unenroll in online statements at any time",
-              "points": 59
-            },
-            {
-              "name": "Ability to view online documents other than banking statements (i.e., branch or ATM receipts or account notices)",
-              "points": 56
-            }
-          ]
+          "name": "Product or services recommendations based on your company's needs ",
+          "points": 39
         },
         {
-          "name": "Desktop: Additional Users",
-          "score": 131,
-          "desktop": true,
-          "icon": "./images/category-icons/Additional_Users.svg",
-          "features": [
-            {
-              "name": "Ability to limit the number of accounts authorized users may access",
-              "points": 45
-            },
-            {
-              "name": "Ability to set dollar limits on transaction amounts for authorized users",
-              "points": 41
-            },
-            {
-              "name": "Ability to require approval for specific transactions initiated by authorized users",
-              "points": 45
-            }
-          ]
+          "name": "Ability to open your business checking and savings account(s) online",
+          "points": 43
         },
         {
-          "name": "Desktop: Cash Flow Management",
-          "score": 438,
-          "desktop": true,
-          "icon": "./images/category-icons/Cash_flow.svg",
-          "features": [
-            {
-              "name": "Ability to view at least 90 days of account history in detail",
-              "points": 88
-            },
-            {
-              "name": "Ability to sort transaction detail (by amount, date, type, etc.)",
-              "points": 73
-            },
-            {
-              "name": "Ability to view all your accounts (including those at other institutions) in one place",
-              "points": 60
-            },
-            {
-              "name": "Ability to automatically track spending by category",
-              "points": 36
-            },
-            {
-              "name": "Ability to create and manage a budget",
-              "points": 27
-            },
-            {
-              "name": "Ability to set up a savings goal with automatic savings contributions",
-              "points": 21
-            },
-            {
-              "name": "Personalized insights/recommendations to optimize cash flow",
-              "points": 24
-            },
-            {
-              "name": "Ability to view at least one month of future account balance and cash flow forecasts",
-              "points": 26
-            },
-            {
-              "name": "Ability to link third-party applications into your company's online banking dashboard (i.e, QuickBooks or ADP)",
-              "points": 40
-            },
-            {
-              "name": "Ability to view and manage the connection of third-party applications that your company has linked to your bank account(s)",
-              "points": 43
-            }
-          ]
+          "name": "Ability to apply for a business loan or line of credit online",
+          "points": 33
         },
         {
-          "name": "Desktop: Making Payments and Transfers",
-          "score": 775,
-          "desktop": true,
-          "icon": "./images/category-icons/Payments_Transfers.svg",
-          "features": [
-            {
-              "name": "Ability to initiate an online bill payment",
-              "points": 73
-            },
-            {
-              "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
-              "points": 58
-            },
-            {
-              "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
-              "points": 45
-            },
-            {
-              "name": "Ability to initiate a wire transfer online (funds available same day)",
-              "points": 39
-            },
-            {
-              "name": "Ability to send money via Zelle (using an email address or mobile number)",
-              "points": 35
-            },
-            {
-              "name": "A comparison chart to help select the best payment method for you needs (cost, timing, etc.)",
-              "points": 30
-            },
-            {
-              "name": "Fees associated with the payment are clearly displayed before initiating payment",
-              "points": 80
-            },
-            {
-              "name": "Ability to issue a stop payment on a check of ACH payment",
-              "points": 79
-            },
-            {
-              "name": "Display current account balances while setting up a transfer",
-              "points": 83
-            },
-            {
-              "name": "Ability to include a customized transaction description",
-              "points": 64
-            },
-            {
-              "name": "Ability to initiate recurring transfers",
-              "points": 59
-            },
-            {
-              "name": "Ability to transfer funds between your accounts at different banks",
-              "points": 56
-            },
-            {
-              "name": "Information regarding when funds will be available after a transfer",
-              "points": 74
-            }
-          ]
+          "name": "Ability to apply for a business credit card online",
+          "points": 38
         },
         {
-          "name": "Desktop: Receiving Payments",
-          "score": 168,
-          "desktop": true,
-          "icon": "./images/category-icons/Receiving_Payments.svg",
-          "features": [
-            {
-              "name": "Ability to accept or request money via Zelle (using an email address, mobile number or QR code)",
-              "points": 37
-            },
-            {
-              "name": "Ability to send invoices electronically through business online banking",
-              "points": 37
-            },
-            {
-              "name": "Ability to accept payments electronically for invoices sent through online banking",
-              "points": 48
-            },
-            {
-              "name": "Ability to accept credit or debit card payments directly via online banking dashboard",
-              "points": 46
-            }
-          ]
+          "name": "Ability to enroll online for credit/debit card processing (point-of-sale, online, mobile, etc.)",
+          "points": 27
+        }
+      ]
+    },
+    {
+      "name": "Desktop: Security and Profile Management",
+      "score": 677,
+      "desktop": true,
+      "icon": "./images/category-icons/Security_Management.svg",
+      "features": [
+        {
+          "name": "Login screen located on the front page of the bank's website",
+          "points": 78
         },
         {
-          "name": "Desktop: Customer Service",
-          "score": 358,
-          "desktop": true,
-          "icon": "./images/category-icons/Customer_service.svg",
-          "features": [
-            {
-              "name": "Telephone support for service-related inquiries",
-              "points": 80
-            },
-            {
-              "name": "Access to an automated chat bot or digital assistant for general information",
-              "points": 29
-            },
-            {
-              "name": "Access to customer support via live chat that connects you to a human representative",
-              "points": 72
-            },
-            {
-              "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
-              "points": 61
-            },
-            {
-              "name": "Ability to schedule a call from a customer support representative for assistance",
-              "points": 65
-            },
-            {
-              "name": "Ability to communicate with my bank via video conferencing (i.e., Zoom or WebEx)",
-              "points": 25
-            },
-            {
-              "name": "Ability to screen-share with my bank via co-browse for assistance",
-              "points": 26
-            }
-          ]
+          "name": "Additional security such as an authentication code or challenge question at login",
+          "points": 69
         },
         {
-          "name": "Mobile: Enrolling/Applying",
-          "score": 90,
-          "desktop": false,
-          "icon": "./images/category-icons/Enrolling_and_Applying.svg",
-          "features": [
-            {
-              "name": "Ability to open your business checking and savings account(s) via mobile phone",
-              "points": 24
-            },
-            {
-              "name": "Ability to apply for a loan or line of credit via mobile phone",
-              "points": 21
-            },
-            {
-              "name": "Ability to apply for a business credit card via mobile phone",
-              "points": 24
-            },
-            {
-              "name": "Ability to enroll in credit/debit card processing via mobile phone (point-of-sale, online, etc.)",
-              "points": 21
-            }
-          ]
+          "name": "Ability to personalize your username or change your password",
+          "points": 79
         },
         {
-          "name": "Mobile: Managing Paper",
-          "score": 123,
-          "desktop": false,
-          "icon": "./images/category-icons/Managing_Paper.svg",
-          "features": [
-            {
-              "name": "Ability to view check images via mobile phone",
-              "points": 46
-            },
-            {
-              "name": "Ability to view bank statements via mobile phone",
-              "points": 42
-            },
-            {
-              "name": "Ability to view account documents other than banking statements (i.e., branch of ATM receipts or account notices) via mobile phone",
-              "points": 35
-            }
-          ]
+          "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
+          "points": 82
         },
         {
-          "name": "Mobile: Security and Profile Management",
-          "score": 360,
-          "desktop": false,
-          "icon": "./images/category-icons/Security_Management.svg",
-          "features": [
-            {
-              "name": "Ability to log into mobile banking using fingerprint or facial/voice recognition, etc.",
-              "points": 44
-            },
-            {
-              "name": "Ability to quickly view account balances without login via mobile phone",
-              "points": 38
-            },
-            {
-              "name": "Ability to view routing and account numbers for accounts via mobile phone",
-              "points": 45
-            },
-            {
-              "name": "Ability to set up alerts to notify you of log-ins and security threats via mobile phone",
-              "points": 61
-            },
-            {
-              "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
-              "points": 57
-            },
-            {
-              "name": "Ability to view login history and/or manage remembered devices via mobile phone",
-              "points": 53
-            },
-            {
-              "name": "Ability to assign online banking access to coworkers or employees via mobile phone",
-              "points": 26
-            },
-            {
-              "name": "Ability to approve an electronic payment (wire, ACH, payroll, etc.) via mobile phone",
-              "points": 36
-            }
-          ]
+          "name": "Ability to set up email or phone alerts to notify you of financial transactions",
+          "points": 76
         },
         {
-          "name": "Mobile: Cash Flow Management",
-          "score": 65,
-          "desktop": false,
-          "icon": "./images/category-icons/Cash_flow.svg",
-          "features": [
-            {
-              "name": "Ability to automatically group and analyze spending by category via mobile phone",
-              "points": 17
-            },
-            {
-              "name": "Ability to create and manage an operating expense budget via mobile phone",
-              "points": 16
-            },
-            {
-              "name": "Ability to set up a savings goal with automatic savings contributions via mobile phone",
-              "points": 15
-            },
-            {
-              "name": "Ability to view at least one month of future account balance forecasts via mobile phone",
-              "points": 17
-            }
-          ]
+          "name": "Ability to view login history and/or manage remembered devices",
+          "points": 56
         },
         {
-          "name": "Mobile: Making Payments and Transfers",
-          "score": 266,
-          "desktop": false,
-          "icon": "./images/category-icons/Payments_Transfers.svg",
-          "features": [
-            {
-              "name": "Ability to initiate an online bill payment via mobile phone",
-              "points": 44
-            },
-            {
-              "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
-              "points": 35
-            },
-            {
-              "name": "Ability to initiate a real-time ACH payment delivered within moments via mobile phone (excluding Zelle)",
-              "points": 32
-            },
-            {
-              "name": "Ability to initiate an online wire payment via mobile phone",
-              "points": 28
-            },
-            {
-              "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
-              "points": 32
-            },
-            {
-              "name": "Ability to transfer funds between accounts via mobile phone",
-              "points": 53
-            },
-            {
-              "name": "Ability to transfer funds between your accounts at different banks via mobile phone",
-              "points": 42
-            }
-          ]
+          "name": "Ability to view your company's current credit score",
+          "points": 45
         },
         {
-          "name": "Mobile: Receiving Payments",
-          "score": 122,
-          "desktop": false,
-          "icon": "./images/category-icons/Receiving_Payments.svg",
-          "features": [
-            {
-              "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
-              "points": 33
-            },
-            {
-              "name": "Ability to photograph and deposit checks via mobile phone",
-              "points": 55
-            },
-            {
-              "name": "Ability to accept and process card payments using your bank's mobile banking app (either by manually entering card information or using an attached card reader device)",
-              "points": 34
-            }
-          ]
+          "name": "Ability to update your profile (i.e., address, phone number, email address, etc.)",
+          "points": 80
         },
         {
-          "name": "Mobile: Card Management",
-          "score": 263,
-          "desktop": false,
-          "icon": "./images/category-icons/Card_Management.svg",
-          "features": [
-            {
-              "name": "Ability to initiate an ATM withdrawl via mobile banking before arriving at the ATM",
-              "points": 16
-            },
-            {
-              "name": "Ability to use your bank's mobile banking app to access an ATM without a debit card",
-              "points": 22
-            },
-            {
-              "name": "Ability to lock a business debit/credit card temporarily via mobile phone",
-              "points": 49
-            },
-            {
-              "name": "Ability to report a business debit/credit card lost or stolen via mobile phone",
-              "points": 58
-            },
-            {
-              "name": "Ability to change the business debit card PIN number via mobile phone",
-              "points": 44
-            },
-            {
-              "name": "Ability to set limits for a business debit card via mobile phone",
-              "points": 38
-            },
-            {
-              "name": "Ability to set restrictions for debit card use by location, merchant type, etc",
-              "points": 36
-            }
-          ]
+          "name": "Ability to view full routing and account numbers for business accounts",
+          "points": 56
         },
         {
-          "name": "Mobile: Customer Service",
-          "score": 97,
-          "desktop": false,
-          "icon": "./images/category-icons/Customer_service.svg",
-          "features": [
-            {
-              "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
-              "points": 33
-            },
-            {
-              "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
-              "points": 21
-            },
-            {
-              "name": "Access to on-demand live chat support with a human representative via mobile phone",
-              "points": 43
-            }
-          ]
+          "name": "Ability to view and manage the authorized signers for the business checking account",
+          "points": 56
+        }
+      ]
+    },
+    {
+      "name": "Desktop: Managing Paper",
+      "score": 460,
+      "desktop": true,
+      "icon": "./images/category-icons/Managing_Paper.svg",
+      "features": [
+        {
+          "name": "Ability to view an image of the front and back of a check",
+          "points": 83
+        },
+        {
+          "name": "Access an archive of check images greater than 12 months old",
+          "points": 65
+        },
+        {
+          "name": "Ability to view an image of a deposited third-party check",
+          "points": 67
+        },
+        {
+          "name": "Ability to view seven years of statement history online",
+          "points": 49
+        },
+        {
+          "name": "Ability to view check images on your online statement",
+          "points": 81
+        },
+        {
+          "name": "Ability to enroll or unenroll in online statements at any time",
+          "points": 59
+        },
+        {
+          "name": "Ability to view online documents other than banking statements (i.e., branch or ATM receipts or account notices)",
+          "points": 56
+        }
+      ]
+    },
+    {
+      "name": "Desktop: Additional Users",
+      "score": 131,
+      "desktop": true,
+      "icon": "./images/category-icons/Additional_Users.svg",
+      "features": [
+        {
+          "name": "Ability to limit the number of accounts authorized users may access",
+          "points": 45
+        },
+        {
+          "name": "Ability to set dollar limits on transaction amounts for authorized users",
+          "points": 41
+        },
+        {
+          "name": "Ability to require approval for specific transactions initiated by authorized users",
+          "points": 45
+        }
+      ]
+    },
+    {
+      "name": "Desktop: Cash Flow Management",
+      "score": 438,
+      "desktop": true,
+      "icon": "./images/category-icons/Cash_flow.svg",
+      "features": [
+        {
+          "name": "Ability to view at least 90 days of account history in detail",
+          "points": 88
+        },
+        {
+          "name": "Ability to sort transaction detail (by amount, date, type, etc.)",
+          "points": 73
+        },
+        {
+          "name": "Ability to view all your accounts (including those at other institutions) in one place",
+          "points": 60
+        },
+        {
+          "name": "Ability to automatically track spending by category",
+          "points": 36
+        },
+        {
+          "name": "Ability to create and manage a budget",
+          "points": 27
+        },
+        {
+          "name": "Ability to set up a savings goal with automatic savings contributions",
+          "points": 21
+        },
+        {
+          "name": "Personalized insights/recommendations to optimize cash flow",
+          "points": 24
+        },
+        {
+          "name": "Ability to view at least one month of future account balance and cash flow forecasts",
+          "points": 26
+        },
+        {
+          "name": "Ability to link third-party applications into your company's online banking dashboard (i.e, QuickBooks or ADP)",
+          "points": 40
+        },
+        {
+          "name": "Ability to view and manage the connection of third-party applications that your company has linked to your bank account(s)",
+          "points": 43
+        }
+      ]
+    },
+    {
+      "name": "Desktop: Making Payments and Transfers",
+      "score": 775,
+      "desktop": true,
+      "icon": "./images/category-icons/Payments_Transfers.svg",
+      "features": [
+        {
+          "name": "Ability to initiate an online bill payment",
+          "points": 73
+        },
+        {
+          "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
+          "points": 58
+        },
+        {
+          "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
+          "points": 45
+        },
+        {
+          "name": "Ability to initiate a wire transfer online (funds available same day)",
+          "points": 39
+        },
+        {
+          "name": "Ability to send money via Zelle (using an email address or mobile number)",
+          "points": 35
+        },
+        {
+          "name": "A comparison chart to help select the best payment method for you needs (cost, timing, etc.)",
+          "points": 30
+        },
+        {
+          "name": "Fees associated with the payment are clearly displayed before initiating payment",
+          "points": 80
+        },
+        {
+          "name": "Ability to issue a stop payment on a check of ACH payment",
+          "points": 79
+        },
+        {
+          "name": "Display current account balances while setting up a transfer",
+          "points": 83
+        },
+        {
+          "name": "Ability to include a customized transaction description",
+          "points": 64
+        },
+        {
+          "name": "Ability to initiate recurring transfers",
+          "points": 59
+        },
+        {
+          "name": "Ability to transfer funds between your accounts at different banks",
+          "points": 56
+        },
+        {
+          "name": "Information regarding when funds will be available after a transfer",
+          "points": 74
+        }
+      ]
+    },
+    {
+      "name": "Desktop: Receiving Payments",
+      "score": 168,
+      "desktop": true,
+      "icon": "./images/category-icons/Receiving_Payments.svg",
+      "features": [
+        {
+          "name": "Ability to accept or request money via Zelle (using an email address, mobile number or QR code)",
+          "points": 37
+        },
+        {
+          "name": "Ability to send invoices electronically through business online banking",
+          "points": 37
+        },
+        {
+          "name": "Ability to accept payments electronically for invoices sent through online banking",
+          "points": 48
+        },
+        {
+          "name": "Ability to accept credit or debit card payments directly via online banking dashboard",
+          "points": 46
+        }
+      ]
+    },
+    {
+      "name": "Desktop: Customer Service",
+      "score": 358,
+      "desktop": true,
+      "icon": "./images/category-icons/Customer_service.svg",
+      "features": [
+        {
+          "name": "Telephone support for service-related inquiries",
+          "points": 80
+        },
+        {
+          "name": "Access to an automated chat bot or digital assistant for general information",
+          "points": 29
+        },
+        {
+          "name": "Access to customer support via live chat that connects you to a human representative",
+          "points": 72
+        },
+        {
+          "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
+          "points": 61
+        },
+        {
+          "name": "Ability to schedule a call from a customer support representative for assistance",
+          "points": 65
+        },
+        {
+          "name": "Ability to communicate with my bank via video conferencing (i.e., Zoom or WebEx)",
+          "points": 25
+        },
+        {
+          "name": "Ability to screen-share with my bank via co-browse for assistance",
+          "points": 26
+        }
+      ]
+    },
+    {
+      "name": "Mobile: Enrolling/Applying",
+      "score": 90,
+      "desktop": false,
+      "icon": "./images/category-icons/Enrolling_and_Applying.svg",
+      "features": [
+        {
+          "name": "Ability to open your business checking and savings account(s) via mobile phone",
+          "points": 24
+        },
+        {
+          "name": "Ability to apply for a loan or line of credit via mobile phone",
+          "points": 21
+        },
+        {
+          "name": "Ability to apply for a business credit card via mobile phone",
+          "points": 24
+        },
+        {
+          "name": "Ability to enroll in credit/debit card processing via mobile phone (point-of-sale, online, etc.)",
+          "points": 21
+        }
+      ]
+    },
+    {
+      "name": "Mobile: Managing Paper",
+      "score": 123,
+      "desktop": false,
+      "icon": "./images/category-icons/Managing_Paper.svg",
+      "features": [
+        {
+          "name": "Ability to view check images via mobile phone",
+          "points": 46
+        },
+        {
+          "name": "Ability to view bank statements via mobile phone",
+          "points": 42
+        },
+        {
+          "name": "Ability to view account documents other than banking statements (i.e., branch of ATM receipts or account notices) via mobile phone",
+          "points": 35
+        }
+      ]
+    },
+    {
+      "name": "Mobile: Security and Profile Management",
+      "score": 360,
+      "desktop": false,
+      "icon": "./images/category-icons/Security_Management.svg",
+      "features": [
+        {
+          "name": "Ability to log into mobile banking using fingerprint or facial/voice recognition, etc.",
+          "points": 44
+        },
+        {
+          "name": "Ability to quickly view account balances without login via mobile phone",
+          "points": 38
+        },
+        {
+          "name": "Ability to view routing and account numbers for accounts via mobile phone",
+          "points": 45
+        },
+        {
+          "name": "Ability to set up alerts to notify you of log-ins and security threats via mobile phone",
+          "points": 61
+        },
+        {
+          "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
+          "points": 57
+        },
+        {
+          "name": "Ability to view login history and/or manage remembered devices via mobile phone",
+          "points": 53
+        },
+        {
+          "name": "Ability to assign online banking access to coworkers or employees via mobile phone",
+          "points": 26
+        },
+        {
+          "name": "Ability to approve an electronic payment (wire, ACH, payroll, etc.) via mobile phone",
+          "points": 36
+        }
+      ]
+    },
+    {
+      "name": "Mobile: Cash Flow Management",
+      "score": 65,
+      "desktop": false,
+      "icon": "./images/category-icons/Cash_flow.svg",
+      "features": [
+        {
+          "name": "Ability to automatically group and analyze spending by category via mobile phone",
+          "points": 17
+        },
+        {
+          "name": "Ability to create and manage an operating expense budget via mobile phone",
+          "points": 16
+        },
+        {
+          "name": "Ability to set up a savings goal with automatic savings contributions via mobile phone",
+          "points": 15
+        },
+        {
+          "name": "Ability to view at least one month of future account balance forecasts via mobile phone",
+          "points": 17
+        }
+      ]
+    },
+    {
+      "name": "Mobile: Making Payments and Transfers",
+      "score": 266,
+      "desktop": false,
+      "icon": "./images/category-icons/Payments_Transfers.svg",
+      "features": [
+        {
+          "name": "Ability to initiate an online bill payment via mobile phone",
+          "points": 44
+        },
+        {
+          "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
+          "points": 35
+        },
+        {
+          "name": "Ability to initiate a real-time ACH payment delivered within moments via mobile phone (excluding Zelle)",
+          "points": 32
+        },
+        {
+          "name": "Ability to initiate an online wire payment via mobile phone",
+          "points": 28
+        },
+        {
+          "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
+          "points": 32
+        },
+        {
+          "name": "Ability to transfer funds between accounts via mobile phone",
+          "points": 53
+        },
+        {
+          "name": "Ability to transfer funds between your accounts at different banks via mobile phone",
+          "points": 42
+        }
+      ]
+    },
+    {
+      "name": "Mobile: Receiving Payments",
+      "score": 122,
+      "desktop": false,
+      "icon": "./images/category-icons/Receiving_Payments.svg",
+      "features": [
+        {
+          "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
+          "points": 33
+        },
+        {
+          "name": "Ability to photograph and deposit checks via mobile phone",
+          "points": 55
+        },
+        {
+          "name": "Ability to accept and process card payments using your bank's mobile banking app (either by manually entering card information or using an attached card reader device)",
+          "points": 34
+        }
+      ]
+    },
+    {
+      "name": "Mobile: Card Management",
+      "score": 263,
+      "desktop": false,
+      "icon": "./images/category-icons/Card_Management.svg",
+      "features": [
+        {
+          "name": "Ability to initiate an ATM withdrawl via mobile banking before arriving at the ATM",
+          "points": 16
+        },
+        {
+          "name": "Ability to use your bank's mobile banking app to access an ATM without a debit card",
+          "points": 22
+        },
+        {
+          "name": "Ability to lock a business debit/credit card temporarily via mobile phone",
+          "points": 49
+        },
+        {
+          "name": "Ability to report a business debit/credit card lost or stolen via mobile phone",
+          "points": 58
+        },
+        {
+          "name": "Ability to change the business debit card PIN number via mobile phone",
+          "points": 44
+        },
+        {
+          "name": "Ability to set limits for a business debit card via mobile phone",
+          "points": 38
+        },
+        {
+          "name": "Ability to set restrictions for debit card use by location, merchant type, etc",
+          "points": 36
+        }
+      ]
+    },
+    {
+      "name": "Mobile: Customer Service",
+      "score": 97,
+      "desktop": false,
+      "icon": "./images/category-icons/Customer_service.svg",
+      "features": [
+        {
+          "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
+          "points": 33
+        },
+        {
+          "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
+          "points": 21
+        },
+        {
+          "name": "Access to on-demand live chat support with a human representative via mobile phone",
+          "points": 43
         }
       ]
     }

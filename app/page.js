@@ -14,13 +14,13 @@ export default function Home() {
   const [numSel, setNumSel] = useState(null);
 
   const selectNum = (num) => {
-    setNumSel(num);
+    num === numSel ? setNumSel(null) : setNumSel(num);
   };
   return (
     <div className={styles.page}>
       <Banner />
       <BtnRow sendDataToParent={selectNum} />
-      <p></p>
+      <hr />
       <div>
         <AnimatePresence mode="wait">
           {numSel == 0 ? (
