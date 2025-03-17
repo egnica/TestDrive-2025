@@ -1,0 +1,136 @@
+{
+  "Post": [
+    {
+      "id": "14",
+      "carousel": true,
+      "title": "Chase Has Real-time External Transfers",
+      "description": "Chase small business users can send money to accounts they own at other financial institutions using the RTP rails. The service has no fee.",
+      "link_title": "Watch here!",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/chase-real-time.mp4",
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/chase-realtime.jpg"
+    },
+    {
+      "id": "13",
+      "carousel": true,
+      "title": "U.S. Bank Updates to Mobile App",
+      "description": "On November 20, U.S. Bank released an updated app with new features, including the ability to create a savings goal, personalized financial insights, and the ability to apply for merchant services.",
+      "link_title": "Watch here!",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/US_BankMobile_App.mp4",
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/US_BankMobile_App.jpg"
+    },
+
+    {
+      "id": "12",
+      "carousel": false,
+      "title": "Truist Savings Calculator ",
+      "description": "A feature not offered in most platforms - Truist offers business customers a series of calculators on their mobile app that estimate dollars saved based on loan payment changes. ",
+      "link_title": "Watch here!",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/Truist-Calculator.mp4",
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/Truist-Calculator.jpg"
+    },
+    {
+      "id": "11",
+      "carousel": true,
+      "title": "Bank of America Now Has Account Aggregation in Banking Dashboard",
+      "description": "Bank of America business banking customers now have the ability to see their aggregate cash flow by linking external accounts to Bank of America’s Banking Dashboard. ",
+      "link_title": "Watch here!",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/Business_Dashboard.mp4",
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/Business_Dashboard.jpg"
+    },
+    {
+      "id": "10",
+      "carousel": false,
+      "title": "Chase’s Business Snapshot",
+      "date": "10/28/2024",
+      "description": "This year, Chase joined the leaders in offering cash flow analysis in their Business Snapshot tool.",
+      "link_title": "Watch here!",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/Chase-Dashboard.mp4",
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/ChaseBusinessSnapshot.jpg"
+    },
+    {
+      "id": "9",
+      "carousel": true,
+      "title": "TD Bank’s New Checkout Page Feature",
+      "date": "9/12/2024",
+      "description": "TD Bank joined the cash flow game this spring with their new Business Dashboard. The dashboard operates off data taken from pre-existing accounting software, creating cash flow tracking, forecasting, benchmarking information, and insights.",
+      "link_title": "Watch here!",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-one/TD-Checkout.mp4",
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-one/td-checkout.jpg"
+    },
+    {
+      "id": "8",
+      "carousel": false,
+      "title": "Bank of America Now Has Account Aggregation in Banking Dashboard",
+      "date": "11/04/2024",
+      "description": "Bank of America business banking customers now have the ability to see their aggregate cash flow by linking external accounts to Bank of America’s Banking Dashboard. ",
+      "link_title": "Watch here!",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/Business_Dashboard.mp4",
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/Business_Dashboard.jpg"
+    },
+    {
+      "id": "7",
+      "carousel": false,
+      "title": "Chase’s Business Snapshot",
+      "date": "10/28/2024",
+      "description": "This year, Chase joined the leaders in offering cash flow analysis in their Business Snapshot tool.",
+      "link_title": "Watch here!",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/Chase-Dashboard.mp4",
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/ChaseBusinessSnapshot.jpg"
+    },
+    {
+      "id": "6",
+      "carousel": false,
+      "title": "TD Bank’s New Checkout Page Feature",
+      "date": "6/24/2024",
+      "description": "TD Bank joined the cash flow game this spring with their new Business Dashboard. The dashboard operates off data taken from pre-existing accounting software, creating cash flow tracking, forecasting, benchmarking information, and insights.",
+      "link_title": "Explore here!",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-one/TD-Checkout.mp4",
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-one/tap-pay.jpg"
+    },
+    {
+      "id": "5",
+      "carousel": false,
+      "title": "Welcome to the New Test Drive Layout",
+      "date": "6/24/2024",
+      "description": "We are excited to share this updated tool with you. Although the format is different, the methodology remains the same as previous years.",
+      "link_title": "Click here for tour!",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/testdrive_demo.mp4"
+    },
+    {
+      "id": "4",
+      "carousel": false,
+      "title": "New TD Bank Business Dashboard",
+      "date": "6/13/2024",
+      "description": "TD Bank joined the cash flow game this spring with their new Business Dashboard. The dashboard operates off data taken from pre-existing accounting software, creating cash flow tracking, forecasting, benchmarking information, and insights.",
+      "link_title": "Explore the new tool here!",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-one/TD_Business_Dashboard.mp4"
+    },
+    {
+      "id": "3",
+      "carousel": false,
+      "title": "NorthOne’s Insights and Integrations",
+      "date": "6/10/2024",
+      "description": "NorthOne’s Insights and Integrations connects with platforms like Shopify and Amazon. Users can link accounts to receive payments and view cash flow snapshots from e-commerce platforms such as Amazon, Etsy, PayPal, Shopify, Stripe, and Square. This update includes a new logo and redesign.",
+      "link_title": "Watch here!",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/Insights_Integrations.mp4"
+    },
+    {
+      "id": "2",
+      "carousel": false,
+      "title": "Truist Insights",
+      "date": "6/10/2024",
+      "description": "With Truist Insights, business customers can see snapshots of their cashflow, like spending trends, important events and flagged unusual activity, on both desktop and mobile platforms.",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/banner/assets/truist-insights.mp4",
+      "link_title": "Check functionality here!"
+    },
+    {
+      "id": "1",
+      "carousel": false,
+      "title": "TD Bank Tap-to-Pay",
+      "date": "6/10/2024",
+      "description": "With Truist Insights, business customers can see snapshots of their cashflow, like spending trends, important events and flagged unusual activity, on both desktop and mobile platforms.",
+      "link": "https://mybarlow.barlowresearch.com/mybarlow/viewanalystsjournal.php?item=14171",
+      "link_title": " Check it out here!"
+    }
+  ]
+}

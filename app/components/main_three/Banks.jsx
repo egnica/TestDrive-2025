@@ -18,7 +18,7 @@ const Banks = () => {
   return (
     <>
       <div>Banks</div>
-      {Object.entries(ObjectBank.bank_layout).map(([key, value], index) => {
+      {Object.entries(ObjectBank.bank_layout).map(([_, value], index) => {
         return (
           <div key={index}>
             <p onClick={() => bankHandler(value.bank_name)}>

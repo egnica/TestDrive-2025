@@ -13,13 +13,19 @@ const Table = ({ bankArray, categoryObject }) => {
     }));
   };
 
-  // Extracting category rows with points
+  console.log(Object.keys(categoryObject));
+
+  // Extracting category rows (number of rows) with points. We loop through this array to create one row per category in the table.
   let categoryRows = Object.keys(categoryObject[0]).map((categoryKey) => ({
-    name: categoryObject[0][categoryKey]?.name ?? "Unknown Category",
+    name: categoryObject[0][categoryKey].name, // Get the category name
     points: bankArray.map(
-      (_, bankIndex) => categoryObject[bankIndex]?.[categoryKey]?.points ?? 0
+      (_, bankIndex) => categoryObject[bankIndex][categoryKey].points
     ),
   }));
+
+  // categoryObject[bankIndex] → Finds the correct bank's data.
+  //[categoryKey] → Dynamically finds "features".
+  // .points → Retrieves the actual point value inside the feature.
 
   // Sorting logic
   if (sortConfig.bankIndex !== null) {
@@ -28,8 +34,8 @@ const Table = ({ bankArray, categoryObject }) => {
       const bankPointsB = b.points[sortConfig.bankIndex];
 
       return sortConfig.ascending
-        ? bankPointsA - bankPointsB
-        : bankPointsB - bankPointsA;
+        ? bankPointsB - bankPointsA
+        : bankPointsA - bankPointsB;
     });
   }
 

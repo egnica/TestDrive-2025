@@ -534,7 +534,7 @@
       "short_name": "amex",
       "bank_name": "American Express",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/AmericanExpress.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/AmericanExpress.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -722,7 +722,7 @@
             {
               "name": "Ability to automatically track spending by category",
               "points": 36,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/amex/CH5_track_spending.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/amex/CH5_track_spending.mp4"
             },
             {
               "name": "Ability to create and manage a budget",
@@ -764,12 +764,12 @@
             {
               "name": "Ability to initiate an online bill payment",
               "points": 73,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/amex/CH6_bill_pay.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/amex/CH6_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
               "points": 58,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/amex/CH6_standard_ACH.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/amex/CH6_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -789,7 +789,7 @@
             {
               "name": "A comparison chart to help select the best payment method for your needs (cost, timing, etc.)",
               "points": 30,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/amex/CH6_comparison_chart.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/amex/CH6_comparison_chart.mp4"
             },
             {
               "name": "Fees associated with the payment are clearly displayed before initiating payment",
@@ -819,7 +819,7 @@
             {
               "name": "Ability to transfer funds between your accounts at different banks",
               "points": 56,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/amex/CH6_transfer_funds.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/amex/CH6_transfer_funds.mp4"
             },
             {
               "name": "Information regarding when funds will be available after a transfer",
@@ -1002,7 +1002,7 @@
             {
               "name": "Ability to automatically group and analyze spending by category via mobile phone",
               "points": 17,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/amex/MCH4_group_and_analyze.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/amex/MCH4_group_and_analyze.mp4"
             },
             {
               "name": "Ability to create and manage an operating expense budget via mobile phone",
@@ -1034,7 +1034,7 @@
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
               "points": 35,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/amex/MCH5_standard_ACH.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/amex/MCH5_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments via mobile phone (excluding Zelle)",
@@ -1044,7 +1044,7 @@
             {
               "name": "Ability to initiate an online wire payment via mobile phone",
               "points": 28,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/amex/MCH5_wire_payment.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/amex/MCH5_wire_payment.mp4"
             },
             {
               "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
@@ -1059,7 +1059,7 @@
             {
               "name": "Ability to transfer funds between your accounts at different banks via mobile phone",
               "points": 42,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/amex/MCH5_transfer_funds.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/amex/MCH5_transfer_funds.mp4"
             }
           ]
         },
@@ -1155,7 +1155,7 @@
       "short_name": "boa",
       "bank_name": "Bank of America",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/BankofAmerica.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/BankofAmerica.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -1170,7 +1170,7 @@
             {
               "name": "Checking and savings product feature comparison chart",
               "points": 45,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Bank_of_America_Checking.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Bank_of_America_Checking.mp4"
             },
             {
               "name": "Product or services recommendations based on your company's needs",
@@ -1212,7 +1212,7 @@
             {
               "name": "Additional security such as an authentication code or challenge question at login",
               "points": 69,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/bofa/CH2_additional_security.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/bofa/CH2_additional_security.mp4"
             },
             {
               "name": "Ability to personalize your username or change your password",
@@ -1222,7 +1222,7 @@
             {
               "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
               "points": 82,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/bofa/CH2_set_alerts.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/bofa/CH2_set_alerts.mp4"
             },
             {
               "name": "Ability to set up email or phone alerts to notify you of financial transactions",
@@ -1232,12 +1232,12 @@
             {
               "name": "Ability to view login history and/or manage remembered devices",
               "points": 56,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/bofa/CH2_view_login_history.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/bofa/CH2_view_login_history.mp4"
             },
             {
               "name": "Ability to view your company's current credit score",
               "points": 45,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/bofa/CH2_view_credit_score.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/bofa/CH2_view_credit_score.mp4"
             },
             {
               "name": "Ability to update your profile (i.e., address, phone number, email address, etc.)",
@@ -1306,7 +1306,7 @@
             {
               "name": "Ability to limit the number of accounts authorized users may access",
               "points": 45,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/bofa/Ch4_limit_users.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/bofa/Ch4_limit_users.mp4"
             },
             {
               "name": "Ability to set dollar limits on transaction amounts for authorized users",
@@ -1344,12 +1344,12 @@
             {
               "name": "Ability to automatically track spending by category",
               "points": 36,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_auto_track_spend.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_auto_track_spend.mp4"
             },
             {
               "name": "Ability to create and manage a budget",
               "points": 27,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_create_manage_budget.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_create_manage_budget.mp4"
             },
             {
               "name": "Ability to set up a savings goal with automatic savings contributions",
@@ -1359,17 +1359,17 @@
             {
               "name": "Personalized insights/recommendations to optimize cash flow",
               "points": 24,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_personalized_insights.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_personalized_insights.mp4"
             },
             {
               "name": "Ability to view at least one month of future account balance and cash flow forecasts",
               "points": 26,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_view_one_month_future_balance_cash_flow_forecasts.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_view_one_month_future_balance_cash_flow_forecasts.mp4"
             },
             {
               "name": "Ability to link third-party applications into your company's online banking dashboard (i.e., QuickBooks or ADP)",
               "points": 40,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_link_view_manage_third-party.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_link_view_manage_third-party.mp4"
             },
             {
               "name": "Ability to view and manage the connection of third-party applications that your company has linked to your bank account(s)",
@@ -1386,12 +1386,12 @@
             {
               "name": "Ability to initiate an online bill payment",
               "points": 73,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/bofa/CH6_bill_pay.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/bofa/CH6_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
               "points": 58,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/bofa/CH6_standard_ACH.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/bofa/CH6_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -1401,12 +1401,12 @@
             {
               "name": "Ability to initiate a wire transfer online (funds available same day)",
               "points": 39,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/bofa/CH6_wire_transfer.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/bofa/CH6_wire_transfer.mp4"
             },
             {
               "name": "Ability to send money via Zelle (using an email address or mobile number)",
               "points": 35,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/bofa/CH6_send_via_zelle.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/bofa/CH6_send_via_zelle.mp4"
             },
             {
               "name": "A comparison chart to help select the best payment method for your needs (cost, timing, etc.)",
@@ -1463,12 +1463,12 @@
             {
               "name": "Ability to send invoices electronically through business online banking",
               "points": 37,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/bofa/CH7_send_invoices.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/bofa/CH7_send_invoices.mp4"
             },
             {
               "name": "Ability to accept payments electronically for invoices sent through online banking",
               "points": 48,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/bofa/CH7_accept_invoices.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/bofa/CH7_accept_invoices.mp4"
             },
             {
               "name": "Ability to accept credit or debit card payments directly via online banking dashboard",
@@ -1500,7 +1500,7 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
               "points": 61,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/bofa/CH8_schedule_appointment_at_branch.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/bofa/CH8_schedule_appointment_at_branch.mp4"
             },
             {
               "name": "Ability to schedule a call from a customer support representative for assistance",
@@ -1515,7 +1515,7 @@
             {
               "name": "Ability to screen-share with my bank via co-browse for assistance",
               "points": 26,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/bofa/CH8_screen_share.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/bofa/CH8_screen_share.mp4"
             }
           ]
         },
@@ -1596,12 +1596,12 @@
             {
               "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
               "points": 57,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/bofa/MCH3_transaction_notification.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/bofa/MCH3_transaction_notification.mp4"
             },
             {
               "name": "Ability to view login history and/or manage remembered devices via mobile phone",
               "points": 53,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/bofa/MCH3_login_history.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/bofa/MCH3_login_history.mp4"
             },
             {
               "name": "Ability to assign online banking access to coworkers or employees via mobile phone",
@@ -1623,22 +1623,22 @@
             {
               "name": "Ability to automatically group and analyze spending by category via mobile phone",
               "points": 17,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/bofa/MCH4_group_and_analyze.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/bofa/MCH4_group_and_analyze.mp4"
             },
             {
               "name": "Ability to create and manage an operating expense budget via mobile phone",
               "points": 16,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/bofa/MCH4_create_and_manage_budget.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/bofa/MCH4_create_and_manage_budget.mp4"
             },
             {
               "name": "Ability to set up a savings goal with automatic savings contributions via mobile phone",
               "points": 15,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/bofa/MCH4_set_savings_goal.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/bofa/MCH4_set_savings_goal.mp4"
             },
             {
               "name": "Ability to view at least one month of future account balance forecasts via mobile phone",
               "points": 17,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/bofa/MCH4_view_forecasts.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/bofa/MCH4_view_forecasts.mp4"
             }
           ]
         },
@@ -1665,17 +1665,17 @@
             {
               "name": "Ability to initiate an online wire payment via mobile phone",
               "points": 28,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/bofa/MCH5_wire_payment.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/bofa/MCH5_wire_payment.mp4"
             },
             {
               "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
               "points": 32,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/bofa/MCH5_send_via_zelle.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/bofa/MCH5_send_via_zelle.mp4"
             },
             {
               "name": "Ability to transfer funds between accounts via mobile phone",
               "points": 53,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/bofa/MCH5_transfer_between_accounts.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/bofa/MCH5_transfer_between_accounts.mp4"
             },
             {
               "name": "Ability to transfer funds between your accounts at different banks via mobile phone",
@@ -1692,7 +1692,7 @@
             {
               "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
               "points": 33,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/bofa/MCH6_request_via_zelle.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/bofa/MCH6_request_via_zelle.mp4"
             },
             {
               "name": "Ability to photograph and deposit checks via mobile phone",
@@ -1714,7 +1714,7 @@
             {
               "name": "Ability to initiate an ATM withdrawal via mobile banking before arriving at the ATM",
               "points": 16,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/bofa/MCH7_ATM_withdrawal.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/bofa/MCH7_ATM_withdrawal.mp4"
             },
             {
               "name": "Ability to use your bank's mobile banking app to access an ATM without a debit card",
@@ -1724,7 +1724,7 @@
             {
               "name": "Ability to lock a business debit/credit card temporarily via mobile phone",
               "points": 49,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/bofa/MCH7_lock_card_temporarily.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/bofa/MCH7_lock_card_temporarily.mp4"
             },
             {
               "name": "Ability to report a business debit/credit card lost or stolen via mobile phone",
@@ -1739,7 +1739,7 @@
             {
               "name": "Ability to set limits for a business debit card via mobile phone",
               "points": 38,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/bofa/MCH7_set_limits_card.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/bofa/MCH7_set_limits_card.mp4"
             },
             {
               "name": "Ability to set restrictions for debit card use by location, merchant type, etc.",
@@ -1756,12 +1756,12 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
               "points": 33,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/bofa/MCH8_schedule_appointment_at_branch.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/bofa/MCH8_schedule_appointment_at_branch.mp4"
             },
             {
               "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
               "points": 21,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/bofa/MCH8_chat_bot.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/bofa/MCH8_chat_bot.mp4"
             },
             {
               "name": "Access to on-demand live chat support with a human representative via mobile phone",
@@ -1776,7 +1776,7 @@
       "short_name": "cap",
       "bank_name": "Capital One",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/CapitalOne.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/CapitalOne.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -1843,7 +1843,7 @@
             {
               "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
               "points": 82,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/cap/CH2_email_phone_alerts.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/cap/CH2_email_phone_alerts.mp4"
             },
             {
               "name": "Ability to set up email or phone alerts to notify you of financial transactions",
@@ -1873,7 +1873,7 @@
             {
               "name": "Ability to view and manage the authorized signers for the business checking account",
               "points": 56,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/cap/CH2_authorized_signers.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/cap/CH2_authorized_signers.mp4"
             }
           ]
         },
@@ -2011,7 +2011,7 @@
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
               "points": 58,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/cap/CH6_standard_ACH.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/cap/CH6_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -2056,7 +2056,7 @@
             {
               "name": "Ability to initiate recurring transfers",
               "points": 59,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/cap/CH6_recurring_transfers.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/cap/CH6_recurring_transfers.mp4"
             },
             {
               "name": "Ability to transfer funds between your accounts at different banks",
@@ -2216,7 +2216,7 @@
             {
               "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
               "points": 57,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/cap/MCH3_alerts_transactions.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/cap/MCH3_alerts_transactions.mp4"
             },
             {
               "name": "Ability to view login history and/or manage remembered devices via mobile phone",
@@ -2396,7 +2396,7 @@
       "short_name": "chase",
       "bank_name": "Chase",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Chase.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/Chase.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -2411,12 +2411,12 @@
             {
               "name": "Checking and savings product feature comparison chart",
               "points": 45,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Chase_Checking.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Chase_Checking.mp4"
             },
             {
               "name": "Product or services recommendations based on your company’s needs",
               "points": 39,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Chase_Product.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Chase_Product.mp4"
             },
             {
               "name": "Ability to open your business checking and savings account(s) online",
@@ -2454,7 +2454,7 @@
             {
               "name": "Additional security such as an authentication code or challenge question at login",
               "points": 69,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/chase/CH2_additional_security.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/chase/CH2_additional_security.mp4"
             },
             {
               "name": "Ability to personalize your username or change your password",
@@ -2464,7 +2464,7 @@
             {
               "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
               "points": 82,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/chase/CH2_email_phone_alerts.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/chase/CH2_email_phone_alerts.mp4"
             },
             {
               "name": "Ability to set up email or phone alerts to notify you of financial transactions",
@@ -2537,7 +2537,7 @@
             {
               "name": "Ability to view online documents other than banking statements (i.e., branch or ATM receipts or account notices)",
               "points": 56,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/3_Managing_Paper/chase/CH3_view_online_documents.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/3_Managing_Paper/chase/CH3_view_online_documents.mp4"
             }
           ]
         },
@@ -2550,7 +2550,7 @@
             {
               "name": "Ability to limit the number of accounts authorized users may access",
               "points": 45,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/chase/CH4_limit_accounts.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/chase/CH4_limit_accounts.mp4"
             },
             {
               "name": "Ability to set dollar limits on transaction amounts for authorized users",
@@ -2602,7 +2602,7 @@
             {
               "name": "Personalized insights/recommendations to optimize cash flow",
               "points": 24,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/chase/CH5_personalized_insights.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/chase/CH5_personalized_insights.mp4"
             },
             {
               "name": "Ability to view at least one month of future account balance and cash flow forecasts",
@@ -2617,7 +2617,7 @@
             {
               "name": "Ability to view and manage the connection of third-party applications that your company has linked to your bank account(s)",
               "points": 43,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/chase/CH5_manage_thirdparty_apps.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/chase/CH5_manage_thirdparty_apps.mp4"
             }
           ]
         },
@@ -2630,7 +2630,7 @@
             {
               "name": "Ability to initiate an online bill payment",
               "points": 73,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/chase/CH6_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/chase/CH6_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
@@ -2640,17 +2640,17 @@
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
               "points": 45,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/chase/CH6_real_time_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/chase/CH6_real_time_ACH.mp4"
             },
             {
               "name": "Ability to initiate a wire transfer online (funds available same day) ",
               "points": 39,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/chase/CH6_wire_transfer.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/chase/CH6_wire_transfer.mp4"
             },
             {
               "name": "Ability to send money via Zelle (using an email address or mobile number)",
               "points": 35,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/chase/CH6_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/chase/CH6_send_via_zelle.mp4"
             },
             {
               "name": "A comparison chart to help select the best payment method for your needs (cost, timing, etc.)",
@@ -2680,12 +2680,12 @@
             {
               "name": "Ability to initiate recurring transfers",
               "points": 59,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/chase/CH6_recurring_transfers.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/chase/CH6_recurring_transfers.mp4"
             },
             {
               "name": "Ability to transfer funds between your accounts at different banks ",
               "points": 56,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/chase/CH6_transfer_funds.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/chase/CH6_transfer_funds.mp4"
             },
             {
               "name": "Information regarding when funds will be available after a transfer ",
@@ -2702,7 +2702,7 @@
             {
               "name": "Ability to accept or request money via Zelle® (using an email address, mobile number or QR code)",
               "points": 37,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/chase/CH7_accept_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/chase/CH7_accept_via_zelle.mp4"
             },
             {
               "name": "Ability to send invoices electronically through business online banking",
@@ -2717,7 +2717,7 @@
             {
               "name": "Ability to accept credit or debit card payments directly via online banking dashboard",
               "points": 46,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/chase/CH7_accept_credit_debit_card.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/chase/CH7_accept_credit_debit_card.mp4"
             }
           ]
         },
@@ -2744,7 +2744,7 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
               "points": 61,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/chase/CH8_schedule_appointment_at_branch.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/chase/CH8_schedule_appointment_at_branch.mp4"
             },
             {
               "name": "Ability to schedule a call from a customer support representative for assistance",
@@ -2759,7 +2759,7 @@
             {
               "name": "Ability to screen-share with my bank via co-browse for assistance",
               "points": 26,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/chase/CH8_screen_share.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/chase/CH8_screen_share.mp4"
             }
           ]
         },
@@ -2841,22 +2841,22 @@
             {
               "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
               "points": 57,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/chase/MCP3_alerts_transactions.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/chase/MCP3_alerts_transactions.mp4"
             },
             {
               "name": "Ability to view login history and/or manage remembered devices via mobile phone",
               "points": 53,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/chase/MCH3_view_login_history.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/chase/MCH3_view_login_history.mp4"
             },
             {
               "name": "Ability to assign online banking access to coworkers or employees via mobile phone",
               "points": 26,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/chase/MCH3_assign_access.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/chase/MCH3_assign_access.mp4"
             },
             {
               "name": "Ability to approve an electronic payment (wire, ACH, payroll, etc.) via mobile phone",
               "points": 36,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/chase/MCH3_approve_electronic_payment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/chase/MCH3_approve_electronic_payment.mp4"
             }
           ]
         },
@@ -2896,7 +2896,7 @@
             {
               "name": "Ability to initiate an online bill payment via mobile phone",
               "points": 44,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/chase/MCH5_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/chase/MCH5_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
@@ -2906,7 +2906,7 @@
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments via mobile phone (excluding Zelle)",
               "points": 32,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/chase/MCH5_real_time_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/chase/MCH5_real_time_ACH.mp4"
             },
             {
               "name": "Ability to initiate an online wire payment via mobile phone",
@@ -2916,7 +2916,7 @@
             {
               "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
               "points": 32,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/chase/MCH5_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/chase/MCH5_send_via_zelle.mp4"
             },
             {
               "name": "Ability to transfer funds between accounts via mobile phone ",
@@ -2938,7 +2938,7 @@
             {
               "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/chase/MCH6_request_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/chase/MCH6_request_via_zelle.mp4"
             },
             {
               "name": "Ability to photograph and deposit checks via mobile phone",
@@ -2948,7 +2948,7 @@
             {
               "name": "Ability to accept and process card payments using your bank’s mobile banking app (either by manually entering card information or using an attached card reader device)",
               "points": 34,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/chase/MCH6_card_payments.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/chase/MCH6_card_payments.mp4"
             }
           ]
         },
@@ -2970,12 +2970,12 @@
             {
               "name": "Ability to lock a business debit/credit card temporarily via mobile phone",
               "points": 49,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/chase/MCH7_lock_card_temporarily.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/chase/MCH7_lock_card_temporarily.mp4"
             },
             {
               "name": "Ability to report a business debit/credit card lost or stolen via mobile phone",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/chase/MCH7_report_card_lost.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/chase/MCH7_report_card_lost.mp4"
             },
             {
               "name": "Ability to change the business debit card PIN number via mobile phone ",
@@ -3002,7 +3002,7 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/chase/MCH8_schedule_appointment_at_branch.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/chase/MCH8_schedule_appointment_at_branch.mp4"
             },
             {
               "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
@@ -3022,7 +3022,7 @@
       "short_name": "hunt",
       "bank_name": "Huntington",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Huntington.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/Huntington.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -3037,7 +3037,7 @@
             {
               "name": "Checking and savings product feature comparison chart",
               "points": 45,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Huntington_Checking.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Huntington_Checking.mp4"
             },
             {
               "name": "Product or services recommendations based on your company's needs",
@@ -3089,7 +3089,7 @@
             {
               "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
               "points": 82,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/hunt/CH2_set_email_phone_alerts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/hunt/CH2_set_email_phone_alerts.mp4"
             },
             {
               "name": "Ability to set up email or phone alerts to notify you of financial transactions",
@@ -3099,7 +3099,7 @@
             {
               "name": "Ability to view login history and/or manage remembered devices",
               "points": 56,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/hunt/CH2_view_login_history.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/hunt/CH2_view_login_history.mp4"
             },
             {
               "name": "Ability to view your company's current credit score",
@@ -3156,7 +3156,7 @@
             {
               "name": "Ability to enroll or unenroll in online statements at any time",
               "points": 59,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/3_Managing_Paper/hunt/CH3_enroll_unenroll_online_statements.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/3_Managing_Paper/hunt/CH3_enroll_unenroll_online_statements.mp4"
             },
             {
               "name": "Ability to view online documents other than banking statements (i.e., branch or ATM receipts or account notices)",
@@ -3210,7 +3210,7 @@
             {
               "name": "Ability to automatically track spending by category",
               "points": 36,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/hunt/CH5_automatically_track_spending.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/hunt/CH5_automatically_track_spending.mp4"
             },
             {
               "name": "Ability to create and manage a budget",
@@ -3230,7 +3230,7 @@
             {
               "name": "Ability to view at least one month of future account balance and cash flow forecasts",
               "points": 26,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/hunt/CH5_view_cash_flow_forecasts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/hunt/CH5_view_cash_flow_forecasts.mp4"
             },
             {
               "name": "Ability to link third-party applications into your company's online banking dashboard (i.e., QuickBooks or ADP)",
@@ -3302,7 +3302,7 @@
             {
               "name": "Ability to initiate recurring transfers",
               "points": 59,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/hunt/CH6_recurring_transfers.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/hunt/CH6_recurring_transfers.mp4"
             },
             {
               "name": "Ability to transfer funds between your accounts at different banks",
@@ -3371,7 +3371,7 @@
             {
               "name": "Ability to schedule a call from a customer support representative for assistance",
               "points": 65,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/hunt/CH8_schedule_call.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/hunt/CH8_schedule_call.mp4"
             },
             {
               "name": "Ability to communicate with my bank via video conferencing (i.e., Zoom or WebEx)",
@@ -3462,7 +3462,7 @@
             {
               "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
               "points": 57,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/hunt/MCH3_alerts_financial_transactions.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/hunt/MCH3_alerts_financial_transactions.mp4"
             },
             {
               "name": "Ability to view login history and/or manage remembered devices via mobile phone",
@@ -3472,7 +3472,7 @@
             {
               "name": "Ability to assign online banking access to coworkers or employees via mobile phone",
               "points": 26,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/hunt/MCH3_assign_access.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/hunt/MCH3_assign_access.mp4"
             },
             {
               "name": "Ability to approve an electronic payment (wire, ACH, payroll, etc.) via mobile phone",
@@ -3489,7 +3489,7 @@
             {
               "name": "Ability to automatically group and analyze spending by category via mobile phone",
               "points": 17,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/hunt/MCH4_group_analyze_category.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/hunt/MCH4_group_analyze_category.mp4"
             },
             {
               "name": "Ability to create and manage an operating expense budget via mobile phone",
@@ -3516,7 +3516,7 @@
             {
               "name": "Ability to initiate an online bill payment via mobile phone",
               "points": 44,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/hunt/MCH5_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/hunt/MCH5_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
@@ -3536,7 +3536,7 @@
             {
               "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
               "points": 32,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/hunt/MCH5_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/hunt/MCH5_send_via_zelle.mp4"
             },
             {
               "name": "Ability to transfer funds between accounts via mobile phone",
@@ -3558,7 +3558,7 @@
             {
               "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/hunt/MCH6_request_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/hunt/MCH6_request_via_zelle.mp4"
             },
             {
               "name": "Ability to photograph and deposit checks via mobile phone",
@@ -3642,7 +3642,7 @@
       "short_name": "key",
       "bank_name": "KeyBank",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/KeyBank.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/KeyBank.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -3709,7 +3709,7 @@
             {
               "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
               "points": 82,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/key/CH2_email_phone_alerts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/key/CH2_email_phone_alerts.mp4"
             },
             {
               "name": "Ability to set up email or phone alerts to notify you of financial transactions",
@@ -3877,7 +3877,7 @@
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/key/CH6_standard_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/key/CH6_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -3927,7 +3927,7 @@
             {
               "name": "Ability to transfer funds between your accounts at different banks",
               "points": 56,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/key/CH6_transfer_funds.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/key/CH6_transfer_funds.mp4"
             },
             {
               "name": "Information regarding when funds will be available after a transfer",
@@ -3949,12 +3949,12 @@
             {
               "name": "Ability to send invoices electronically through business online banking",
               "points": 37,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/key/CH7_send_invoices.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/key/CH7_send_invoices.mp4"
             },
             {
               "name": "Ability to accept payments electronically for invoices sent through online banking",
               "points": 48,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/key/CH7_accept_payments_electronically.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/key/CH7_accept_payments_electronically.mp4"
             },
             {
               "name": "Ability to accept credit or debit card payments directly via online banking dashboard",
@@ -3981,12 +3981,12 @@
             {
               "name": "Access to customer support via live chat that connects you to a human representative",
               "points": 72,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/key/CH8_live_chat.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/key/CH8_live_chat.mp4"
             },
             {
               "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
               "points": 61,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/key/CH8_schedule_appointment_at_branch.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/key/CH8_schedule_appointment_at_branch.mp4"
             },
             {
               "name": "Ability to schedule a call from a customer support representative for assistance",
@@ -4082,7 +4082,7 @@
             {
               "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
               "points": 57,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/key/MCH3_alerts_financial_transactions.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/key/MCH3_alerts_financial_transactions.mp4"
             },
             {
               "name": "Ability to view login history and/or manage remembered devices via mobile phone",
@@ -4136,7 +4136,7 @@
             {
               "name": "Ability to initiate an online bill payment via mobile phone",
               "points": 44,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/key/MCH5_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/key/MCH5_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
@@ -4166,7 +4166,7 @@
             {
               "name": "Ability to transfer funds between your accounts at different banks via mobile phone",
               "points": 42,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/key/MCH5_transfer_funds.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/key/MCH5_transfer_funds.mp4"
             }
           ]
         },
@@ -4242,7 +4242,7 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/key/MCH8_schedule_appointment_at_branch.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/key/MCH8_schedule_appointment_at_branch.mp4"
             },
             {
               "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
@@ -4252,7 +4252,7 @@
             {
               "name": "Access to on-demand live chat support with a human representative via mobile phone",
               "points": 43,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/key/MCH8_live_chat_support.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/key/MCH8_live_chat_support.mp4"
             }
           ]
         }
@@ -4262,7 +4262,7 @@
       "short_name": "nor",
       "bank_name": "NorthOne",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/NorthOne.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/NorthOne.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -4455,7 +4455,7 @@
             {
               "name": "Ability to create and manage a budget",
               "points": 27,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/nor/CH5_budget.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/nor/CH5_budget.mp4"
             },
             {
               "name": "Ability to set up a savings goal with automatic savings contributions",
@@ -4475,12 +4475,12 @@
             {
               "name": "Ability to link third-party applications into your company's online banking dashboard (i.e., QuickBooks or ADP)",
               "points": 40,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/nor/CH5_link_third_party_apps.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/nor/CH5_link_third_party_apps.mp4"
             },
             {
               "name": "Ability to view and manage the connection of third-party applications that your company has linked to your bank account(s)",
               "points": 43,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/nor/CH5_manage_connection.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/nor/CH5_manage_connection.mp4"
             }
           ]
         },
@@ -4492,12 +4492,12 @@
             {
               "name": "Ability to initiate an online bill payment",
               "points": 73,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/nor/CH6_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/nor/CH6_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/nor/CH6_standard_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/nor/CH6_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -4507,7 +4507,7 @@
             {
               "name": "Ability to initiate a wire transfer online (funds available same day)",
               "points": 39,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/nor/CH6_wire_transfer.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/nor/CH6_wire_transfer.mp4"
             },
             {
               "name": "Ability to send money via Zelle (using an email address or mobile number)",
@@ -4734,7 +4734,7 @@
             {
               "name": "Ability to create and manage an operating expense budget via mobile phone",
               "points": 16,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/nor/MCH4_create_manage_budget.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/nor/MCH4_create_manage_budget.mp4"
             },
             {
               "name": "Ability to set up a savings goal with automatic savings contributions via mobile phone",
@@ -4756,12 +4756,12 @@
             {
               "name": "Ability to initiate an online bill payment via mobile phone",
               "points": 44,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/nor/MCH5_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/nor/MCH5_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
               "points": 35,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/nor/MCH5_standard_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/nor/MCH5_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments via mobile phone (excluding Zelle)",
@@ -4771,7 +4771,7 @@
             {
               "name": "Ability to initiate an online wire payment via mobile phone",
               "points": 28,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/nor/MCH5_wire_payment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/nor/MCH5_wire_payment.mp4"
             },
             {
               "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
@@ -4867,7 +4867,7 @@
             {
               "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
               "points": 21,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/nor/MCH8_chat_bot.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/nor/MCH8_chat_bot.mp4"
             },
             {
               "name": "Access to on-demand live chat support with a human representative via mobile phone",
@@ -4882,7 +4882,7 @@
       "short_name": "pnc",
       "bank_name": "PNC",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/PNC.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/PNC.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -4902,7 +4902,7 @@
             {
               "name": "Product or services recommendations based on your company's needs",
               "points": 39,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_PNC_Product.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_PNC_Product.mp4"
             },
             {
               "name": "Ability to open your business checking and savings account(s) online",
@@ -4917,7 +4917,7 @@
             {
               "name": "Ability to apply for a business credit card online",
               "points": 38,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_PNC_Credit_Card.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_PNC_Credit_Card.mp4"
             },
             {
               "name": "Ability to enroll online for credit/debit card processing (point-of-sale, online, mobile, etc.)",
@@ -4949,7 +4949,7 @@
             {
               "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
               "points": 82,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/pnc/ch2_alerts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/pnc/ch2_alerts.mp4"
             },
             {
               "name": "Ability to set up email or phone alerts to notify you of financial transactions",
@@ -5033,7 +5033,7 @@
             {
               "name": "Ability to limit the number of accounts authorized users may access",
               "points": 45,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/pnc/CH4_authorized_user.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/pnc/CH4_authorized_user.mp4"
             },
             {
               "name": "Ability to set dollar limits on transaction amounts for authorized users",
@@ -5090,7 +5090,7 @@
             {
               "name": "Ability to view at least one month of future account balance and cash flow forecasts",
               "points": 26,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/pnc/CH5_future_balance_cash_flow_forecasts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/pnc/CH5_future_balance_cash_flow_forecasts.mp4"
             },
             {
               "name": "Ability to link third-party applications into your company's online banking dashboard (i.e., QuickBooks or ADP)",
@@ -5117,7 +5117,7 @@
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/pnc/CH6_standard_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/pnc/CH6_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -5127,7 +5127,7 @@
             {
               "name": "Ability to initiate a wire transfer online (funds available same day)",
               "points": 39,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/pnc/CH6_wire_transfer.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/pnc/CH6_wire_transfer.mp4"
             },
             {
               "name": "Ability to send money via Zelle (using an email address or mobile number)",
@@ -5162,12 +5162,12 @@
             {
               "name": "Ability to initiate recurring transfers",
               "points": 59,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/pnc/CH6_recurring_transfers.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/pnc/CH6_recurring_transfers.mp4"
             },
             {
               "name": "Ability to transfer funds between your accounts at different banks",
               "points": 56,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/pnc/CH6_transfer_between_accounts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/pnc/CH6_transfer_between_accounts.mp4"
             },
             {
               "name": "Information regarding when funds will be available after a transfer",
@@ -5189,12 +5189,12 @@
             {
               "name": "Ability to send invoices electronically through business online banking",
               "points": 37,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/pnc/CH7_send_einvoices.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/pnc/CH7_send_einvoices.mp4"
             },
             {
               "name": "Ability to accept payments electronically for invoices sent through online banking",
               "points": 48,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/pnc/CH7_accept_einvoices.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/pnc/CH7_accept_einvoices.mp4"
             },
             {
               "name": "Ability to accept credit or debit card payments directly via online banking dashboard",
@@ -5221,12 +5221,12 @@
             {
               "name": "Access to customer support via live chat that connects you to a human representative",
               "points": 72,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/pnc/CH8_chat_bot.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/pnc/CH8_chat_bot.mp4"
             },
             {
               "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
               "points": 61,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/pnc/CH8_schedule_appointment_at_branch.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/pnc/CH8_schedule_appointment_at_branch.mp4"
             },
             {
               "name": "Ability to schedule a call from a customer support representative for assistance",
@@ -5322,7 +5322,7 @@
             {
               "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
               "points": 57,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/pnc/MCH3_alerts_financial_transactions.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/pnc/MCH3_alerts_financial_transactions.mp4"
             },
             {
               "name": "Ability to view login history and/or manage remembered devices via mobile phone",
@@ -5349,7 +5349,7 @@
             {
               "name": "Ability to automatically group and analyze spending by category via mobile phone",
               "points": 17,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/pnc/MCH4_group_analyze_by_category.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/pnc/MCH4_group_analyze_by_category.mp4"
             },
             {
               "name": "Ability to create and manage an operating expense budget via mobile phone",
@@ -5376,7 +5376,7 @@
             {
               "name": "Ability to initiate an online bill payment via mobile phone",
               "points": 44,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/pnc/MCH5_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/pnc/MCH5_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
@@ -5396,7 +5396,7 @@
             {
               "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
               "points": 32,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/pnc/MCH5_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/pnc/MCH5_send_via_zelle.mp4"
             },
             {
               "name": "Ability to transfer funds between accounts via mobile phone",
@@ -5418,7 +5418,7 @@
             {
               "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/pnc/MCH6_request_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/pnc/MCH6_request_via_zelle.mp4"
             },
             {
               "name": "Ability to photograph and deposit checks via mobile phone",
@@ -5445,17 +5445,17 @@
             {
               "name": "Ability to use your bank's mobile banking app to access an ATM without a debit card",
               "points": 22,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/pnc/MCH7_app_access_ATM.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/pnc/MCH7_app_access_ATM.mp4"
             },
             {
               "name": "Ability to lock a business debit/credit card temporarily via mobile phone",
               "points": 49,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/pnc/MCH7_lock_card.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/pnc/MCH7_lock_card.mp4"
             },
             {
               "name": "Ability to report a business debit/credit card lost or stolen via mobile phone",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/pnc/MCH7_report_card_lost.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/pnc/MCH7_report_card_lost.mp4"
             },
             {
               "name": "Ability to change the business debit card PIN number via mobile phone",
@@ -5482,7 +5482,7 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/pnc/MCH8_schedule_appointment_at_branch.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/pnc/MCH8_schedule_appointment_at_branch.mp4"
             },
             {
               "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
@@ -5492,7 +5492,7 @@
             {
               "name": "Access to on-demand live chat support with a human representative via mobile phone",
               "points": 43,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/pnc/MCH8_live_chat.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/pnc/MCH8_live_chat.mp4"
             }
           ]
         }
@@ -5502,7 +5502,7 @@
       "short_name": "reg",
       "bank_name": "Regions",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Regions.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/Regions.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -5522,7 +5522,7 @@
             {
               "name": "Product or services recommendations based on your company's needs",
               "points": 39,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Regions_Product.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Regions_Product.mp4"
             },
             {
               "name": "Ability to open your business checking and savings account(s) online",
@@ -5569,7 +5569,7 @@
             {
               "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
               "points": 82,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/reg/CH2_alerts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/reg/CH2_alerts.mp4"
             },
             {
               "name": "Ability to set up email or phone alerts to notify you of financial transactions",
@@ -5653,7 +5653,7 @@
             {
               "name": "Ability to limit the number of accounts authorized users may access",
               "points": 45,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/reg/CH4_authorized_users.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/reg/CH4_authorized_users.mp4"
             },
             {
               "name": "Ability to set dollar limits on transaction amounts for authorized users",
@@ -5752,7 +5752,7 @@
             {
               "name": "Ability to send money via Zelle (using an email address or mobile number)",
               "points": 35,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/reg/CH6_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/reg/CH6_send_via_zelle.mp4"
             },
             {
               "name": "A comparison chart to help select the best payment method for your needs (cost, timing, etc.)",
@@ -5841,7 +5841,7 @@
             {
               "name": "Access to customer support via live chat that connects you to a human representative",
               "points": 72,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/reg/CH8_chat_bot.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/reg/CH8_chat_bot.mp4"
             },
             {
               "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
@@ -5942,7 +5942,7 @@
             {
               "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
               "points": 57,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/reg/MCH3_alerts_financial_transactions.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/reg/MCH3_alerts_financial_transactions.mp4"
             },
             {
               "name": "Ability to view login history and/or manage remembered devices via mobile phone",
@@ -5969,22 +5969,22 @@
             {
               "name": "Ability to automatically group and analyze spending by category via mobile phone",
               "points": 17,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/reg/MCH4_group_analyze_category.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/reg/MCH4_group_analyze_category.mp4"
             },
             {
               "name": "Ability to create and manage an operating expense budget via mobile phone",
               "points": 16,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/reg/MCH4_create_manage_budget.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/reg/MCH4_create_manage_budget.mp4"
             },
             {
               "name": "Ability to set up a savings goal with automatic savings contributions via mobile phone",
               "points": 15,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/reg/MCH4_savings_goal.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/reg/MCH4_savings_goal.mp4"
             },
             {
               "name": "Ability to view at least one month of future account balance forecasts via mobile phone",
               "points": 17,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/reg/MCH4_future_account_balance_forecasts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/reg/MCH4_future_account_balance_forecasts.mp4"
             }
           ]
         },
@@ -6016,7 +6016,7 @@
             {
               "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
               "points": 32,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/reg/MCH5_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/reg/MCH5_send_via_zelle.mp4"
             },
             {
               "name": "Ability to transfer funds between accounts via mobile phone",
@@ -6038,7 +6038,7 @@
             {
               "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/reg/MCH6_request_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/reg/MCH6_request_via_zelle.mp4"
             },
             {
               "name": "Ability to photograph and deposit checks via mobile phone",
@@ -6102,7 +6102,7 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/reg/MCH8_schedule_appointment_at_branch.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/reg/MCH8_schedule_appointment_at_branch.mp4"
             },
             {
               "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
@@ -6112,7 +6112,7 @@
             {
               "name": "Access to on-demand live chat support with a human representative via mobile phone",
               "points": 43,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/reg/MCH8_chat_bot.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/reg/MCH8_chat_bot.mp4"
             }
           ]
         }
@@ -6122,7 +6122,7 @@
       "short_name": "squ",
       "bank_name": "Square",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Square.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/Square.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -6194,7 +6194,7 @@
             {
               "name": "Ability to set up email or phone alerts to notify you of financial transactions",
               "points": 76,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/squ/CH2_alerts_financial_transactions.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/squ/CH2_alerts_financial_transactions.mp4"
             },
             {
               "name": "Ability to view login history and/or manage remembered devices",
@@ -6352,12 +6352,12 @@
             {
               "name": "Ability to initiate an online bill payment",
               "points": 73,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/squ/CH6_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/squ/CH6_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/squ/CH6_standard_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/squ/CH6_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -6407,7 +6407,7 @@
             {
               "name": "Ability to transfer funds between your accounts at different banks",
               "points": 56,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/squ/CH6_transfer_between_accounts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/squ/CH6_transfer_between_accounts.mp4"
             },
             {
               "name": "Information regarding when funds will be available after a transfer",
@@ -6429,17 +6429,17 @@
             {
               "name": "Ability to send invoices electronically through business online banking",
               "points": 37,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/squ/CH7_send_einvoice.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/squ/CH7_send_einvoice.mp4"
             },
             {
               "name": "Ability to accept payments electronically for invoices sent through online banking",
               "points": 48,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/squ/CH7_accept_einvoice.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/squ/CH7_accept_einvoice.mp4"
             },
             {
               "name": "Ability to accept credit or debit card payments directly via online banking dashboard",
               "points": 46,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/squ/CH7_accept_card_payment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/squ/CH7_accept_card_payment.mp4"
             }
           ]
         },
@@ -6456,12 +6456,12 @@
             {
               "name": "Access to an automated chat bot or digital assistant for general information",
               "points": 29,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/squ/CH8_chat_bot.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/squ/CH8_chat_bot.mp4"
             },
             {
               "name": "Access to customer support via live chat that connects you to a human representative",
               "points": 72,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/squ/CH8_live_chat.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/squ/CH8_live_chat.mp4"
             },
             {
               "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
@@ -6616,12 +6616,12 @@
             {
               "name": "Ability to initiate an online bill payment via mobile phone",
               "points": 44,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/squ/MCH5_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/squ/MCH5_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
               "points": 35,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/squ/MCH5_standard_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/squ/MCH5_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments via mobile phone (excluding Zelle)",
@@ -6646,7 +6646,7 @@
             {
               "name": "Ability to transfer funds between your accounts at different banks via mobile phone",
               "points": 42,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/squ/MCH5_transfer_between_accounts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/squ/MCH5_transfer_between_accounts.mp4"
             }
           ]
         },
@@ -6668,7 +6668,7 @@
             {
               "name": "Ability to accept and process card payments using your bank’s mobile banking app (either by manually entering card information or using an attached card reader device)",
               "points": 34,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/squ/CH6_accept_card_payment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/squ/CH6_accept_card_payment.mp4"
             }
           ]
         },
@@ -6690,12 +6690,12 @@
             {
               "name": "Ability to lock a business debit/credit card temporarily via mobile phone",
               "points": 49,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/squ/MCH7_lock_card.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/squ/MCH7_lock_card.mp4"
             },
             {
               "name": "Ability to report a business debit/credit card lost or stolen via mobile phone",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/squ/MCH7_report_lost_card.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/squ/MCH7_report_lost_card.mp4"
             },
             {
               "name": "Ability to change the business debit card PIN number via mobile phone",
@@ -6732,7 +6732,7 @@
             {
               "name": "Access to on-demand live chat support with a human representative via mobile phone",
               "points": 43,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/squ/MCH8_chat_bot_on_demand.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/squ/MCH8_chat_bot_on_demand.mp4"
             }
           ]
         }
@@ -6742,7 +6742,7 @@
       "short_name": "tdb",
       "bank_name": "TD Bank",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/TDBank.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/TDBank.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -6757,7 +6757,7 @@
             {
               "name": "Checking and savings product feature comparison chart",
               "points": 45,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_TD_Checking.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_TD_Checking.mp4"
             },
             {
               "name": "Product or services recommendations based on your company’s needs",
@@ -6814,7 +6814,7 @@
             {
               "name": "Ability to set up email or phone alerts to notify you of financial transactions",
               "points": 76,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/tdb/CH2_alerts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/tdb/CH2_alerts.mp4"
             },
             {
               "name": "Ability to view login history and/or manage remembered devices",
@@ -6893,7 +6893,7 @@
             {
               "name": "Ability to limit the number of accounts authorized users may access",
               "points": 45,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/tdb/CH4_authorized_users.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/tdb/CH4_authorized_users.mp4"
             },
             {
               "name": "Ability to set dollar limits on transaction amounts for authorized users",
@@ -6977,7 +6977,7 @@
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tdb/CH6_standard_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tdb/CH6_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -6992,7 +6992,7 @@
             {
               "name": "Ability to send money via Zelle (using an email address or mobile number)",
               "points": 35,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tdb/CH6_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tdb/CH6_send_via_zelle.mp4"
             },
             {
               "name": "A comparison chart to help select the best payment method for your needs (cost, timing, etc.)",
@@ -7022,7 +7022,7 @@
             {
               "name": "Ability to initiate recurring transfers",
               "points": 59,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tdb/CH6_recurring_transfers.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tdb/CH6_recurring_transfers.mp4"
             },
             {
               "name": "Ability to transfer funds between your accounts at different banks",
@@ -7045,22 +7045,22 @@
             {
               "name": "Ability to accept or request money via Zelle® (using an email address, mobile number or QR code)",
               "points": 37,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/tdb/CH7_request_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/tdb/CH7_request_via_zelle.mp4"
             },
             {
               "name": "Ability to send invoices electronically through business online banking",
               "points": 37,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/tdb/CH7_send_einvoices.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/tdb/CH7_send_einvoices.mp4"
             },
             {
               "name": "Ability to accept payments electronically for invoices sent through online banking",
               "points": 48,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/tdb/CH7_accept_einvoices.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/tdb/CH7_accept_einvoices.mp4"
             },
             {
               "name": "Ability to accept credit or debit card payments directly via online banking dashboard",
               "points": 46,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/tdb/CH7_accept_card_payment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/tdb/CH7_accept_card_payment.mp4"
             }
           ]
         },
@@ -7077,7 +7077,7 @@
             {
               "name": "Access to an automated chat bot or digital assistant for general information",
               "points": 29,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/tdb/CH8_chat_bot.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/tdb/CH8_chat_bot.mp4"
             },
             {
               "name": "Access to customer support via live chat that connects you to a human representative",
@@ -7087,7 +7087,7 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
               "points": 61,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/tdb/CH8_schedule_appointment_at_branch.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/tdb/CH8_schedule_appointment_at_branch.mp4"
             },
             {
               "name": "Ability to schedule a call from a customer support representative for assistance",
@@ -7178,7 +7178,7 @@
             {
               "name": "Ability to set up alerts to notify you of log-ins and security threats via mobile phone",
               "points": 61,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tdb/MCH3_alerts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tdb/MCH3_alerts.mp4"
             },
             {
               "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
@@ -7237,7 +7237,7 @@
             {
               "name": "Ability to initiate an online bill payment via mobile phone",
               "points": 44,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tdb/MCH5_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tdb/MCH5_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
@@ -7257,12 +7257,12 @@
             {
               "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
               "points": 32,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tdb/MCH5_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tdb/MCH5_send_via_zelle.mp4"
             },
             {
               "name": "Ability to transfer funds between accounts via mobile phone",
               "points": 53,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tdb/MCH5_transfer_between_accounts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tdb/MCH5_transfer_between_accounts.mp4"
             },
             {
               "name": "Ability to transfer funds between your accounts at different banks via mobile phone",
@@ -7280,7 +7280,7 @@
             {
               "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/tdb/MCH6_request_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/tdb/MCH6_request_via_zelle.mp4"
             },
             {
               "name": "Ability to photograph and deposit checks via mobile phone",
@@ -7290,7 +7290,7 @@
             {
               "name": "Ability to accept and process card payments using your bank’s mobile banking app (either by manually entering card information or using an attached card reader device)",
               "points": 34,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/tdb/MCH6_accept_card_payment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/tdb/MCH6_accept_card_payment.mp4"
             }
           ]
         },
@@ -7344,12 +7344,12 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/tdb/MCH8_schedule_appointment_at_branch.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/tdb/MCH8_schedule_appointment_at_branch.mp4"
             },
             {
               "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
               "points": 21,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/tdb/MCH8_chat_bot.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/tdb/MCH8_chat_bot.mp4"
             },
             {
               "name": "Access to on-demand live chat support with a human representative via mobile phone",
@@ -7364,7 +7364,7 @@
       "short_name": "tru",
       "bank_name": "Truist",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Truist.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/Truist.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -7431,7 +7431,7 @@
             {
               "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
               "points": 82,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/tru/CH2_alerts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/tru/CH2_alerts.mp4"
             },
             {
               "name": "Ability to set up email or phone alerts to notify you of financial transactions",
@@ -7441,7 +7441,7 @@
             {
               "name": "Ability to view login history and/or manage remembered devices",
               "points": 56,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/tru/Ch2_login_history.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/tru/Ch2_login_history.mp4"
             },
             {
               "name": "Ability to view your company's current credit score",
@@ -7515,7 +7515,7 @@
             {
               "name": "Ability to limit the number of accounts authorized users may access",
               "points": 45,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/tru/CH4_authorized_users.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/tru/CH4_authorized_users.mp4"
             },
             {
               "name": "Ability to set dollar limits on transaction amounts for authorized users",
@@ -7552,32 +7552,32 @@
             {
               "name": "Ability to automatically track spending by category",
               "points": 36,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_track_spending_category.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_track_spending_category.mp4"
             },
             {
               "name": "Ability to create and manage a budget",
               "points": 27,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_create_manage_budget.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_create_manage_budget.mp4"
             },
             {
               "name": "Ability to set up a savings goal with automatic savings contributions",
               "points": 21,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_savings_goal.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_savings_goal.mp4"
             },
             {
               "name": "Personalized insights/recommendations to optimize cash flow",
               "points": 24,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_personalized_insights.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_personalized_insights.mp4"
             },
             {
               "name": "Ability to view at least one month of future account balance and cash flow forecasts",
               "points": 26,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_cash_flow_forecasts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_cash_flow_forecasts.mp4"
             },
             {
               "name": "Ability to link third-party applications into your company's online banking dashboard (i.e., QuickBooks or ADP)",
               "points": "40",
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_link_thirdparty_apps.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_link_thirdparty_apps.mp4"
             },
             {
               "name": "Ability to view and manage the connection of third-party applications that your company has linked to your bank account(s)",
@@ -7594,12 +7594,12 @@
             {
               "name": "Ability to initiate an online bill payment",
               "points": 73,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tru/CH6_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tru/CH6_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tru/CH6_standard_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tru/CH6_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -7609,12 +7609,12 @@
             {
               "name": "Ability to initiate a wire transfer online (funds available same day)",
               "points": 39,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tru/CH6_wire_transfer.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tru/CH6_wire_transfer.mp4"
             },
             {
               "name": "Ability to send money via Zelle (using an email address or mobile number)",
               "points": 35,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tru/CH6_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tru/CH6_send_via_zelle.mp4"
             },
             {
               "name": "A comparison chart to help select the best payment method for your needs (cost, timing, etc.)",
@@ -7644,7 +7644,7 @@
             {
               "name": "Ability to initiate recurring transfers",
               "points": 59,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tru/CH6_recurring_transfers.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/tru/CH6_recurring_transfers.mp4"
             },
             {
               "name": "Ability to transfer funds between your accounts at different banks",
@@ -7666,7 +7666,7 @@
             {
               "name": "Ability to accept or request money via Zelle® (using an email address, mobile number or QR code)",
               "points": 37,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/tru/CH7_accept_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/tru/CH7_accept_via_zelle.mp4"
             },
             {
               "name": "Ability to send invoices electronically through business online banking",
@@ -7698,22 +7698,22 @@
             {
               "name": "Access to an automated chat bot or digital assistant for general information",
               "points": 29,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/tru/CH8_chat_bot.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/tru/CH8_chat_bot.mp4"
             },
             {
               "name": "Access to customer support via live chat that connects you to a human representative",
               "points": 72,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/tru/CH8_live_chat.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/tru/CH8_live_chat.mp4"
             },
             {
               "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
               "points": 61,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/tru/CH8_schedule_appointment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/tru/CH8_schedule_appointment.mp4"
             },
             {
               "name": "Ability to schedule a call from a customer support representative for assistance",
               "points": 65,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/tru/CH8_schedule_call.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/tru/CH8_schedule_call.mp4"
             },
             {
               "name": "Ability to communicate with my bank via video conferencing (i.e., Zoom or WebEx)",
@@ -7790,7 +7790,7 @@
             {
               "name": "Ability to quickly view account balances without login via mobile phone",
               "points": 38,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tru/MCH3_view_balances.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tru/MCH3_view_balances.mp4"
             },
             {
               "name": "Ability to view routing and account numbers for accounts via mobile phone",
@@ -7800,7 +7800,7 @@
             {
               "name": "Ability to set up alerts to notify you of log-ins and security threats via mobile phone",
               "points": 61,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tru/MCH3_alerts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tru/MCH3_alerts.mp4"
             },
             {
               "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
@@ -7810,17 +7810,17 @@
             {
               "name": "Ability to view login history and/or manage remembered devices via mobile phone",
               "points": 53,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tru/MCH3_login_history.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tru/MCH3_login_history.mp4"
             },
             {
               "name": "Ability to assign online banking access to coworkers or employees via mobile phone",
               "points": 26,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tru/MCH3_assign_access.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tru/MCH3_assign_access.mp4"
             },
             {
               "name": "Ability to approve an electronic payment (wire, ACH, payroll, etc.) via mobile phone",
               "points": 36,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tru/MCH3_approve_electronic_payment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tru/MCH3_approve_electronic_payment.mp4"
             }
           ]
         },
@@ -7833,22 +7833,22 @@
             {
               "name": "Ability to automatically group and analyze spending by category via mobile phone",
               "points": 17,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/tru/MCH4_group_analyze_category.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/tru/MCH4_group_analyze_category.mp4"
             },
             {
               "name": "Ability to create and manage an operating expense budget via mobile phone",
               "points": 16,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/tru/MCH4_create_manage_budget.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/tru/MCH4_create_manage_budget.mp4"
             },
             {
               "name": "Ability to set up a savings goal with automatic savings contributions via mobile phone",
               "points": 15,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/tru/MCH4_savings_goal.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/tru/MCH4_savings_goal.mp4"
             },
             {
               "name": "Ability to view at least one month of future account balance forecasts via mobile phone",
               "points": 17,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/tru/MCH4_forecasts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/tru/MCH4_forecasts.mp4"
             }
           ]
         },
@@ -7860,12 +7860,12 @@
             {
               "name": "Ability to initiate an online bill payment via mobile phone",
               "points": 44,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tru/MCH5_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tru/MCH5_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
               "points": 35,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tru/MCH5_standard_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tru/MCH5_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments via mobile phone (excluding Zelle)",
@@ -7875,12 +7875,12 @@
             {
               "name": "Ability to initiate an online wire payment via mobile phone",
               "points": 28,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tru/MCH5_wire_payment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tru/MCH5_wire_payment.mp4"
             },
             {
               "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
               "points": 32,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tru/MCH5_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/tru/MCH5_send_via_zelle.mp4"
             },
             {
               "name": "Ability to transfer funds between accounts via mobile phone",
@@ -7902,7 +7902,7 @@
             {
               "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/tru/MCH6_request_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/tru/MCH6_request_via_zelle.mp4"
             },
             {
               "name": "Ability to photograph and deposit checks via mobile phone",
@@ -7935,12 +7935,12 @@
             {
               "name": "Ability to lock a business debit/credit card temporarily via mobile phone",
               "points": 49,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/tru/MCH7_lock_card.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/tru/MCH7_lock_card.mp4"
             },
             {
               "name": "Ability to report a business debit/credit card lost or stolen via mobile phone",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/tru/MCH7_report_lost_card.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/tru/MCH7_report_lost_card.mp4"
             },
             {
               "name": "Ability to change the business debit card PIN number via mobile phone",
@@ -7950,12 +7950,12 @@
             {
               "name": "Ability to set limits for a business debit card via mobile phone",
               "points": 38,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/tru/MCH7_set_card_limits.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/tru/MCH7_set_card_limits.mp4"
             },
             {
               "name": "Ability to set restrictions for debit card use by location, merchant type, etc.",
               "points": 36,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/tru/MCH7_set_restrictions.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/tru/MCH7_set_restrictions.mp4"
             }
           ]
         },
@@ -7967,7 +7967,7 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/tru/MCH8_schedule_appointment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/tru/MCH8_schedule_appointment.mp4"
             },
             {
               "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
@@ -7987,7 +7987,7 @@
       "short_name": "usb",
       "bank_name": "U.S. Bank",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/USBank.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/USBank.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -8007,7 +8007,7 @@
             {
               "name": "Product or services recommendations based on your company’s needs",
               "points": 39,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_US_Product.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_US_Product.mp4"
             },
             {
               "name": "Ability to open your business checking and savings account(s) online",
@@ -8027,7 +8027,7 @@
             {
               "name": "Ability to enroll online for credit/debit card processing (point-of-sale, online, mobile, etc.)",
               "points": 27,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_US_Processing.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_US_Processing.mp4"
             }
           ]
         },
@@ -8044,7 +8044,7 @@
             {
               "name": "Additional security such as an authentication code or challenge question at login",
               "points": 69,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/usb/CH2_additional_security.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/usb/CH2_additional_security.mp4"
             },
             {
               "name": "Ability to personalize your username or change your password",
@@ -8054,7 +8054,7 @@
             {
               "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
               "points": 82,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/usb/CH2_alerts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/usb/CH2_alerts.mp4"
             },
             {
               "name": "Ability to set up email or phone alerts to notify you of financial transactions",
@@ -8064,7 +8064,7 @@
             {
               "name": "Ability to view login history and/or manage remembered devices",
               "points": 56,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/usb/CH2_login_history.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/usb/CH2_login_history.mp4"
             },
             {
               "name": "Ability to view your company's current credit score",
@@ -8074,7 +8074,7 @@
             {
               "name": "Ability to update your profile (i.e., address, phone number, email address, etc.)",
               "points": 80,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/usb/CH2_update_profile.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/usb/CH2_update_profile.mp4"
             },
             {
               "name": "Ability to view full routing and account numbers for business accounts",
@@ -8138,7 +8138,7 @@
             {
               "name": "Ability to limit the number of accounts authorized users may access",
               "points": 45,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/usb/CH4_authorized_users.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/usb/CH4_authorized_users.mp4"
             },
             {
               "name": "Ability to set dollar limits on transaction amounts for authorized users",
@@ -8175,7 +8175,7 @@
             {
               "name": "Ability to automatically track spending by category",
               "points": 36,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/usb/CH5_track_spend_personalized_insights.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/usb/CH5_track_spend_personalized_insights.mp4"
             },
             {
               "name": "Ability to create and manage a budget",
@@ -8195,17 +8195,17 @@
             {
               "name": "Ability to view at least one month of future account balance and cash flow forecasts",
               "points": 26,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/usb/CH5_cash_flow_forecasts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/usb/CH5_cash_flow_forecasts.mp4"
             },
             {
               "name": "Ability to link third-party applications into your company's online banking dashboard (i.e., QuickBooks or ADP)",
               "points": 40,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/usb/CH5_link_thirdparty_apps.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/usb/CH5_link_thirdparty_apps.mp4"
             },
             {
               "name": "Ability to view and manage the connection of third-party applications that your company has linked to your bank account(s)",
               "points": 43,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/usb/CH5_connection_thirdparty_apps.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/usb/CH5_connection_thirdparty_apps.mp4"
             }
           ]
         },
@@ -8217,12 +8217,12 @@
             {
               "name": "Ability to initiate an online bill payment",
               "points": 73,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/usb/CH6_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/usb/CH6_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/usb/CH6_standard_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/usb/CH6_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -8232,12 +8232,12 @@
             {
               "name": "Ability to initiate a wire transfer online (funds available same day)",
               "points": 39,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/usb/CH6_wire_transfer.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/usb/CH6_wire_transfer.mp4"
             },
             {
               "name": "Ability to send money via Zelle (using an email address or mobile number)",
               "points": 35,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/usb/CH6_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/usb/CH6_send_via_zelle.mp4"
             },
             {
               "name": "A comparison chart to help select the best payment method for your needs (cost, timing, etc.)",
@@ -8267,12 +8267,12 @@
             {
               "name": "Ability to initiate recurring transfers",
               "points": 59,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/usb/CH6_recurring_transfers.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/usb/CH6_recurring_transfers.mp4"
             },
             {
               "name": "Ability to transfer funds between your accounts at different banks",
               "points": 56,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/usb/CH6_transfer_funds_different_banks.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/usb/CH6_transfer_funds_different_banks.mp4"
             },
             {
               "name": "Information regarding when funds will be available after a transfer",
@@ -8289,7 +8289,7 @@
             {
               "name": "Ability to accept or request money via Zelle® (using an email address, mobile number or QR code)",
               "points": 37,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/usb/CH7_accept_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/usb/CH7_accept_via_zelle.mp4"
             },
             {
               "name": "Ability to send invoices electronically through business online banking",
@@ -8322,32 +8322,32 @@
             {
               "name": "Access to an automated chat bot or digital assistant for general information",
               "points": 29,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_chat_bot.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_chat_bot.mp4"
             },
             {
               "name": "Access to customer support via live chat that connects you to a human representative",
               "points": 72,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_live_chat.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_live_chat.mp4"
             },
             {
               "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
               "points": 61,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_schedule_appointment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_schedule_appointment.mp4"
             },
             {
               "name": "Ability to schedule a call from a customer support representative for assistance",
               "points": 65,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_schedule_call.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_schedule_call.mp4"
             },
             {
               "name": "Ability to communicate with my bank via video conferencing (i.e., Zoom or WebEx)",
               "points": 25,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_video_conferencing.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_video_conferencing.mp4"
             },
             {
               "name": "Ability to screen-share with my bank via co-browse for assistance",
               "points": 26,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_screen_share.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_screen_share.mp4"
             }
           ]
         },
@@ -8413,7 +8413,7 @@
             {
               "name": "Ability to quickly view account balances without login via mobile phone",
               "points": 38,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/usb/MCH3_view_balances.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/usb/MCH3_view_balances.mp4"
             },
             {
               "name": "Ability to view routing and account numbers for accounts via mobile phone",
@@ -8423,7 +8423,7 @@
             {
               "name": "Ability to set up alerts to notify you of log-ins and security threats via mobile phone",
               "points": 61,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/usb/MCH3_alerts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/usb/MCH3_alerts.mp4"
             },
             {
               "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
@@ -8433,7 +8433,7 @@
             {
               "name": "Ability to view login history and/or manage remembered devices via mobile phone",
               "points": 53,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/usb/MCH3_login_history.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/usb/MCH3_login_history.mp4"
             },
             {
               "name": "Ability to assign online banking access to coworkers or employees via mobile phone",
@@ -8443,7 +8443,7 @@
             {
               "name": "Ability to approve an electronic payment (wire, ACH, payroll, etc.) via mobile phone",
               "points": 36,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/usb/MCH3_approve_electronic_payment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/usb/MCH3_approve_electronic_payment.mp4"
             }
           ]
         },
@@ -8455,7 +8455,7 @@
             {
               "name": "Ability to automatically group and analyze spending by category via mobile phone",
               "points": 17,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/usb/MCH4_group_analyze_spending.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/usb/MCH4_group_analyze_spending.mp4"
             },
             {
               "name": "Ability to create and manage an operating expense budget via mobile phone",
@@ -8482,12 +8482,12 @@
             {
               "name": "Ability to initiate an online bill payment via mobile phone",
               "points": 44,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/usb/MCH5_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/usb/MCH5_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
               "points": 35,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/usb/MCH5_standard_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/usb/MCH5_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments via mobile phone (excluding Zelle)",
@@ -8497,12 +8497,12 @@
             {
               "name": "Ability to initiate an online wire payment via mobile phone",
               "points": 28,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/usb/MCH5_wire_payment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/usb/MCH5_wire_payment.mp4"
             },
             {
               "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
               "points": 32,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/usb/MCH5_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/usb/MCH5_send_via_zelle.mp4"
             },
             {
               "name": "Ability to transfer funds between accounts via mobile phone",
@@ -8524,7 +8524,7 @@
             {
               "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/usb/MCH6_request_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/usb/MCH6_request_via_zelle.mp4"
             },
             {
               "name": "Ability to photograph and deposit checks via mobile phone",
@@ -8556,7 +8556,7 @@
             {
               "name": "Ability to lock a business debit/credit card temporarily via mobile phone",
               "points": 49,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/usb/MCH7_lock_card.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/usb/MCH7_lock_card.mp4"
             },
             {
               "name": "Ability to report a business debit/credit card lost or stolen via mobile phone",
@@ -8571,7 +8571,7 @@
             {
               "name": "Ability to set limits for a business debit card via mobile phone",
               "points": 38,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/usb/MCH7_set_limits.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/usb/MCH7_set_limits.mp4"
             },
             {
               "name": "Ability to set restrictions for debit card use by location, merchant type, etc.",
@@ -8589,17 +8589,17 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/usb/MCH8_schedule_appointment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/usb/MCH8_schedule_appointment.mp4"
             },
             {
               "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
               "points": 21,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/usb/MCH8_chat_bot.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/usb/MCH8_chat_bot.mp4"
             },
             {
               "name": "Access to on-demand live chat support with a human representative via mobile phone",
               "points": 43,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/usb/MCH8_live_chat.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/usb/MCH8_live_chat.mp4"
             }
           ]
         }
@@ -8609,7 +8609,7 @@
       "short_name": "wel",
       "bank_name": "Wells Fargo",
       "logo": "",
-      "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/WellsFargo.zip",
+      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/WellsFargo.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -8625,12 +8625,12 @@
             {
               "name": "Checking and savings product feature comparison chart",
               "points": 45,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Wells_Checking.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Wells_Checking.mp4"
             },
             {
               "name": "Product or services recommendations based on your company’s needs",
               "points": 39,
-              "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Wells_Product.mp4"
+              "video": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/1_Enrollling/Chapter1_Wells_Product.mp4"
             },
             {
               "name": "Ability to open your business checking and savings account(s) online",
@@ -8677,7 +8677,7 @@
             {
               "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
               "points": 82,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/wel/CH2_alerts_logins_security_threats.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/wel/CH2_alerts_logins_security_threats.mp4"
             },
             {
               "name": "Ability to set up email or phone alerts to notify you of financial transactions",
@@ -8687,7 +8687,7 @@
             {
               "name": "Ability to view login history and/or manage remembered devices",
               "points": 56,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/wel/CH2_login_history.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/2_Security/wel/CH2_login_history.mp4"
             },
             {
               "name": "Ability to view your company's current credit score",
@@ -8761,7 +8761,7 @@
             {
               "name": "Ability to limit the number of accounts authorized users may access",
               "points": 45,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/wel/CH4_limit_accounts.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/wel/CH4_limit_accounts.mp4"
             },
             {
               "name": "Ability to set dollar limits on transaction amounts for authorized users",
@@ -8798,12 +8798,12 @@
             {
               "name": "Ability to automatically track spending by category",
               "points": 36,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/wel/CH5_track_spending.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/wel/CH5_track_spending.mp4"
             },
             {
               "name": "Ability to create and manage a budget",
               "points": 27,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/wel/CH5_create_manage_budget.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/wel/CH5_create_manage_budget.mp4"
             },
             {
               "name": "Ability to set up a savings goal with automatic savings contributions",
@@ -8828,7 +8828,7 @@
             {
               "name": "Ability to view and manage the connection of third-party applications that your company has linked to your bank account(s)",
               "points": 43,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/wel/CH5_connection_thirdparty_apps.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/wel/CH5_connection_thirdparty_apps.mp4"
             }
           ]
         },
@@ -8845,7 +8845,7 @@
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/wel/CH6_standard_ACH.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/wel/CH6_standard_ACH.mp4"
             },
             {
               "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -8855,12 +8855,12 @@
             {
               "name": "Ability to initiate a wire transfer online (funds available same day)",
               "points": 39,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/wel/CH6_wire_transfer.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/wel/CH6_wire_transfer.mp4"
             },
             {
               "name": "Ability to send money via Zelle (using an email address or mobile number)",
               "points": 35,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/wel/CH6_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/wel/CH6_send_via_zelle.mp4"
             },
             {
               "name": "A comparison chart to help select the best payment method for your needs (cost, timing, etc.)",
@@ -8890,12 +8890,12 @@
             {
               "name": "Ability to initiate recurring transfers",
               "points": 59,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/wel/CH6_recurring_transfers.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/wel/CH6_recurring_transfers.mp4"
             },
             {
               "name": "Ability to transfer funds between your accounts at different banks",
               "points": 56,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/wel/CH6_transfer_diff_banks.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/wel/CH6_transfer_diff_banks.mp4"
             },
             {
               "name": "Information regarding when funds will be available after a transfer",
@@ -8912,7 +8912,7 @@
             {
               "name": "Ability to accept or request money via Zelle® (using an email address, mobile number or QR code)",
               "points": 37,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/wel/CH7_accept_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/wel/CH7_accept_via_zelle.mp4"
             },
             {
               "name": "Ability to send invoices electronically through business online banking",
@@ -8954,7 +8954,7 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
               "points": 61,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/wel/CH8_schedule_appointment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/wel/CH8_schedule_appointment.mp4"
             },
             {
               "name": "Ability to schedule a call from a customer support representative for assistance",
@@ -9045,17 +9045,17 @@
             {
               "name": "Ability to set up alerts to notify you of log-ins and security threats via mobile phone",
               "points": 61,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/wel/MCH3_alert_security_threats.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/wel/MCH3_alert_security_threats.mp4"
             },
             {
               "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
               "points": 57,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/wel/MCH3_alert_financial_transactions.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/wel/MCH3_alert_financial_transactions.mp4"
             },
             {
               "name": "Ability to view login history and/or manage remembered devices via mobile phone",
               "points": 53,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/wel/MCH3_login_history.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/wel/MCH3_login_history.mp4"
             },
             {
               "name": "Ability to assign online banking access to coworkers or employees via mobile phone",
@@ -9077,7 +9077,7 @@
             {
               "name": "Ability to automatically group and analyze spending by category via mobile phone",
               "points": 17,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/wel/MCH4_group_analyze_spending.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/wel/MCH4_group_analyze_spending.mp4"
             },
             {
               "name": "Ability to create and manage an operating expense budget via mobile phone",
@@ -9104,7 +9104,7 @@
             {
               "name": "Ability to initiate an online bill payment via mobile phone",
               "points": 44,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/wel/MCH5_bill_pay.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/wel/MCH5_bill_pay.mp4"
             },
             {
               "name": "Ability to initiate a standard ACH payment delivered within one or two business days via mobile phone",
@@ -9119,12 +9119,12 @@
             {
               "name": "Ability to initiate an online wire payment via mobile phone",
               "points": 28,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/wel/MCH5_wire_payment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/wel/MCH5_wire_payment.mp4"
             },
             {
               "name": "Ability to send money with Zelle via mobile phone (using an email address or mobile number)",
               "points": 32,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/wel/MCH5_send_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/wel/MCH5_send_via_zelle.mp4"
             },
             {
               "name": "Ability to transfer funds between accounts via mobile phone",
@@ -9134,7 +9134,7 @@
             {
               "name": "Ability to transfer funds between your accounts at different banks via mobile phone",
               "points": 42,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/wel/MCH5_transfer_funds_diff_bank.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/wel/MCH5_transfer_funds_diff_bank.mp4"
             }
           ]
         },
@@ -9146,7 +9146,7 @@
             {
               "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/wel/MCH6_request_via_zelle.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M6_Receiving_Payments/wel/MCH6_request_via_zelle.mp4"
             },
             {
               "name": "Ability to photograph and deposit checks via mobile phone",
@@ -9183,7 +9183,7 @@
             {
               "name": "Ability to report a business debit/credit card lost or stolen via mobile phone",
               "points": 58,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/wel/MCH7_report_lost_card.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/wel/MCH7_report_lost_card.mp4"
             },
             {
               "name": "Ability to change the business debit card PIN number via mobile phone",
@@ -9193,7 +9193,7 @@
             {
               "name": "Ability to set limits for a business debit card via mobile phone",
               "points": 38,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/wel/MCH7_set_limits_card.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M7_Card_Management/wel/MCH7_set_limits_card.mp4"
             },
             {
               "name": "Ability to set restrictions for debit card use by location, merchant type, etc.",
@@ -9210,7 +9210,7 @@
             {
               "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
               "points": 33,
-              "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/wel/MCH8_schedule_appointment.mp4"
+              "video": "http://mybarlow.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/wel/MCH8_schedule_appointment.mp4"
             },
             {
               "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
