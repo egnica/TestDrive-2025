@@ -44,9 +44,8 @@ const Banner = () => {
             <Image
               src={carouselItems[index].image}
               alt={carouselItems[index].title}
-              width={300} // Smaller size
+              width={300}
               height={200}
-              objectFit="cover"
             />
             <div className="absolute bottom-4 bg-black/50 text-white p-2 rounded-md">
               {carouselItems[index].title}
