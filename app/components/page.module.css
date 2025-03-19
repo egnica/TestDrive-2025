@@ -1,3 +1,21 @@
 .page {
   padding: 20px;
 }
+.carouselContain {
+  padding-left: 10%;
+}
+.content {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.textContain {
+  max-width: 300px;
+}
+
+.rotateBtn {
+  height: 20px;
+  width: 20px;
+  margin: 2px;
+  border-radius: 20px;
+  border: 1px solid black;
+}

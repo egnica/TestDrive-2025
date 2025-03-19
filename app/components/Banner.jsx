@@ -4,17 +4,16 @@ import PostObject from "../../posts.json";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import styles from "./page.module.css";
 
 const Banner = () => {
-  // Filter only carousel items
   const carouselItems = PostObject.Post.filter((item) => item.carousel);
 
   const [index, setIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false); // Track if the timer should stop
+  const [isPaused, setIsPaused] = useState(false);
 
-  // Auto-advance only if NOT paused
   useEffect(() => {
-    if (isPaused) return; // Stop auto-play when paused
+    if (isPaused) return;
 
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % carouselItems.length);
@@ -23,14 +22,13 @@ const Banner = () => {
     return () => clearInterval(interval);
   }, [carouselItems.length, isPaused]);
 
-  // Handle manual selection
-  const handleSelect = (newIndex) => {
-    setIndex(newIndex);
-    setIsPaused(true); // Stop auto-advancing when user clicks
+  const handleSelect = (index) => {
+    setIndex(index);
+    setIsPaused(true);
   };
 
   return (
-    <div className="relative w-full h-64 overflow-hidden">
+    <div className={styles.carouselContain}>
       <AnimatePresence mode="wait">
         {carouselItems.length > 0 && (
           <motion.div
@@ -41,28 +39,29 @@ const Banner = () => {
             transition={{ duration: 0.5 }}
             className="absolute w-full h-full flex items-center justify-center"
           >
-            <Image
-              src={carouselItems[index].image}
-              alt={carouselItems[index].title}
-              width={300}
-              height={200}
-            />
-            <div className="absolute bottom-4 bg-black/50 text-white p-2 rounded-md">
-              {carouselItems[index].title}
+            <div className={styles.content}>
+              <Image
+                src={carouselItems[index].image}
+                alt={carouselItems[index].title}
+                width={300}
+                height={200}
+              />
+              <div className={styles.textContain}>
+                <h3>{carouselItems[index].title}</h3>
+              </div>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
 
       {/* Dots for manual navigation */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+      <div>
         {carouselItems.map((_, i) => (
           <button
             key={i}
-            onClick={() => handleSelect(i)} // Call function on click
-            className={`w-3 h-3 rounded-full ${
-              i === index ? "bg-white" : "bg-gray-500"
-            }`}
+            style={{ background: i === index ? "white" : "gray" }}
+            onClick={() => handleSelect(i)}
+            className={styles.rotateBtn}
           />
         ))}
       </div>
