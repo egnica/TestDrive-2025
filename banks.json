@@ -533,7 +533,7 @@
     {
       "short_name": "amex",
       "bank_name": "American Express",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/amex.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/AmericanExpress.zip",
       "categorys": [
         {
@@ -1154,7 +1154,7 @@
     {
       "short_name": "boa",
       "bank_name": "Bank of America",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/boa.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/BankofAmerica.zip",
       "categorys": [
         {
@@ -1775,7 +1775,7 @@
     {
       "short_name": "cap",
       "bank_name": "Capital One",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/cap.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/CapitalOne.zip",
       "categorys": [
         {
@@ -2395,7 +2395,7 @@
     {
       "short_name": "chase",
       "bank_name": "Chase",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/chase.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/Chase.zip",
       "categorys": [
         {
@@ -3021,7 +3021,7 @@
     {
       "short_name": "hunt",
       "bank_name": "Huntington",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/hunt.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/Huntington.zip",
       "categorys": [
         {
@@ -3641,7 +3641,7 @@
     {
       "short_name": "key",
       "bank_name": "KeyBank",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/key.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/KeyBank.zip",
       "categorys": [
         {
@@ -4261,7 +4261,7 @@
     {
       "short_name": "nor",
       "bank_name": "NorthOne",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/nor.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/NorthOne.zip",
       "categorys": [
         {
@@ -4881,7 +4881,7 @@
     {
       "short_name": "pnc",
       "bank_name": "PNC",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/pnc.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/PNC.zip",
       "categorys": [
         {
@@ -5501,7 +5501,7 @@
     {
       "short_name": "reg",
       "bank_name": "Regions",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/reg.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/Regions.zip",
       "categorys": [
         {
@@ -6121,7 +6121,7 @@
     {
       "short_name": "squ",
       "bank_name": "Square",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/squ.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/Square.zip",
       "categorys": [
         {
@@ -6741,7 +6741,7 @@
     {
       "short_name": "tdb",
       "bank_name": "TD Bank",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/tdb.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/TDBank.zip",
       "categorys": [
         {
@@ -7363,7 +7363,7 @@
     {
       "short_name": "tru",
       "bank_name": "Truist",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/tru.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/Truist.zip",
       "categorys": [
         {
@@ -7986,7 +7986,7 @@
     {
       "short_name": "usb",
       "bank_name": "U.S. Bank",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/usb.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/USBank.zip",
       "categorys": [
         {
@@ -8608,7 +8608,7 @@
     {
       "short_name": "wel",
       "bank_name": "Wells Fargo",
-      "logo": "",
+      "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/svg-bank-logo/wel.svg",
       "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_assets_2024/zips/WellsFargo.zip",
       "categorys": [
         {

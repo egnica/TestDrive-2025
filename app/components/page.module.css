@@ -19,3 +19,20 @@
   border-radius: 20px;
   border: 1px solid black;
 }
+.bankSelect {
+  margin: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  padding-bottom: 30px;
+}
+.bankItem {
+  width: 90px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 10px 10px 40px #cdcdcd, -12px -12px 10px #ffffff;
+}
