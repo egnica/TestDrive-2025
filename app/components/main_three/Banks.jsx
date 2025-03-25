@@ -122,12 +122,15 @@ const Banks = () => {
       </AnimatePresence>
 
       <div className={styles.listContainer}>
-        <div className={styles.topTable}>
-          <h3>Categories</h3>
-          <h3 style={{ textAlign: "center" }}>Videos</h3>
-          <h3 style={{ textAlign: "center" }}>Features Earned</h3>
-          <h3 style={{ textAlign: "center" }}>Points Earned</h3>
-        </div>
+        {bank && (
+          <div className={styles.topTable}>
+            <h3>Categories</h3>
+            <h3 style={{ textAlign: "center" }}>Videos</h3>
+            <h3 style={{ textAlign: "center" }}>Features Earned</h3>
+            <h3 style={{ textAlign: "center" }}>Points Earned</h3>
+          </div>
+        )}
+
         {Object.entries(ObjectBank.bank_layout)
           .filter(([key, value]) => value.bank_name === bank)
           .map(([key, value2]) =>

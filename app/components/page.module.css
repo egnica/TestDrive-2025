@@ -67,3 +67,19 @@
 .innerRow:nth-child(odd) {
   background-color: #dff4ff;
 }
+.videoBtn {
+  background-color: #0392e5;
+  color: #f0f8ff;
+  margin: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 80px;
+  transform: scale(1.05);
+  border: #004770;
+}
+.videoBtn:hover {
+  background-color: #5dc6f9;
+  color: #0a1178;
+  box-shadow: 5px 5px 10px gray;
+}
