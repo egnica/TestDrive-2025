@@ -1,14 +1,15 @@
 import React from "react";
-
+import styles from "../page.module.css";
 const Feature = ({ feature }) => {
   return (
     <div>
       {Object.entries(feature).map(([key, value], index) => {
         return (
-          <div key={index}>
-            <p>
-              {value.name} {value.points}
-            </p>
+          <div className={styles.innerRow} key={index}>
+            <p>{value.name}</p>
+            <p style={{ textAlign: "center" }}></p>
+            <p style={{ textAlign: "center" }}></p>
+            <p style={{ textAlign: "center" }}>{value.points}</p>
           </div>
         );
       })}

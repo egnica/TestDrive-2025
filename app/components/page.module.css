@@ -36,3 +36,34 @@
   background: #ffffff;
   box-shadow: 10px 10px 40px #cdcdcd, -12px -12px 10px #ffffff;
 }
+.listContainer {
+  padding: 0 20px;
+}
+.topTable {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
+  background-color: #0178bd;
+  color: #fff;
+  padding: 10px;
+}
+.rowTable {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #b1b2b3;
+}
+.rowTable:hover {
+  background-color: #53b8f8;
+  color: #fff;
+}
+
+.innerRow {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
+  padding: 0 0 0 10px;
+}
+
+.innerRow:nth-child(odd) {
+  background-color: #dff4ff;
+}

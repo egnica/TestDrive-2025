@@ -108,36 +108,60 @@ const Banks = () => {
         })}
       </div>
       <hr />
-      <motion.h2 id="feature">{bank}</motion.h2>
-      {Object.entries(ObjectBank.bank_layout)
-        .filter(([key, value]) => value.bank_name === bank)
-        .map(([key, value2]) =>
-          value2.categorys.map(({ name, score, features }, index) => (
-            <AnimatePresence mode="wait" key={index}>
-              <motion.div key={name} onClick={() => featureHandler(index)}>
-                <p>
-                  {name}: {score}
-                </p>
-                <AnimatePresence mode="wait">
-                  {index === feature && (
-                    <motion.div
-                      key="feature-detail"
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: contentHeight, opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.4, ease: "easeInOut" }}
-                      style={{ overflow: "hidden" }}
-                    >
-                      <div ref={contentRef}>
-                        <Feature feature={features} />
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </motion.div>
-            </AnimatePresence>
-          ))
-        )}
+      <AnimatePresence mode="wait">
+        <motion.h2
+          key={bank}
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: 100 }}
+          transition={{ duration: 0.4 }}
+          id="feature"
+        >
+          {bank}
+        </motion.h2>
+      </AnimatePresence>
+
+      <div className={styles.listContainer}>
+        <div className={styles.topTable}>
+          <h3>Categories</h3>
+          <h3 style={{ textAlign: "center" }}>Videos</h3>
+          <h3 style={{ textAlign: "center" }}>Features Earned</h3>
+          <h3 style={{ textAlign: "center" }}>Points Earned</h3>
+        </div>
+        {Object.entries(ObjectBank.bank_layout)
+          .filter(([key, value]) => value.bank_name === bank)
+          .map(([key, value2]) =>
+            value2.categorys.map(({ name, score, features }, index) => (
+              <AnimatePresence mode="wait" key={index}>
+                <motion.div key={name} onClick={() => featureHandler(index)}>
+                  <div className={styles.rowTable}>
+                    <p>{name}</p>
+                    <p style={{ textAlign: "center" }}></p>
+                    <p style={{ textAlign: "center" }}></p>
+                    <p style={{ textAlign: "center" }}>{score}</p>
+                  </div>
+
+                  <AnimatePresence mode="wait">
+                    {index === feature && (
+                      <motion.div
+                        key="feature-detail"
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: contentHeight, opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.4, ease: "easeInOut" }}
+                        style={{ overflow: "hidden" }}
+                      >
+                        <div ref={contentRef}>
+                          <Feature feature={features} />
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </motion.div>
+              </AnimatePresence>
+            ))
+          )}
+      </div>
     </>
   );
 };
