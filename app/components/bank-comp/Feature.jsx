@@ -9,7 +9,9 @@ const Feature = ({ feature }) => {
             <p>{value.name}</p>
             <p style={{ textAlign: "center" }}></p>
             <p style={{ textAlign: "center" }}></p>
-            <p style={{ textAlign: "center" }}>{value.points}</p>
+            <p style={{ textAlign: "center", paddingRight: "10px" }}>
+              {value.points}
+            </p>
           </div>
         );
       })}
