@@ -1,5 +1,6 @@
 .page {
   padding: 20px;
+  background-color: #cdcdcd;
 }
 .carouselContain {
   padding-left: 10%;
@@ -10,6 +11,23 @@
 }
 .textContain {
   max-width: 300px;
+}
+.mainBtnContain {
+  display: grid;
+  place-content: "center";
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 50px;
+}
+.mainBtn {
+  margin: auto;
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 36px 36px 72px #d9d9d9, -36px -36px 72px #ffffff;
+  cursor: pointer;
 }
 
 .rotateBtn {
@@ -48,6 +66,7 @@
 }
 .rowTable {
   display: grid;
+  background: #ffffff;
   grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
   cursor: pointer;
   padding: 10px;

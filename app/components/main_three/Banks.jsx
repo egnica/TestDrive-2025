@@ -17,7 +17,7 @@ const Banks = () => {
     if (contentRef.current) {
       setContentHeight(contentRef.current.scrollHeight);
     }
-  }, [feature]); //
+  }, [feature]);
 
   const bankHandler = (bankName) => {
     bankName === bank ? setBank(null) : setBank(bankName);
@@ -31,7 +31,7 @@ const Banks = () => {
     hidden: {
       opacity: 0,
       scale: 0.5,
-      transition: { duration: 0.3, ease: "easeOut" },
+      transition: { duration: 0.8, ease: "easeOut" },
     },
     visible: {
       opacity: 1,
@@ -45,6 +45,7 @@ const Banks = () => {
         bounce: 0.3,
         restSpeed: 0.01,
         restDelta: 0.01,
+        duration: 0.8,
       },
     },
     hover: {

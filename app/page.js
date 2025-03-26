@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import styles from "./page.module.css";
@@ -14,30 +14,34 @@ export default function Home() {
   const [numSel, setNumSel] = useState(null);
 
   const selectNum = (num) => {
-    num === numSel ? setNumSel(null) : setNumSel(num);
+    setNumSel(num);
   };
+
   return (
     <div className={styles.page}>
       <Banner />
       <BtnRow sendDataToParent={selectNum} />
       <hr />
-      <div>
-        <AnimatePresence mode="wait">
-          {numSel == 0 ? (
-            <motion.div>
+      <AnimatePresence mode="wait">
+        {numSel !== null && (
+          <motion.div
+            id="lower"
+            key={numSel}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.4, ease: "easeInOut" }}
+          >
+            {numSel === 0 ? (
               <Banks />
-            </motion.div>
-          ) : numSel == 1 ? (
-            <motion.div>
+            ) : numSel === 1 ? (
               <Category />
-            </motion.div>
-          ) : numSel == 2 ? (
-            <motion.div>
-              <Compare />
-            </motion.div>
-          ) : null}
-        </AnimatePresence>
-      </div>
+            ) : (
+              numSel === 2 && <Compare />
+            )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

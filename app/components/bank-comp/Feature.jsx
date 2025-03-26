@@ -15,9 +15,12 @@ const Feature = ({ feature }) => {
 
   const videoButton = (video, name) =>
     video !== "" && (
-      <div onClick={(e) => videoBtnClick(e, name)} className={styles.videoBtn}>
+      <button
+        onClick={(e) => videoBtnClick(e, name)}
+        className={styles.videoBtn}
+      >
         Watch Video
-      </div>
+      </button>
     );
 
   const checkMark = (points) => {
@@ -36,7 +39,7 @@ const Feature = ({ feature }) => {
     <div>
       {Object.entries(feature).map(([key, value], index) => {
         return (
-          <>
+          <React.Fragment key={index}>
             <div className={styles.innerRow} key={index}>
               <p>{value.name}</p>
               <div style={{ textAlign: "center", margin: "auto" }}>
@@ -61,7 +64,7 @@ const Feature = ({ feature }) => {
                 </video>
               </div>
             )}
-          </>
+          </React.Fragment>
         );
       })}
     </div>
