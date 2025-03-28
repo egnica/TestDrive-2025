@@ -27,6 +27,29 @@ const Banks = () => {
     feature === index ? setFeature(null) : setFeature(index);
   };
 
+  const videoCount = (feature) => {
+    let videoNum = 0;
+    feature.forEach((element) => {
+      element.video != "" && videoNum++;
+    });
+    if (videoNum != 0) {
+      return videoNum;
+    } else {
+      return "-";
+    }
+  };
+
+  const featureCount = (feature) => {
+    const featNumTotal = feature.length;
+    let actualFeatures = 0;
+
+    feature.forEach((element) => {
+      element.points != 0 && actualFeatures++;
+    });
+
+    return `${actualFeatures} / ${featNumTotal}`;
+  };
+
   const boxVariants = {
     hidden: {
       opacity: 0,
@@ -137,18 +160,25 @@ const Banks = () => {
           .map(([key, value2]) =>
             value2.categorys.map(({ name, score, features }, index) => (
               <AnimatePresence mode="wait" key={index}>
-                <motion.div key={name} onClick={() => featureHandler(index)}>
-                  <div className={styles.rowTable}>
+                <div className={styles.rowContain} key={name}>
+                  <motion.div
+                    key={name}
+                    onClick={() => featureHandler(index)}
+                    className={styles.rowTable}
+                  >
                     <p>{name}</p>
-                    <p style={{ textAlign: "center" }}></p>
-                    <p style={{ textAlign: "center" }}></p>
+                    <p style={{ textAlign: "center" }}>
+                      {videoCount(features)}
+                    </p>
+                    <p style={{ textAlign: "center" }}>
+                      {featureCount(features)}
+                    </p>
                     <p style={{ textAlign: "center" }}>{score}</p>
-                  </div>
+                  </motion.div>
 
                   <AnimatePresence mode="wait">
                     {index === feature && (
                       <motion.div
-                        key="feature-detail"
                         initial={{ height: 0, opacity: 0 }}
                         animate={{ height: contentHeight, opacity: 1 }}
                         exit={{ height: 0, opacity: 0 }}
@@ -161,7 +191,7 @@ const Banks = () => {
                       </motion.div>
                     )}
                   </AnimatePresence>
-                </motion.div>
+                </div>
               </AnimatePresence>
             ))
           )}

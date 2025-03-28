@@ -86,6 +86,7 @@
 .innerRow:nth-child(odd) {
   background-color: #dff4ff;
 }
+
 .videoBtn {
   background-color: #0392e5;
   color: #f0f8ff;
