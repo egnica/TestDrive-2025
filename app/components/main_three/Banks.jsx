@@ -2,7 +2,7 @@
 import React from "react";
 import ObjectBank from "../../../banks.json";
 import Feature from "../bank-comp/Feature";
-import { useRef, useEffect, useState } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import styles from "../page.module.css";
 import Image from "next/image";
@@ -10,21 +10,8 @@ const Banks = () => {
   const [bank, setBank] = useState(null);
   const [feature, setFeature] = useState(null);
 
-  const [contentHeight, setContentHeight] = useState(0);
-  const contentRef = useRef(null);
-
-  useEffect(() => {
-    if (contentRef.current) {
-      setContentHeight(contentRef.current.scrollHeight);
-    }
-  }, [feature]);
-
   const bankHandler = (bankName) => {
     bankName === bank ? setBank(null) : setBank(bankName);
-  };
-
-  const featureHandler = (index) => {
-    feature === index ? setFeature(null) : setFeature(index);
   };
 
   const videoCount = (feature) => {
@@ -159,40 +146,36 @@ const Banks = () => {
           .filter(([key, value]) => value.bank_name === bank)
           .map(([key, value2]) =>
             value2.categorys.map(({ name, score, features }, index) => (
-              <AnimatePresence mode="wait" key={index}>
-                <div className={styles.rowContain} key={name}>
-                  <motion.div
-                    key={name}
-                    onClick={() => featureHandler(index)}
-                    className={styles.rowTable}
-                  >
-                    <p>{name}</p>
-                    <p style={{ textAlign: "center" }}>
-                      {videoCount(features)}
-                    </p>
-                    <p style={{ textAlign: "center" }}>
-                      {featureCount(features)}
-                    </p>
-                    <p style={{ textAlign: "center" }}>{score}</p>
-                  </motion.div>
-
-                  <AnimatePresence mode="wait">
-                    {index === feature && (
-                      <motion.div
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: contentHeight, opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.4, ease: "easeInOut" }}
-                        style={{ overflow: "hidden" }}
-                      >
-                        <div ref={contentRef}>
-                          <Feature feature={features} />
-                        </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
+              <div className={styles.rowContain} key={name}>
+                <div
+                  onClick={() =>
+                    setFeature((prev) => (prev === index ? null : index))
+                  }
+                  className={styles.rowTable}
+                >
+                  <p>{name}</p>
+                  <p style={{ textAlign: "center" }}>{videoCount(features)}</p>
+                  <p style={{ textAlign: "center" }}>
+                    {featureCount(features)}
+                  </p>
+                  <p style={{ textAlign: "center" }}>{score}</p>
                 </div>
-              </AnimatePresence>
+
+                <AnimatePresence mode="wait">
+                  {index === feature && (
+                    <motion.div
+                      key={`feature-${name}`}
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.4 }}
+                      style={{ overflow: "hidden" }}
+                    >
+                      <Feature feature={features} />
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
             ))
           )}
       </div>

@@ -1,31 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../page.module.css";
 import Image from "next/image";
-import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
 const Feature = ({ feature }) => {
-  const [btnClicked, setBtnClicked] = useState(false);
   const [featureSelected, setFeatureSelected] = useState("");
 
-  const videoBtnClick = (e, name) => {
-    e.stopPropagation();
-    console.log("Button clicked!");
-    setFeatureSelected(name);
-    setBtnClicked(!btnClicked);
+  const videoBtnClick = (name) => {
+    setFeatureSelected((prev) => (prev === name ? "" : name));
   };
 
   const videoButton = (video, name) =>
     video !== "" && (
-      <button
-        onClick={(e) => videoBtnClick(e, name)}
-        className={styles.videoBtn}
-      >
+      <button onClick={() => videoBtnClick(name)} className={styles.videoBtn}>
         Watch Video
       </button>
     );
 
   const checkMark = (points) => {
     return (
-      points != 0 && (
+      points !== 0 && (
         <Image
           src="https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/check.png"
           width={25}
@@ -35,12 +29,15 @@ const Feature = ({ feature }) => {
       )
     );
   };
+
   return (
     <div>
       {Object.entries(feature).map(([key, value], index) => {
+        const isSelected = featureSelected === value.name;
+
         return (
-          <React.Fragment key={index}>
-            <div className={styles.innerRow} key={index}>
+          <React.Fragment key={value.name}>
+            <div className={styles.innerRow}>
               <p>{value.name}</p>
               <div style={{ textAlign: "center", margin: "auto" }}>
                 {videoButton(value.video, value.name)}
@@ -48,22 +45,27 @@ const Feature = ({ feature }) => {
               <div style={{ textAlign: "center", margin: "auto" }}>
                 {checkMark(value.points)}
               </div>
-
               <p style={{ textAlign: "center", paddingRight: "15px" }}>
                 {value.points}
               </p>
             </div>
-            {btnClicked && featureSelected == value.name && (
-              <div
-                style={{
-                  textAlign: "center",
-                }}
-              >
-                <video width="50%" controls autoPlay>
-                  <source src={value.video} type="video/mp4" />
-                </video>
-              </div>
-            )}
+
+            <AnimatePresence mode="wait">
+              {isSelected && (
+                <motion.div
+                  key={`video-${value.name}`}
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.3 }}
+                  style={{ overflow: "hidden", textAlign: "center" }}
+                >
+                  <video width="50%" controls autoPlay>
+                    <source src={value.video} type="video/mp4" />
+                  </video>
+                </motion.div>
+              )}
+            </AnimatePresence>
           </React.Fragment>
         );
       })}
