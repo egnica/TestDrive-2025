@@ -48,6 +48,7 @@ const Feature = ({ feature }) => {
               <p style={{ textAlign: "center", paddingRight: "15px" }}>
                 {value.points}
               </p>
+              <div></div>
             </div>
 
             <AnimatePresence mode="wait">

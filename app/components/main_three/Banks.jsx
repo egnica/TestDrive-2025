@@ -9,9 +9,19 @@ import Image from "next/image";
 const Banks = () => {
   const [bank, setBank] = useState(null);
   const [feature, setFeature] = useState(null);
+  const [zipBank, setZipBank] = useState(null);
+  const [isHovering, setIsHovering] = useState({
+    value: false,
+    text: null,
+    index: null,
+  });
 
   const bankHandler = (bankName) => {
     bankName === bank ? setBank(null) : setBank(bankName);
+  };
+
+  const rowColor = (input) => {
+    return input % 2 === 0 ? styles.rowTableEven : styles.rowTableOdd;
   };
 
   const videoCount = (feature) => {
@@ -35,6 +45,13 @@ const Banks = () => {
     });
 
     return `${actualFeatures} / ${featNumTotal}`;
+  };
+
+  const winnerDisplayOn = (value) => {
+    setIsHovering(value);
+  };
+  const winnerDisplayOff = (value) => {
+    setIsHovering(value);
   };
 
   const boxVariants = {
@@ -97,7 +114,10 @@ const Banks = () => {
               key={index}
             >
               <motion.div
-                onClick={() => bankHandler(value.bank_name)}
+                onClick={() => {
+                  bankHandler(value.bank_name);
+                  setZipBank(value.asset_zip);
+                }}
                 className={styles.bankItem}
                 key={index}
                 variants={boxVariants}
@@ -118,20 +138,46 @@ const Banks = () => {
           );
         })}
       </div>
-      <hr />
-      <AnimatePresence mode="wait">
-        <motion.h2
-          key={bank}
-          initial={{ opacity: 0, x: -100 }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: 100 }}
-          transition={{ duration: 0.4 }}
-          id="feature"
-        >
-          {bank}
-        </motion.h2>
-      </AnimatePresence>
-
+      <hr id="feature" />
+      <div className={styles.titleHeader}>
+        <AnimatePresence mode="wait">
+          <motion.h1
+            key={bank}
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.4 }}
+            className={styles.titleH1}
+          >
+            {bank}
+          </motion.h1>
+          {bank && (
+            <>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.4 }}
+                style={{ display: "flex" }}
+              >
+                <Image
+                  src="https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/winner.svg"
+                  height={40}
+                  width={40}
+                  alt="winner icon"
+                  style={{ borderRadius: "20px", paddingTop: "10px" }}
+                />
+                <p style={{ paddingTop: "5px" }}>
+                  &nbsp; = indicates category winner
+                </p>
+              </motion.div>
+              <a href={zipBank} className={styles.downloadBtn}>
+                Download <br /> Screenshots
+              </a>
+            </>
+          )}
+        </AnimatePresence>
+      </div>
       <div className={styles.listContainer}>
         {bank && (
           <div className={styles.topTable}>
@@ -139,44 +185,101 @@ const Banks = () => {
             <h3 style={{ textAlign: "center" }}>Videos</h3>
             <h3 style={{ textAlign: "center" }}>Features Earned</h3>
             <h3 style={{ textAlign: "center" }}>Points Earned</h3>
+            <div></div>
           </div>
         )}
 
         {Object.entries(ObjectBank.bank_layout)
           .filter(([key, value]) => value.bank_name === bank)
           .map(([key, value2]) =>
-            value2.categorys.map(({ name, score, features }, index) => (
-              <div className={styles.rowContain} key={name}>
-                <div
-                  onClick={() =>
-                    setFeature((prev) => (prev === index ? null : index))
-                  }
-                  className={styles.rowTable}
-                >
-                  <p>{name}</p>
-                  <p style={{ textAlign: "center" }}>{videoCount(features)}</p>
-                  <p style={{ textAlign: "center" }}>
-                    {featureCount(features)}
-                  </p>
-                  <p style={{ textAlign: "center" }}>{score}</p>
-                </div>
-
-                <AnimatePresence mode="wait">
-                  {index === feature && (
-                    <motion.div
-                      key={`feature-${name}`}
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.4 }}
-                      style={{ overflow: "hidden" }}
+            value2.categorys.map(
+              ({ name, score, features, winner, asset_zip }, index) => (
+                <div key={name} style={{ position: "relative" }}>
+                  <div className={styles.rowContain}>
+                    <div
+                      onClick={() =>
+                        setFeature((prev) => (prev === index ? null : index))
+                      }
+                      className={rowColor(index)}
                     >
-                      <Feature feature={features} />
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-            ))
+                      <p>{name}</p>
+                      <p style={{ textAlign: "center" }}>
+                        {videoCount(features)}
+                      </p>
+                      <p style={{ textAlign: "center" }}>
+                        {featureCount(features)}
+                      </p>
+                      <p style={{ textAlign: "center" }}>{score}</p>
+                      <div>
+                        <AnimatePresence mode="wait">
+                          {winner != null ? (
+                            <motion.div
+                              className={styles.winContImage}
+                              variants={boxVariants}
+                              initial="hidden"
+                              animate="visible"
+                              whileHover="hover"
+                            >
+                              <Image
+                                onMouseOver={() =>
+                                  setIsHovering({
+                                    value: true,
+                                    text: winner,
+                                    index: index,
+                                  })
+                                }
+                                onMouseOut={() =>
+                                  setIsHovering({
+                                    value: false,
+                                    text: null,
+                                    index: null,
+                                  })
+                                }
+                                src="https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/winner.svg"
+                                height={30}
+                                width={30}
+                                alt="winner icon"
+                                style={{ borderRadius: "20px" }}
+                              />
+                            </motion.div>
+                          ) : (
+                            <div style={{ width: "30px" }}></div>
+                          )}
+                        </AnimatePresence>
+                      </div>
+                      <AnimatePresence mode="wait">
+                        {isHovering.value && isHovering.index === index && (
+                          <motion.div
+                            key={`tooltip-${index}`}
+                            className={styles.absoluteHover}
+                            initial={{ opacity: 0, y: -20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: 20 }}
+                          >
+                            <p>{isHovering.text}</p>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </div>
+
+                    <AnimatePresence mode="wait">
+                      {index === feature && (
+                        <motion.div
+                          key={`feature-${name}`}
+                          initial={{ height: 0, opacity: 0 }}
+                          animate={{ height: "auto", opacity: 1 }}
+                          exit={{ height: 0, opacity: 0 }}
+                          transition={{ duration: 0.4 }}
+                          style={{ overflow: "hidden" }}
+                        >
+                          <Feature feature={features} />
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                </div>
+              )
+            )
           )}
       </div>
     </>

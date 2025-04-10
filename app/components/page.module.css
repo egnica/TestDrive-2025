@@ -54,32 +54,73 @@
   background: #ffffff;
   box-shadow: 10px 10px 40px #cdcdcd, -12px -12px 10px #ffffff;
 }
+.titleHeader {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr 0.3fr 0.2fr;
+}
+.titleH1 {
+  padding-left: 20px;
+}
+.downloadBtn {
+  background-color: #0392e5;
+  color: #f0f8ff;
+  display: grid;
+  place-content: center;
+  padding: px;
+  margin: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 4px;
+  transform: scale(1.05);
+  border: #004770;
+  text-align: center;
+  text-decoration: none;
+}
+
+.downloadBtn:hover {
+  background-color: #5dc6f9;
+  color: #0a1178;
+  box-shadow: 5px 5px 10px gray;
+}
 .listContainer {
   padding: 0 20px;
 }
 .topTable {
   display: grid;
-  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.02fr;
   background-color: #0178bd;
   color: #fff;
   padding: 10px;
 }
-.rowTable {
+.rowTableEven {
   display: grid;
-  background: #ffffff;
-  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
+  background-color: #fff;
+  position: relative;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.02fr;
   cursor: pointer;
   padding: 10px;
   border: 1px solid #b1b2b3;
 }
-.rowTable:hover {
+.rowTableOdd {
+  display: grid;
+  background-color: #efefef;
+  position: relative;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.02fr;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #b1b2b3;
+}
+.rowTableEven:hover {
   background-color: #53b8f8;
   color: #fff;
 }
-
+.rowTableOdd:hover {
+  background-color: #53b8f8;
+  color: #fff;
+}
 .innerRow {
   display: grid;
-  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.02fr;
   padding: 0 0 0 10px;
 }
 
@@ -102,4 +143,20 @@
   background-color: #5dc6f9;
   color: #0a1178;
   box-shadow: 5px 5px 10px gray;
+}
+.winContImage {
+  z-index: 10;
+}
+.absoluteHover {
+  position: absolute;
+  padding: 12px 30px;
+  width: 180px;
+  top: 50px;
+  right: 50px;
+  margin-left: 10px;
+  z-index: 20;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
