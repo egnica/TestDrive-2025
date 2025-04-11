@@ -47,12 +47,12 @@ const Banks = () => {
     return `${actualFeatures} / ${featNumTotal}`;
   };
 
-  const winnerDisplayOn = (value) => {
-    setIsHovering(value);
-  };
-  const winnerDisplayOff = (value) => {
-    setIsHovering(value);
-  };
+  // const winnerDisplayOn = (value) => {
+  //   setIsHovering(value);
+  // };
+  // const winnerDisplayOff = (value) => {
+  //   setIsHovering(value);
+  // };
 
   const boxVariants = {
     hidden: {
@@ -195,7 +195,7 @@ const Banks = () => {
             value2.categorys.map(
               ({ name, score, features, winner, asset_zip }, index) => (
                 <div key={name} style={{ position: "relative" }}>
-                  <div className={styles.rowContain}>
+                  <div>
                     <div
                       onClick={() =>
                         setFeature((prev) => (prev === index ? null : index))
@@ -282,6 +282,7 @@ const Banks = () => {
             )
           )}
       </div>
+      <div style={{ height: "200px" }}></div>
     </>
   );
 };

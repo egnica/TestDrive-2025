@@ -38,6 +38,7 @@ const Feature = ({ feature }) => {
         return (
           <React.Fragment key={value.name}>
             <div className={styles.innerRow}>
+              <div></div>
               <p>{value.name}</p>
               <div style={{ textAlign: "center", margin: "auto" }}>
                 {videoButton(value.video, value.name)}
