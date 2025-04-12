@@ -2,6 +2,9 @@
 import React from "react";
 import { useState } from "react";
 import Table from "../compare-comp/Table";
+import { motion, AnimatePresence } from "framer-motion";
+import styles from "../page.module.css";
+import Image from "next/image";
 
 import BankObject from "../../../banks.json";
 const Compare = () => {
@@ -13,6 +16,10 @@ const Compare = () => {
   const desktopFilter = Object.values(BankObject.key_Data).filter((item) =>
     desktop === "desk" ? item.desktop === true : item.desktop === false
   );
+  const editName = (string) => {
+    const stringArray = string.split(" ").splice(1).join(" ");
+    return stringArray;
+  };
 
   const submitHandler = (event) => {
     event.preventDefault();
@@ -45,26 +52,38 @@ const Compare = () => {
 
   return (
     <>
-      <div>
-        <p>Which platform would you like to analyze?</p>
-        <div onClick={() => setDesktop("desk")}>DESKTOP</div>
-        <div onClick={() => setDesktop("mobile")}>MOBILE</div>
+      <h2 style={{ textAlign: "center" }}>
+        Which platform would you like to analyze?
+      </h2>
+      <div className={styles.analyzeContain}>
+        <div className={styles.btnComp} onClick={() => setDesktop("desk")}>
+          DESKTOP
+        </div>
+        <div className={styles.btnComp} onClick={() => setDesktop("mobile")}>
+          MOBILE
+        </div>
       </div>
       <div>
         {desktop && (
           <>
-            {Object.values(desktopFilter).map((category, index) => {
-              return (
-                <div
-                  key={index}
-                  onClick={() => {
-                    setCategorySelect(category.name);
-                  }}
-                >
-                  {category.name}
-                </div>
-              );
-            })}
+            <h2 style={{ textAlign: "center" }}>
+              Which set of features would you like to review? Select chapter.
+            </h2>
+            <div className={styles.chapSelect}>
+              {Object.values(desktopFilter).map((category, index) => {
+                return (
+                  <div
+                    className={styles.chapSelectBtn}
+                    key={index}
+                    onClick={() => {
+                      setCategorySelect(category.name);
+                    }}
+                  >
+                    {editName(category.name)}
+                  </div>
+                );
+              })}
+            </div>
           </>
         )}
       </div>
@@ -72,19 +91,30 @@ const Compare = () => {
         <>
           <hr />
           <div>
-            <p>Select up to 6 banks</p>
-            <form onSubmit={submitHandler}>
-              {Object.values(BankObject.bank_layout).map(
-                ({ bank_name }, index) => {
-                  return (
-                    <div key={index}>
-                      <input type="checkbox" name={bank_name} />
-                      {bank_name}
-                    </div>
-                  );
-                }
-              )}
-              <button type="submit" value="Submit">
+            <h2 style={{ textAlign: "center" }}>Select up to 6 banks</h2>
+            <form style={{ display: "grid" }} onSubmit={submitHandler}>
+              <div className={styles.formContain}>
+                {Object.values(BankObject.bank_layout).map(
+                  ({ bank_name }, index) => {
+                    return (
+                      <div className={styles.checkItem} key={index}>
+                        <input type="checkbox" name={bank_name} />
+                        {bank_name}
+                      </div>
+                    );
+                  }
+                )}
+              </div>
+              <button
+                className={styles.btnComp}
+                style={{
+                  textAlign: "center",
+                  height: "40px",
+                  tabSize: "larger",
+                }}
+                type="submit"
+                value="Submit"
+              >
                 SUBMIT
               </button>
             </form>

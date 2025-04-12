@@ -198,3 +198,59 @@
   padding: 10px;
   border: 1px solid #b1b2b3;
 }
+
+/** COMPARE TOOL  **/
+
+.analyzeContain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20%;
+}
+.btnComp {
+  text-align: center;
+  background-color: #0392e5;
+  color: #f0f8ff;
+  margin: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 200px;
+  height: 20px;
+  transform: scale(1.05);
+  border: #004770;
+  padding: 10px 0;
+}
+.btnComp:hover {
+  background-color: #5dc6f9;
+  color: #0a1178;
+  box-shadow: 5px 5px 10px gray;
+}
+.chapSelect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.chapSelectBtn {
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 36px 36px 72px #d9d9d9;
+  cursor: pointer;
+}
+.formContain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.checkItem {
+  padding: 20px;
+}
+.checkItem input {
+  width: 30px;
+}
