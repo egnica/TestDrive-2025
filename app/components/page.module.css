@@ -247,10 +247,59 @@
   justify-content: space-evenly;
   padding: 20px;
 }
-
+.tableContain {
+  margin: auto;
+}
 .checkItem {
   padding: 20px;
 }
 .checkItem input {
   width: 30px;
+}
+.featureContain {
+  text-align: left;
+  width: 500px;
+}
+.bankDisplay {
+  cursor: pointer;
+}
+
+.titleCont {
+  background-color: #8f96ff;
+  height: 50px;
+}
+.tableSquare {
+  padding: 60px;
+
+  background-color: #bababaa7;
+}
+.videoDisplay {
+  position: fixed; /* Pin to viewport */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center exactly */
+  display: grid;
+  place-content: center;
+  width: 95%;
+  background-color: #000000a0;
+  z-index: 10;
+  border-radius: 20px;
+  padding: 20px;
+}
+.videoDisplay video {
+  opacity: 100%;
+  padding: 30px;
+  margin: auto;
+}
+.cancelBtn {
+  display: grid;
+  place-content: center;
+  background-color: #0a1178;
+  width: 30px;
+  height: 30px;
+  color: #dff4ff;
+  font-weight: 900;
+  margin: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
 }

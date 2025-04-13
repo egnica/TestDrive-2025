@@ -5,7 +5,6 @@ import Table from "../compare-comp/Table";
 import { motion, AnimatePresence } from "framer-motion";
 import styles from "../page.module.css";
 import Image from "next/image";
-
 import BankObject from "../../../banks.json";
 const Compare = () => {
   const [desktop, setDesktop] = useState(null);
@@ -137,7 +136,6 @@ const Compare = () => {
                 style={{
                   textAlign: "center",
                   height: "40px",
-                  tabSize: "larger",
                 }}
                 type="submit"
                 value="Submit"
@@ -146,10 +144,10 @@ const Compare = () => {
               </button>
             </form>
             {bankArray && (
-              <div>
+              <div style={{ display: "grid" }}>
                 <hr />
 
-                <p>{categorySelect}</p>
+                <h2>{categorySelect}</h2>
 
                 <Table bankArray={bankArray} categoryObject={features} />
               </div>
