@@ -50,21 +50,48 @@ const Compare = () => {
     setFeatures((prev) => [...(prev || []), ...newFeatures]);
   };
 
+  const startOver = () => {
+    setDesktop(null);
+    setCategorySelect(null);
+    setBankArray(null);
+  };
+  const backButton = (input) => {
+    if (desktop) {
+      setCategorySelect(null);
+      setBankArray(null);
+      setFeatures(null);
+      setDesktop(input);
+    }
+  };
+
   return (
     <>
-      <h2 style={{ textAlign: "center" }}>
-        Which platform would you like to analyze?
-      </h2>
-      <div className={styles.analyzeContain}>
-        <div className={styles.btnComp} onClick={() => setDesktop("desk")}>
-          DESKTOP
+      {!desktop && (
+        <>
+          <h2 style={{ textAlign: "center" }}>
+            Which platform would you like to analyze?
+          </h2>
+          <div className={styles.analyzeContain}>
+            <div className={styles.btnComp} onClick={() => setDesktop("desk")}>
+              DESKTOP
+            </div>
+            <div
+              className={styles.btnComp}
+              onClick={() => setDesktop("mobile")}
+            >
+              MOBILE
+            </div>
+          </div>
+        </>
+      )}
+      {desktop && (
+        <div>
+          <button onClick={startOver}>Start Over</button>
+          <div onClick={() => backButton(desktop)}>Back</div>
         </div>
-        <div className={styles.btnComp} onClick={() => setDesktop("mobile")}>
-          MOBILE
-        </div>
-      </div>
+      )}
       <div>
-        {desktop && (
+        {!categorySelect && desktop && (
           <>
             <h2 style={{ textAlign: "center" }}>
               Which set of features would you like to review? Select chapter.
@@ -130,6 +157,7 @@ const Compare = () => {
           </div>
         </>
       )}
+      <div style={{ height: "200px" }}></div>
     </>
   );
 };
