@@ -11,6 +11,7 @@ const Compare = () => {
   const [categorySelect, setCategorySelect] = useState(null);
   const [bankArray, setBankArray] = useState(null);
   const [features, setFeatures] = useState(null);
+  const [selectedBanks, setSelectedBanks] = useState([]);
 
   const desktopFilter = Object.values(BankObject.key_Data).filter((item) =>
     desktop === "desk" ? item.desktop === true : item.desktop === false
@@ -20,12 +21,24 @@ const Compare = () => {
     return stringArray;
   };
 
+  const handleCheckboxChange = (event) => {
+    const { name, checked } = event.target;
+
+    if (checked) {
+      // Add to selected list (only if fewer than 6)
+      if (selectedBanks.length < 6) {
+        setSelectedBanks((prev) => [...prev, name]);
+      }
+    } else {
+      // Remove from selected list
+      setSelectedBanks((prev) => prev.filter((bank) => bank !== name));
+    }
+  };
+
   const submitHandler = (event) => {
     event.preventDefault();
-
     const selectedBanks = [];
     const formData = new FormData(event.target);
-
     formData.forEach((_, key) => {
       selectedBanks.push(key);
     });
@@ -53,13 +66,15 @@ const Compare = () => {
     setDesktop(null);
     setCategorySelect(null);
     setBankArray(null);
+    setFeatures(null);
+    setSelectedBanks([]);
   };
   const backButton = (input) => {
     if (desktop) {
+      setDesktop(input);
       setCategorySelect(null);
       setBankArray(null);
-      setFeatures(null);
-      setDesktop(input);
+      setSelectedBanks([]);
     }
   };
 
@@ -122,15 +137,26 @@ const Compare = () => {
               <div className={styles.formContain}>
                 {Object.values(BankObject.bank_layout).map(
                   ({ bank_name }, index) => {
+                    const isChecked = selectedBanks.includes(bank_name);
+                    const disableCheckbox =
+                      !isChecked && selectedBanks.length >= 6;
+
                     return (
                       <div className={styles.checkItem} key={index}>
-                        <input type="checkbox" name={bank_name} />
+                        <input
+                          type="checkbox"
+                          name={bank_name}
+                          checked={isChecked}
+                          onChange={handleCheckboxChange}
+                          disabled={disableCheckbox}
+                        />
                         {bank_name}
                       </div>
                     );
                   }
                 )}
               </div>
+
               <button
                 className={styles.btnComp}
                 style={{
@@ -138,7 +164,6 @@ const Compare = () => {
                   height: "40px",
                 }}
                 type="submit"
-                value="Submit"
               >
                 SUBMIT
               </button>

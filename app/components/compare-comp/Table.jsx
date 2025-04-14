@@ -90,7 +90,7 @@ const Table = ({ bankArray, categoryObject }) => {
                 <td className={styles.tableSquare} key={bankIndex}>
                   <div> {row.points[bankIndex]}</div>
                   {row.video[bankIndex] && (
-                    <div onClick={() => videoDisplay(row.video[bankIndex])}>
+                    <div className={styles.cameraContain} onClick={() => videoDisplay(row.video[bankIndex])}>
                       <span style={{ fontSize: "1.4em", color: "gray" }}>
                         🎥
                       </span>
@@ -114,7 +114,7 @@ const Table = ({ bankArray, categoryObject }) => {
             X
           </div>
 
-          <video width="80%" controls>
+          <video width="80%" controls autoPlay>
             <source src={videoUrl} type="video/mp4" />
             Your browser does not support the video tag.
           </video>

@@ -270,8 +270,10 @@
 }
 .tableSquare {
   padding: 60px;
-
   background-color: #bababaa7;
+}
+.cameraContain {
+  cursor: pointer;
 }
 .videoDisplay {
   position: fixed; /* Pin to viewport */
@@ -285,14 +287,17 @@
   z-index: 10;
   border-radius: 20px;
   padding: 20px;
+  cursor: pointer;
 }
 .videoDisplay video {
   opacity: 100%;
   padding: 30px;
   margin: auto;
+  z-index: 130;
 }
 .cancelBtn {
   display: grid;
+  position: fixed;
   place-content: center;
   background-color: #0a1178;
   width: 30px;
