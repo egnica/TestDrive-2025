@@ -1,13 +1,22 @@
 import React from "react";
 import { useState } from "react";
 import styles from "../page.module.css";
-const Table = ({ bankArray, categoryObject }) => {
+import key from "../../../banks.json";
+const Table = ({ bankArray, categoryObject, categoryName }) => {
   const [sortConfig, setSortConfig] = useState({
     bankIndex: null,
     ascending: true,
   });
   const [vidDisplay, setVidDisplay] = useState(false);
   const [videoUrl, setVideoUrl] = useState(null);
+
+  const keyData = key.key_Data;
+  const categoryFilterKey = Object.values(keyData).find(
+    (item) => item.name === categoryName
+  );
+  const featureKeyArray = categoryFilterKey.features;
+  // const featureKey = Object.values(featureKeyArray).map((item) => item.points);
+  // The above was moved into the categoryRows object
 
   const handleSort = (bankIndex) => {
     setSortConfig((prev) => ({
@@ -22,8 +31,9 @@ const Table = ({ bankArray, categoryObject }) => {
   };
 
   // Extracting category rows (number of rows) with points. We loop through this array to create one row per category in the table.
-  let categoryRows = Object.keys(categoryObject[0]).map((categoryKey) => ({
-    name: categoryObject[0][categoryKey].name, // Get the category name
+  let categoryRows = Object.keys(categoryObject[0]).map((categoryKey, i) => ({
+    name: categoryObject[0][categoryKey].name,
+    scoreKey: Object.values(featureKeyArray)[i].points, // attach it directly
     points: bankArray.map(
       (_, bankIndex) => categoryObject[bankIndex][categoryKey].points
     ),
@@ -54,6 +64,11 @@ const Table = ({ bankArray, categoryObject }) => {
         <thead>
           <tr className={styles.titleCont}>
             <th scope="col">Features</th>
+            <th style={{ fontSize: ".8em" }} scope="col">
+              % Top Priority/​
+              <br />
+              Very Important
+            </th>
             {bankArray.map((bank, index) => (
               <th
                 className={styles.bankDisplay}
@@ -86,14 +101,22 @@ const Table = ({ bankArray, categoryObject }) => {
               <th className={styles.featureContain} scope="row">
                 {row.name}
               </th>
+
+              <td className={styles.tableSquare}>{row.scoreKey}</td>
+
               {bankArray.map((_, bankIndex) => (
                 <td className={styles.tableSquare} key={bankIndex}>
-                  <div> {row.points[bankIndex]}</div>
+                  <div>
+                    {row.points[bankIndex] != 0 ? (
+                      <span style={{ fontSize: "1.4em" }}> ✅ </span>
+                    ) : null}
+                  </div>
                   {row.video[bankIndex] && (
-                    <div className={styles.cameraContain} onClick={() => videoDisplay(row.video[bankIndex])}>
-                      <span style={{ fontSize: "1.4em", color: "gray" }}>
-                        🎥
-                      </span>
+                    <div
+                      className={styles.cameraContain}
+                      onClick={() => videoDisplay(row.video[bankIndex])}
+                    >
+                      <span style={{ fontSize: "1.4em" }}>🎥</span>
                     </div>
                   )}
                 </td>

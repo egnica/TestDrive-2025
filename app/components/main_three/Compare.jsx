@@ -174,7 +174,11 @@ const Compare = () => {
 
                 <h2>{categorySelect}</h2>
 
-                <Table bankArray={bankArray} categoryObject={features} />
+                <Table
+                  bankArray={bankArray}
+                  categoryObject={features}
+                  categoryName={categorySelect}
+                />
               </div>
             )}
           </div>
