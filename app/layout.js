@@ -1,15 +1,7 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// ✅ You don't need Google fonts anymore
+// import { Geist, Geist_Mono } from "next/font/google";
 
 export const metadata = {
   title: "Create Next App",
@@ -19,9 +11,24 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
-      </body>
+      <head>
+        {/* ✅ Preload background image manually */}
+        <link
+          rel="preload"
+          as="image"
+          href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/backdrop.jpg"
+        />
+
+        {/* ✅ Futura font via local or fallback stack */}
+        <style>{`
+          @font-face {
+            font-family: 'Futura';
+            src: local('Futura'), url('/fonts/futura.woff2') format('woff2');
+            font-display: swap;
+          }
+        `}</style>
+      </head>
+      <body style={{ fontFamily: "Futura, sans-serif" }}>{children}</body>
     </html>
   );
 }

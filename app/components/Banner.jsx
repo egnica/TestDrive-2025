@@ -17,7 +17,7 @@ const Banner = () => {
 
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % carouselItems.length);
-    }, 5000); // Flip every 5 seconds
+    }, 7000); // Flip every 7 seconds
 
     return () => clearInterval(interval);
   }, [carouselItems.length, isPaused]);
@@ -28,44 +28,64 @@ const Banner = () => {
   };
 
   return (
-    <div className={styles.carouselContain}>
-      <AnimatePresence mode="wait">
-        {carouselItems.length > 0 && (
-          <motion.div
-            key={carouselItems[index].id}
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -50 }}
-            transition={{ duration: 0.5 }}
-            className="absolute w-full h-full flex items-center justify-center"
-          >
-            <div className={styles.content}>
-              <Image
-                src={carouselItems[index].image}
-                alt={carouselItems[index].title}
-                width={300}
-                height={200}
-              />
-              <div className={styles.textContain}>
-                <h3>{carouselItems[index].title}</h3>
-              </div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+    <>
+      <div className={styles.carouselContain}>
+        <div>
+          <AnimatePresence mode="wait">
+            {carouselItems.length > 0 && (
+              <motion.div
+                key={carouselItems[index].id}
+                initial={{ opacity: 0, scale: 1.05 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 1.1 }}
+                transition={{ duration: 0.6, ease: "easeInOut" }}
+              >
+                <div className={styles.content}>
+                  <Image
+                    className={styles.imageWrapper}
+                    src={carouselItems[index].image}
+                    alt={carouselItems[index].title}
+                    width={950}
+                    height={550}
+                    priority={index === 0}
+                  />
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
 
-      {/* Dots for manual navigation */}
-      <div>
-        {carouselItems.map((_, i) => (
-          <button
-            key={i}
-            style={{ background: i === index ? "white" : "gray" }}
-            onClick={() => handleSelect(i)}
-            className={styles.rotateBtn}
-          />
-        ))}
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={carouselItems[index].id}
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.5 }}
+              className={styles.textContain}
+            >
+              <h1>{carouselItems[index].title}</h1>
+              <p>{carouselItems[index].description}</p>
+              <div className={styles.bannerBtnContain}>
+                <button>{carouselItems[index].link_title}</button>
+                <button>Feature Content</button>
+              </div>
+            </motion.div>
+          </AnimatePresence>
+
+          <div className={styles.rotateBtnContain}>
+            {carouselItems.map((_, i) => (
+              <button
+                key={i}
+                style={{ background: i === index ? "white" : "gray" }}
+                onClick={() => handleSelect(i)}
+                className={styles.rotateBtn}
+              />
+            ))}
+          </div>
+        </div>
+        {/* Dots for manual navigation */}
       </div>
-    </div>
+    </>
   );
 };
 

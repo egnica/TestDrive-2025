@@ -2,32 +2,65 @@
   padding: 20px;
   background-color: #cdcdcd;
 }
+/* Carousel */
 .carouselContain {
-  padding-left: 10%;
+  background-image: url("https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/backdrop.jpg");
+
+  background-size: 50% auto;
+  background-color: #efefef;
+  box-shadow: -1px 1px 9px 7px #919191, 2px 7px 20px #7e7c7c;
 }
+
 .content {
   display: grid;
   grid-template-columns: auto auto;
 }
+.imageWrapper {
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+
 .textContain {
-  max-width: 300px;
-}
-.mainBtnContain {
   display: grid;
-  place-content: "center";
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-  padding: 50px;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+  padding: 20px;
+  position: absolute;
+  right: 10%;
+  top: 14%;
+  width: min(90vw, 800px);
+  min-height: 200px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 3px solid #b1b2b3;
+  background-color: #4850559e;
+  box-shadow: inset -3px -1px 9px 7px #919191, 15px 14px 20px #7e7c7c;
 }
-.mainBtn {
-  margin: auto;
-  width: 300px;
-  padding: 30px;
+.textContain h1 {
   text-align: center;
-  border-radius: 20px;
-  background: #ffffff;
-  box-shadow: 36px 36px 72px #d9d9d9, -36px -36px 72px #ffffff;
-  cursor: pointer;
+  font-size: 2.7rem;
+  color: #f0f0f0;
+  min-height: 40px;
+  margin: 0;
+}
+.textContain p {
+  padding: 20px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  background: linear-gradient(285deg, #e8e7e7e0);
+  box-shadow: inset 4px 6px 8px 1px #cecece, inset -8px -8px 20px #f2f2f2;
+  color: #4b4b4b;
+  margin: auto;
+}
+.bannerBtnContain {
+  min-height: 50px;
+  display: flex;
+  gap: 10px;
+}
+
+.rotateBtnContain {
+  position: absolute;
+  top: 67%;
+  right: 9%;
 }
 
 .rotateBtn {
@@ -38,6 +71,26 @@
   border: 1px solid black;
 }
 
+/*    SET OF BUTTONS BELOW BANNER  */
+
+.mainBtnContain {
+  display: grid;
+  place-content: "center";
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 50px;
+}
+
+.mainBtn {
+  margin: auto;
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 36px 36px 72px #d9d9d9, -36px -36px 72px #ffffff;
+  cursor: pointer;
+}
 /* BANK FEATURE SECTION */
 .bankSelect {
   margin: 0 15px;
@@ -178,16 +231,29 @@
 .centeredSelectionContainTwo {
   display: block;
   margin: 0 15px;
-  border-right: 1px solid grey;
   justify-content: center;
   align-items: center;
   gap: 1.5em;
   padding-bottom: 30px;
 }
-.categoryItem {
+.categoryItemOne {
   text-align: center;
-  padding: 0 5px;
+  padding: 5px;
   border-radius: 10px;
+  gap: 3px;
+  width: 150px;
+  height: 150px;
+  background: #ffffff;
+  box-shadow: 10px 10px 40px #cdcdcd, -12px -12px 10px #ffffff;
+}
+.categoryItemTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 220px;
   background: #ffffff;
   box-shadow: 10px 10px 40px #cdcdcd, -12px -12px 10px #ffffff;
 }

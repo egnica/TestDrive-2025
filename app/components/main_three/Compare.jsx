@@ -13,6 +13,48 @@ const Compare = () => {
   const [features, setFeatures] = useState(null);
   const [selectedBanks, setSelectedBanks] = useState([]);
 
+  const boxVariants = {
+    hidden: {
+      opacity: 0,
+      scale: 0.5,
+      transition: { duration: 0.8, ease: "easeOut" },
+    },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      borderRadius: "8px",
+      transition: {
+        type: "spring",
+        stiffness: 200,
+        damping: 15,
+        mass: 1,
+        bounce: 0.3,
+        restSpeed: 0.01,
+        restDelta: 0.01,
+        duration: 0.8,
+      },
+    },
+    hover: {
+      scale: 1.05,
+      transition: { type: "spring", stiffness: 300 },
+      borderRadius: "12px",
+      boxShadow: "0px 4px 18px rgb(192, 185, 255)",
+      cursor: "pointer",
+    },
+    tap: {
+      scale: 0.9,
+      transition: { duration: 0.3 },
+      backgroundColor: "rgb(238, 236, 254)",
+    },
+    selected: {
+      opacity: 1,
+      scale: 1.05,
+      borderRadius: "12px",
+      boxShadow: "0px 4px 8px rgb(192, 185, 255)",
+      transition: { duration: 0.3, stiffness: 300 },
+    },
+  };
+
   const desktopFilter = Object.values(BankObject.key_Data).filter((item) =>
     desktop === "desk" ? item.desktop === true : item.desktop === false
   );
@@ -110,21 +152,28 @@ const Compare = () => {
             <h2 style={{ textAlign: "center" }}>
               Which set of features would you like to review? Select chapter.
             </h2>
-            <div className={styles.chapSelect}>
-              {Object.values(desktopFilter).map((category, index) => {
-                return (
-                  <div
-                    className={styles.chapSelectBtn}
-                    key={index}
-                    onClick={() => {
-                      setCategorySelect(category.name);
-                    }}
-                  >
-                    {editName(category.name)}
-                  </div>
-                );
-              })}
-            </div>
+            <AnimatePresence mode="wait">
+              <div className={styles.chapSelect}>
+                {Object.values(desktopFilter).map((category, index) => {
+                  return (
+                    <motion.div
+                      variants={boxVariants}
+                      initial="hidden"
+                      animate="visible"
+                      whileHover="hover"
+                      whileTap="tap"
+                      className={styles.chapSelectBtn}
+                      key={index}
+                      onClick={() => {
+                        setCategorySelect(category.name);
+                      }}
+                    >
+                      {editName(category.name)}
+                    </motion.div>
+                  );
+                })}
+              </div>
+            </AnimatePresence>
           </>
         )}
       </div>
