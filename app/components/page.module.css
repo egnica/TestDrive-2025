@@ -62,6 +62,7 @@
 .rotateBtnContain {
   padding-top: 10px;
   text-align: right;
+ 
 }
 
 .rotateBtn {
@@ -70,6 +71,7 @@
   margin: 2px;
   border-radius: 20px;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 /*    SET OF BUTTONS BELOW BANNER  */
