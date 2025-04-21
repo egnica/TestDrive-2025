@@ -35,10 +35,24 @@ const Banner = () => {
             {carouselItems.length > 0 && (
               <motion.div
                 key={carouselItems[index].id}
-                initial={{ opacity: 0, scale: 1.05 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 1.1 }}
-                transition={{ duration: 0.6, ease: "easeInOut" }}
+                initial={{ opacity: 0.5, x: -50 }}
+                animate={{
+                  opacity: 1,
+                  scale: 1,
+                  x: 0,
+                  transition: {
+                    opacity: { duration: 0.3 },
+                    x: { duration: 0.3 },
+                    scale: { duration: 0.3 },
+                  },
+                }}
+                exit={{
+                  opacity: 0,
+                  scale: 1.02,
+                  transition: {
+                    opacity: { duration: 0.7 },
+                  },
+                }}
               >
                 <div className={styles.content}>
                   <Image

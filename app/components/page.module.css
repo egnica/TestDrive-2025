@@ -5,10 +5,10 @@
 /* Carousel */
 .carouselContain {
   background-image: url("https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/backdrop.jpg");
-
   background-size: 50% auto;
   background-color: #efefef;
   box-shadow: -1px 1px 9px 7px #919191, 2px 7px 20px #7e7c7c;
+  border-radius: 10px;
 }
 
 .content {
@@ -17,6 +17,8 @@
 }
 .imageWrapper {
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .textContain {
@@ -31,9 +33,9 @@
   min-height: 200px;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border: 3px solid #b1b2b3;
+  border: 1px solid #b1b2b3;
   background-color: #4850559e;
-  box-shadow: inset -3px -1px 9px 7px #919191, 15px 14px 20px #7e7c7c;
+  border-radius: 10px;
 }
 .textContain h1 {
   text-align: center;
@@ -47,7 +49,7 @@
   font-size: 1.1rem;
   border-radius: 10px;
   background: linear-gradient(285deg, #e8e7e7e0);
-  box-shadow: inset 4px 6px 8px 1px #cecece, inset -8px -8px 20px #f2f2f2;
+
   color: #4b4b4b;
   margin: auto;
 }
