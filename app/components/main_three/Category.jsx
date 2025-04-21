@@ -38,7 +38,6 @@ const Category = () => {
   const categoryZip = Object.values(ObjectBank.key_Data).filter((item) => {
     return item.name == selectedCategory;
   });
-  console.log(categoryZip);
 
   const categoryScore = (selected, categorys) => {
     const matchedCategory = categorys.find(({ name }) => name === selected);

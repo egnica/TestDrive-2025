@@ -36,7 +36,7 @@ const Compare = () => {
     },
     hover: {
       scale: 1.05,
-      transition: { type: "spring", stiffness: 300 },
+
       borderRadius: "12px",
       boxShadow: "0px 4px 18px rgb(192, 185, 255)",
       cursor: "pointer",
@@ -54,6 +54,13 @@ const Compare = () => {
       transition: { duration: 0.3, stiffness: 300 },
     },
   };
+  const categoryImage = (cateName) => {
+    const imageFilter = Object.values(BankObject.key_Data).filter((item) => {
+      return cateName == item.name;
+    });
+
+    return imageFilter[0].icon;
+  };
 
   const desktopFilter = Object.values(BankObject.key_Data).filter((item) =>
     desktop === "desk" ? item.desktop === true : item.desktop === false
@@ -67,12 +74,10 @@ const Compare = () => {
     const { name, checked } = event.target;
 
     if (checked) {
-      // Add to selected list (only if fewer than 6)
       if (selectedBanks.length < 6) {
         setSelectedBanks((prev) => [...prev, name]);
       }
     } else {
-      // Remove from selected list
       setSelectedBanks((prev) => prev.filter((bank) => bank !== name));
     }
   };
@@ -146,7 +151,7 @@ const Compare = () => {
           <div onClick={() => backButton(desktop)}>Back</div>
         </div>
       )}
-      <div>
+      <div style={{ display: "grid", placeContent: "center" }}>
         {!categorySelect && desktop && (
           <>
             <h2 style={{ textAlign: "center" }}>
@@ -168,7 +173,13 @@ const Compare = () => {
                         setCategorySelect(category.name);
                       }}
                     >
-                      {editName(category.name)}
+                      <p> {editName(category.name)}</p>
+                      <Image
+                        src={categoryImage(category.name)}
+                        width={50}
+                        height={50}
+                        alt={category.name}
+                      />
                     </motion.div>
                   );
                 })}
@@ -180,6 +191,7 @@ const Compare = () => {
       {categorySelect && (
         <>
           <hr />
+          {/* CHECKBOX section */}
           <div>
             <h2 style={{ textAlign: "center" }}>Select up to 6 banks</h2>
             <form style={{ display: "grid" }} onSubmit={submitHandler}>

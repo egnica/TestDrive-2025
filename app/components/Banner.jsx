@@ -71,19 +71,17 @@ const Banner = () => {
               </div>
             </motion.div>
           </AnimatePresence>
-
-          <div className={styles.rotateBtnContain}>
-            {carouselItems.map((_, i) => (
-              <button
-                key={i}
-                style={{ background: i === index ? "white" : "gray" }}
-                onClick={() => handleSelect(i)}
-                className={styles.rotateBtn}
-              />
-            ))}
-          </div>
         </div>
-        {/* Dots for manual navigation */}
+      </div>
+      <div className={styles.rotateBtnContain}>
+        {carouselItems.map((_, i) => (
+          <button
+            key={i}
+            style={{ background: i === index ? "white" : "gray" }}
+            onClick={() => handleSelect(i)}
+            className={styles.rotateBtn}
+          />
+        ))}
       </div>
     </>
   );
