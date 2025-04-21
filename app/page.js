@@ -36,8 +36,10 @@ export default function Home() {
               <Banks />
             ) : numSel === 1 ? (
               <Category />
+            ) : numSel === 2 ? (
+              <Compare />
             ) : (
-              numSel === 2 && <Compare />
+              <div>DOWNLOADS</div>
             )}
           </motion.div>
         )}

@@ -29,29 +29,28 @@ const Banner = () => {
 
   return (
     <>
-      <div className={styles.carouselContain}>
+      <div
+        // style={{
+        //   backgroundImage: `url(${carouselItems[index].image})`,
+        // }}
+        className={styles.carouselContain}
+      >
         <div>
           <AnimatePresence mode="wait">
             {carouselItems.length > 0 && (
               <motion.div
                 key={carouselItems[index].id}
-                initial={{ opacity: 0.5, x: -50 }}
+                initial={{ opacity: 0, x: -50 }}
                 animate={{
                   opacity: 1,
-                  scale: 1,
                   x: 0,
                   transition: {
-                    opacity: { duration: 0.3 },
-                    x: { duration: 0.3 },
-                    scale: { duration: 0.3 },
+                    duration: 0.3,
                   },
                 }}
                 exit={{
                   opacity: 0,
-                  scale: 1.02,
-                  transition: {
-                    opacity: { duration: 0.7 },
-                  },
+                  transition: { delay: 0.6, duration: 0.4 },
                 }}
               >
                 <div className={styles.content}>

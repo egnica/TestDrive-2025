@@ -39,11 +39,11 @@ const ButtonSelector = ({ sendDataToParent }) => {
       },
     },
     tap: {
-      scale: 0.9,
+      scale: 0.95,
       background: "#ffffff",
       boxShadow: "inset 36px 36px 72px #d9d9d9, inset -36px -36px 72px #ffffff",
       transition: {
-        duration: 0.3,
+        duration: 0.1,
         ease: "easeOut",
       },
     },
@@ -136,6 +136,46 @@ const ButtonSelector = ({ sendDataToParent }) => {
             />
           </motion.div>
         </a>
+        <a href="#lower" style={{ textDecoration: "none", color: "inherit" }}>
+          <motion.div
+            variants={boxVariants}
+            initial="hidden"
+            animate={btnSelect === 3 ? "selected" : "visible"}
+            whileHover="hover"
+            whileTap="tap"
+            className={styles.mainBtn}
+            onClick={() => {
+              handleClick(3);
+            }}
+            href="#lower"
+          >
+            <h2>Downloadable Materials</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+            <Image
+              src="https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/Compare_Banks.svg"
+              width={160}
+              height={100}
+              alt="two buildings"
+            />
+          </motion.div>
+        </a>
+      </div>
+      <div style={{ textAlign: "center", paddingBottom: "50px" }}>
+        <h2>MIDDLE MARKET $10MM-&lt;$500MM​</h2>
+        <p>
+          Want importance ratings for Middle Market ($10MM&lt;$500MM)
+          businesses?{" "}
+          <a
+            href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/MM-Importance-Ratings.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Click here.
+          </a>
+        </p>
       </div>
     </>
   );

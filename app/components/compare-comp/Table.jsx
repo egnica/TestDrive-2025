@@ -1,5 +1,6 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import styles from "../page.module.css";
 import key from "../../../banks.json";
 const Table = ({ bankArray, categoryObject, categoryName }) => {
@@ -9,6 +10,7 @@ const Table = ({ bankArray, categoryObject, categoryName }) => {
   });
   const [vidDisplay, setVidDisplay] = useState(false);
   const [videoUrl, setVideoUrl] = useState(null);
+  const [valueChange, setValueChange] = useState(0);
 
   const keyData = key.key_Data;
   const categoryFilterKey = Object.values(keyData).find(
@@ -40,6 +42,12 @@ const Table = ({ bankArray, categoryObject, categoryName }) => {
     video: bankArray.map(
       (_, bankIndex) => categoryObject[bankIndex][categoryKey].video
     ),
+    screen: bankArray.map(
+      (_, bankIndex) => categoryObject[bankIndex][categoryKey].screenShot
+    ),
+    featureChange: bankArray.map(
+      (_, bankIndex) => categoryObject[bankIndex][categoryKey].featureChange
+    ),
   }));
 
   // categoryObject[bankIndex] → Finds the correct bank's data.
@@ -60,89 +68,111 @@ const Table = ({ bankArray, categoryObject, categoryName }) => {
 
   return (
     <div className={styles.tableContain}>
-      <table className={styles.table}>
-        <thead>
-          <tr className={styles.titleCont}>
-            <th scope="col">Features</th>
-            <th style={{ fontSize: ".8em" }} scope="col">
-              % Top Priority/​
-              <br />
-              Very Important
-            </th>
-            {bankArray.map((bank, index) => (
-              <th
-                className={styles.bankDisplay}
-                onClick={() => handleSort(index)}
-                key={index}
-                scope="col"
-              >
-                <button
-                  style={{
-                    cursor: "pointer",
-                    border: "none",
-                    background: "none",
-                    fontWeight: "bold",
-                  }}
+      <AnimatePresence mode="wait">
+        <motion.table
+          className={styles.table}
+          key={bankArray.length}
+          initial={{ width: "50%" }}
+          animate={{ width: "100%" }}
+          exit={{ width: "auto" }}
+        >
+          <thead>
+            <tr className={styles.titleCont}>
+              <th scope="col">Features</th>
+              <th style={{ fontSize: ".8em" }} scope="col">
+                % Top Priority/​
+                <br />
+                Very Important
+              </th>
+
+              {bankArray.map((bank, index) => (
+                <th
+                  className={styles.bankDisplay}
+                  onClick={() => handleSort(index)}
+                  key={index}
+                  scope="col"
                 >
-                  {bank}
-                  {sortConfig.bankIndex === index
-                    ? sortConfig.ascending
-                      ? "▲"
-                      : "▼"
-                    : ""}
-                </button>
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {categoryRows.map((row, rowIndex) => (
-            <tr key={rowIndex}>
-              <th className={styles.featureContain} scope="row">
-                {row.name}
-              </th>
-
-              <td className={styles.tableSquare}>{row.scoreKey}</td>
-
-              {bankArray.map((_, bankIndex) => (
-                <td className={styles.tableSquare} key={bankIndex}>
-                  <div>
-                    {row.points[bankIndex] != 0 ? (
-                      <span style={{ fontSize: "1.4em" }}> ✅ </span>
-                    ) : null}
-                  </div>
-                  {row.video[bankIndex] && (
-                    <div
-                      className={styles.cameraContain}
-                      onClick={() => videoDisplay(row.video[bankIndex])}
-                    >
-                      <span style={{ fontSize: "1.4em" }}>🎥</span>
-                    </div>
-                  )}
-                </td>
+                  <button
+                    style={{
+                      cursor: "pointer",
+                      border: "none",
+                      background: "none",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    {bank}
+                    {sortConfig.bankIndex === index
+                      ? sortConfig.ascending
+                        ? "▲"
+                        : "▼"
+                      : ""}
+                  </button>
+                </th>
               ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
-      {vidDisplay && (
-        <div
-          onClick={() => setVidDisplay(!vidDisplay)}
-          className={styles.videoDisplay}
-        >
-          <div
-            onClick={() => setVidDisplay(false)}
-            className={styles.cancelBtn}
-          >
-            X
-          </div>
+          </thead>
+          <tbody>
+            {categoryRows.map((row, rowIndex) => (
+              <tr key={rowIndex}>
+                <th className={styles.featureContain} scope="row">
+                  {row.name}
+                </th>
 
-          <video width="80%" controls autoPlay>
-            <source src={videoUrl} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      )}
+                <td className={styles.tableSquare}>{row.scoreKey}</td>
+
+                {bankArray.map((_, bankIndex) => (
+                  <td className={styles.tableSquare} key={bankIndex}>
+                    <div>
+                      {row.points[bankIndex] != 0 ? (
+                        <span style={{ fontSize: "1.4em" }}> ✅ </span>
+                      ) : null}
+                    </div>
+                    {row.video[bankIndex] && (
+                      <div
+                        className={styles.cameraContain}
+                        onClick={() => videoDisplay(row.video[bankIndex])}
+                      >
+                        <span style={{ fontSize: "1.4em" }}>🎥</span>
+                      </div>
+                    )}
+                    {row.video[bankIndex] && (
+                      <a href={row.screen[bankIndex]}>
+                        <div className={styles.cameraContain}>
+                          <span style={{ fontSize: "1.4em" }}>🗂️</span>
+                        </div>
+                      </a>
+                    )}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </motion.table>
+      </AnimatePresence>
+      <AnimatePresence mode="wait">
+        {vidDisplay && (
+          <motion.div
+            key={vidDisplay ? "key1" : "key2"}
+            initial={{ opacity: 0, width: 0 }}
+            animate={{ opacity: 1, width: "100%" }}
+            exit={{ opacity: 0, width: 0 }}
+            onClick={() => setVidDisplay(!vidDisplay)}
+            className={styles.videoDisplay}
+          >
+            <div
+              onClick={() => setVidDisplay(false)}
+              className={styles.cancelBtn}
+            >
+              X
+            </div>
+
+            <video width="80%" controls autoPlay>
+              <source src={videoUrl} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };

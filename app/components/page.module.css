@@ -4,8 +4,9 @@
 }
 /* Carousel */
 .carouselContain {
-  background-image: url("https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/backdrop.jpg");
-  background-size: 50% auto;
+  background-image: url("https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/background-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #efefef;
   box-shadow: -1px 1px 9px 7px #919191, 2px 7px 20px #7e7c7c;
   border-radius: 10px;
@@ -13,9 +14,13 @@
 
 .content {
   display: grid;
-  grid-template-columns: auto auto;
 }
 .imageWrapper {
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.imageWrapperTwo {
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -62,7 +67,6 @@
 .rotateBtnContain {
   padding-top: 10px;
   text-align: right;
- 
 }
 
 .rotateBtn {
@@ -79,15 +83,16 @@
 .mainBtnContain {
   display: grid;
   place-content: "center";
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 50px;
+  gap: 10px;
 }
 
 .mainBtn {
   margin: auto;
-  width: 300px;
-  padding: 30px;
+  width: 250px;
+  height: 300px;
+  padding: 20px;
   text-align: center;
   border-radius: 20px;
   background: #ffffff;
@@ -316,8 +321,11 @@
 .formContain {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
+  max-width: 1000px;
 }
 .tableContain {
   margin: auto;

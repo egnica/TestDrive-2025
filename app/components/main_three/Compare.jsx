@@ -16,6 +16,7 @@ const Compare = () => {
   const boxVariants = {
     hidden: {
       opacity: 0,
+      height: 0,
       scale: 0.5,
       transition: { duration: 0.8, ease: "easeOut" },
     },
@@ -23,6 +24,7 @@ const Compare = () => {
       opacity: 1,
       scale: 1,
       borderRadius: "8px",
+      height: "auto",
       transition: {
         type: "spring",
         stiffness: 200,
@@ -52,6 +54,12 @@ const Compare = () => {
       borderRadius: "12px",
       boxShadow: "0px 4px 8px rgb(192, 185, 255)",
       transition: { duration: 0.3, stiffness: 300 },
+    },
+    exit: {
+      opacity: 0,
+      height: 0,
+      scale: 0.9,
+      transition: { duration: 0.3 },
     },
   };
   const categoryImage = (cateName) => {
@@ -84,7 +92,7 @@ const Compare = () => {
 
   const submitHandler = (event) => {
     event.preventDefault();
-    const selectedBanks = [];
+    let selectedBanks = [];
     const formData = new FormData(event.target);
     formData.forEach((_, key) => {
       selectedBanks.push(key);
@@ -106,7 +114,7 @@ const Compare = () => {
       newFeatures.push(categorySelectObject.features);
     });
 
-    setFeatures((prev) => [...(prev || []), ...newFeatures]);
+    setFeatures(newFeatures);
   };
 
   const startOver = () => {
@@ -127,48 +135,84 @@ const Compare = () => {
 
   return (
     <>
-      {!desktop && (
-        <>
-          <h2 style={{ textAlign: "center" }}>
-            Which platform would you like to analyze?
-          </h2>
-          <div className={styles.analyzeContain}>
-            <div className={styles.btnComp} onClick={() => setDesktop("desk")}>
-              DESKTOP
-            </div>
-            <div
-              className={styles.btnComp}
-              onClick={() => setDesktop("mobile")}
+      <AnimatePresence mode="wait">
+        {!desktop && (
+          <>
+            <motion.div
+              key={`desktop:${desktop}`}
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={{ duration: 0.4 }}
             >
-              MOBILE
-            </div>
-          </div>
-        </>
-      )}
-      {desktop && (
-        <div>
-          <button onClick={startOver}>Start Over</button>
-          <div onClick={() => backButton(desktop)}>Back</div>
-        </div>
-      )}
+              <h2 style={{ textAlign: "center" }}>
+                Which platform would you like to analyze?
+              </h2>
+              <div className={styles.analyzeContain}>
+                <div
+                  className={styles.btnComp}
+                  onClick={() => setDesktop("desk")}
+                >
+                  DESKTOP
+                </div>
+                <div
+                  className={styles.btnComp}
+                  onClick={() => setDesktop("mobile")}
+                >
+                  MOBILE
+                </div>
+              </div>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
+      <AnimatePresence mode="wait">
+        {desktop && (
+          <motion.div
+            key={desktop}
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.4 }}
+          >
+            <button
+              style={{ width: "100px", height: "50px", marginRight: "10px" }}
+              className={styles.btnComp}
+              onClick={startOver}
+            >
+              Start Over
+            </button>
+            <button
+              style={{ width: "100px", height: "50px" }}
+              className={styles.btnComp}
+              onClick={() => backButton(desktop)}
+            >
+              Back
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
       <div style={{ display: "grid", placeContent: "center" }}>
+        <AnimatePresence mode="wait"></AnimatePresence>
         {!categorySelect && desktop && (
           <>
             <h2 style={{ textAlign: "center" }}>
               Which set of features would you like to review? Select chapter.
             </h2>
-            <AnimatePresence mode="wait">
-              <div className={styles.chapSelect}>
+
+            <div className={styles.chapSelect}>
+              <AnimatePresence mode="wait">
                 {Object.values(desktopFilter).map((category, index) => {
                   return (
                     <motion.div
                       variants={boxVariants}
+                      key={`key:${category.name} ${index}`}
                       initial="hidden"
                       animate="visible"
                       whileHover="hover"
                       whileTap="tap"
+                      exit="exit"
                       className={styles.chapSelectBtn}
-                      key={index}
                       onClick={() => {
                         setCategorySelect(category.name);
                       }}
@@ -183,19 +227,47 @@ const Compare = () => {
                     </motion.div>
                   );
                 })}
-              </div>
-            </AnimatePresence>
+              </AnimatePresence>
+            </div>
           </>
         )}
       </div>
-      {categorySelect && (
-        <>
-          <hr />
-          {/* CHECKBOX section */}
-          <div>
-            <h2 style={{ textAlign: "center" }}>Select up to 6 banks</h2>
+      <AnimatePresence mode="wait">
+        {categorySelect && (
+          <>
+            <hr />
+            <div>
+              <motion.h1
+                key={categorySelect.name}
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 100 }}
+                transition={{ duration: 0.4 }}
+              >
+                {categorySelect}
+              </motion.h1>
+            </div>
+            {/* CHECKBOX section */}
+
+            <motion.h2
+              key={`selBank ${categorySelect.name}`}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.4 }}
+              style={{ textAlign: "center" }}
+            >
+              Select up to 6 banks
+            </motion.h2>
             <form style={{ display: "grid" }} onSubmit={submitHandler}>
-              <div className={styles.formContain}>
+              <motion.div
+                className={styles.formContain}
+                key={`checkBoxBank ${categorySelect.name}`}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.4 }}
+              >
                 {Object.values(BankObject.bank_layout).map(
                   ({ bank_name }, index) => {
                     const isChecked = selectedBanks.includes(bank_name);
@@ -203,7 +275,14 @@ const Compare = () => {
                       !isChecked && selectedBanks.length >= 6;
 
                     return (
-                      <div className={styles.checkItem} key={index}>
+                      <motion.div
+                        variants={boxVariants}
+                        key={`checkBoxBankInd ${bank_name}`}
+                        initial="hidden"
+                        animate="visible"
+                        exit="exit"
+                        className={styles.checkItem}
+                      >
                         <input
                           type="checkbox"
                           name={bank_name}
@@ -212,11 +291,11 @@ const Compare = () => {
                           disabled={disableCheckbox}
                         />
                         {bank_name}
-                      </div>
+                      </motion.div>
                     );
                   }
                 )}
-              </div>
+              </motion.div>
 
               <button
                 className={styles.btnComp}
@@ -229,22 +308,31 @@ const Compare = () => {
                 SUBMIT
               </button>
             </form>
-            {bankArray && (
-              <div style={{ display: "grid" }}>
-                <hr />
-
-                <h2>{categorySelect}</h2>
-
-                <Table
-                  bankArray={bankArray}
-                  categoryObject={features}
-                  categoryName={categorySelect}
-                />
-              </div>
-            )}
-          </div>
-        </>
-      )}
+            <AnimatePresence mode="wait">
+              {bankArray && (
+                <div style={{ display: "grid" }}>
+                  <hr />
+                  <motion.div
+                    key={`Table ${bankArray.length}`}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.8 }}
+                    style={{ display: "grid" }}
+                  >
+                    <Table
+                      style={{ placeContent: "center" }}
+                      bankArray={bankArray}
+                      categoryObject={features}
+                      categoryName={categorySelect}
+                    />
+                  </motion.div>
+                </div>
+              )}
+            </AnimatePresence>
+          </>
+        )}
+      </AnimatePresence>
       <div style={{ height: "200px" }}></div>
     </>
   );
