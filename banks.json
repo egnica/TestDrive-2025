@@ -112,7 +112,7 @@
         },
         {
           "name": "Access an archive of check images greater than 12 months old",
-          "points": 65,
+          "points": 68,
           "new": false
         },
         {
@@ -408,7 +408,7 @@
     },
     {
       "name": "Mobile: Security and Profile Management",
-      "score": 308,
+      "score": 346,
       "desktop": false,
       "icon": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/category-icons/Security_Management.svg",
       "screenShot": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/category_zips/m_security.zip",
@@ -446,6 +446,11 @@
         {
           "name": "Ability to assign online banking access to coworkers or employees via mobile app",
           "points": 23,
+          "new": false
+        },
+        {
+          "name": "Ability to approve an electronic payment (wire, ACH, payroll, etc.) via mobile app",
+          "points": 38,
           "new": false
         }
       ]
@@ -1312,7 +1317,7 @@
         },
         {
           "name": "Mobile: Making Payments and Transfers",
-          "score": 272,
+          "score": 207,
           "desktop": false,
           "features": [
             {
@@ -1803,7 +1808,7 @@
             {
               "name": "Ability to initiate a wire transfer online (funds available same day)",
               "points": 39,
-              "video": "",
+              "video": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/6_d_sending/boa-d_sending-d_wire.mp4",
               "featureChange": "",
               "screenShot": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/sending/BofA/d_wire.zip"
             },
@@ -2701,7 +2706,7 @@
         },
         {
           "name": "Desktop: Receiving Payments",
-          "score": 0,
+          "score": "-",
           "desktop": true,
           "features": [
             {
@@ -3318,7 +3323,7 @@
         },
         {
           "name": "Desktop: Additional Users",
-          "score": 188,
+          "score": 64,
           "desktop": true,
           "features": [
             {
@@ -3878,12 +3883,12 @@
         },
         {
           "name": "Mobile: Card Management",
-          "score": 180,
+          "score": 159,
           "desktop": false,
           "features": [
             {
               "name": "Ability to use your bank's mobile banking app to access an ATM without a debit card",
-              "points": 21,
+              "points": 0,
               "video": "",
               "featureChange": "",
               "screenShot": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Mobile/card/CapOne/m_atm.zip"
@@ -4019,7 +4024,7 @@
         },
         {
           "name": "Desktop: Security and Profile Management",
-          "score": 663,
+          "score": 623,
           "desktop": true,
           "features": [
             {
@@ -5249,7 +5254,7 @@
             {
               "name": "Access to customer support via live chat that connects you to a human representative",
               "points": 80,
-              "video": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/8_d_customer/hunt-d_customer-d_live_chat_ex1.mp4",
+              "video": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/8_d_customer/hunt-d_customer-d_live_chat.mp4",
               "featureChange": "",
               "screenShot": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/customer/Huntington/d_live_chat.zip"
             },
@@ -6413,7 +6418,7 @@
         },
         {
           "name": "Mobile: Customer Service",
-          "score": 0,
+          "score": 60,
           "desktop": false,
           "features": [
             {
@@ -11203,7 +11208,7 @@
         },
         {
           "name": "Mobile: Cash Flow Management",
-          "score": 0,
+          "score": "-",
           "desktop": false,
           "features": [
             {
