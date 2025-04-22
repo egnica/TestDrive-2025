@@ -123,11 +123,8 @@ const ButtonSelector = ({ sendDataToParent }) => {
             }}
             href="#lower"
           >
-            <h2>Compare Matrix</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt.
-            </p>
+            <h2>Interactive ​Feature Matrix</h2>
+            <p>Compare up to 6 banks and their features.</p>
             <Image
               src="https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/Compare_Banks.svg"
               width={160}
@@ -155,7 +152,7 @@ const ButtonSelector = ({ sendDataToParent }) => {
               eiusmod tempor incididunt.
             </p>
             <Image
-              src="https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/Compare_Banks.svg"
+              src="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/Download-Icon.svg"
               width={160}
               height={100}
               alt="two buildings"

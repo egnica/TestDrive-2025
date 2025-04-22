@@ -16,14 +16,13 @@ const Table = ({ bankArray, categoryObject, categoryName }) => {
   const categoryFilterKey = Object.values(keyData).find(
     (item) => item.name === categoryName
   );
+
   const featureKeyArray = categoryFilterKey.features;
-  // const featureKey = Object.values(featureKeyArray).map((item) => item.points);
-  // The above was moved into the categoryRows object
 
   const handleSort = (bankIndex) => {
     setSortConfig((prev) => ({
       bankIndex,
-      ascending: prev.bankIndex === bankIndex ? !prev.ascending : true,
+      ascending: prev.bankIndex === bankIndex ? !prev.ascending : false,
     }));
   };
 
@@ -32,10 +31,10 @@ const Table = ({ bankArray, categoryObject, categoryName }) => {
     setVidDisplay(true);
   };
 
-  // Extracting category rows (number of rows) with points. We loop through this array to create one row per category in the table.
+
   let categoryRows = Object.keys(categoryObject[0]).map((categoryKey, i) => ({
     name: categoryObject[0][categoryKey].name,
-    scoreKey: Object.values(featureKeyArray)[i].points, // attach it directly
+    scoreKey: Object.values(featureKeyArray)[i].points, 
     points: bankArray.map(
       (_, bankIndex) => categoryObject[bankIndex][categoryKey].points
     ),
@@ -50,104 +49,150 @@ const Table = ({ bankArray, categoryObject, categoryName }) => {
     ),
   }));
 
-  // categoryObject[bankIndex] → Finds the correct bank's data.
-  //[categoryKey] → Dynamically finds "features".
-  // .points → Retrieves the actual point value inside the feature.
-
   // Sorting logic
   if (sortConfig.bankIndex !== null) {
-    categoryRows.sort((a, b) => {
-      const bankPointsA = a.points[sortConfig.bankIndex];
-      const bankPointsB = b.points[sortConfig.bankIndex];
+    const { bankIndex, ascending } = sortConfig;
 
-      return sortConfig.ascending
-        ? bankPointsB - bankPointsA
-        : bankPointsA - bankPointsB;
+    categoryRows.sort((a, b) => {
+      const aPoints = a.points[bankIndex] ?? 0;
+      const bPoints = b.points[bankIndex] ?? 0;
+
+      // First: sort by raw points
+      if (aPoints !== bPoints) {
+        return ascending ? aPoints - bPoints : bPoints - aPoints;
+      }
+
+      // If zero: sort by scoreKey (feature importance)
+      const aWeight = a.scoreKey ?? 0;
+      const bWeight = b.scoreKey ?? 0;
+
+      return ascending ? aWeight - bWeight : bWeight - aWeight;
     });
   }
+  const setColor = (string, index) => {
+    return string[index] == "new"
+      ? "#d9f2d0"
+      : string[index] == "removed"
+      ? "#f8e0d3"
+      : "#f2f6f2";
+  };
 
   return (
     <div className={styles.tableContain}>
       <AnimatePresence mode="wait">
-        <motion.table
+        <motion.div
           className={styles.table}
           key={bankArray.length}
           initial={{ width: "50%" }}
           animate={{ width: "100%" }}
           exit={{ width: "auto" }}
         >
-          <thead>
-            <tr className={styles.titleCont}>
-              <th scope="col">Features</th>
-              <th style={{ fontSize: ".8em" }} scope="col">
-                % Top Priority/​
+          <div className={styles.row + " " + styles.titleRow}>
+            <div
+              className={styles.headerCell}
+              style={{ width: "400px", backgroundColor: " #8f96ff" }}
+            >
+              Features
+            </div>
+            <div
+              style={{ backgroundColor: " #8f96ff" }}
+              className={styles.headerCell}
+            >
+              <p style={{ fontWeight: "600", fontSize: ".8rem" }}>
+                % Top Priority/
                 <br />
                 Very Important
-              </th>
-
+              </p>
+            </div>
+            <AnimatePresence mode="wait">
               {bankArray.map((bank, index) => (
-                <th
-                  className={styles.bankDisplay}
+                <motion.div
+                  key={`keyBankSort ${index}`}
+                  initial={{
+                    opacity: 0,
+                    x: -800,
+                    scale: 0.5,
+                    backgroundColor: "rgb(255, 255, 255)",
+                  }}
+                  animate={{
+                    opacity: 1,
+                    x: 0,
+                    scale: 1,
+                    backgroundColor: " #8f96ff",
+                  }}
+                  whileHover={{
+                    scale: 1.06,
+                    backgroundColor: "rgb(187, 192, 251)",
+                  }}
+                  whileTap={{
+                    scale: 0.95,
+                    backgroundColor: "rgb(111, 121, 253)",
+                  }}
+                  transition={{ duration: 0.4 }}
+                  className={styles.bankHeader}
                   onClick={() => handleSort(index)}
-                  key={index}
-                  scope="col"
                 >
-                  <button
-                    style={{
-                      cursor: "pointer",
-                      border: "none",
-                      background: "none",
-                      fontWeight: "bold",
-                    }}
-                  >
+                  <button className={styles.bankButton}>
                     {bank}
                     {sortConfig.bankIndex === index
                       ? sortConfig.ascending
-                        ? "▲"
-                        : "▼"
+                        ? "▼"
+                        : "▲"
                       : ""}
                   </button>
-                </th>
+                </motion.div>
               ))}
-            </tr>
-          </thead>
-          <tbody>
-            {categoryRows.map((row, rowIndex) => (
-              <tr key={rowIndex}>
-                <th className={styles.featureContain} scope="row">
-                  {row.name}
-                </th>
+            </AnimatePresence>
+          </div>
 
-                <td className={styles.tableSquare}>{row.scoreKey}</td>
-
-                {bankArray.map((_, bankIndex) => (
-                  <td className={styles.tableSquare} key={bankIndex}>
+          {categoryRows.map((row, rowIndex) => (
+            <div className={styles.row} key={row.name + rowIndex}>
+              <div className={styles.featureCell}>{row.name}</div>
+              <div className={styles.tableSquareKey}>
+                <p style={{ textAlign: "center" }}>{row.scoreKey}</p>
+              </div>
+              {bankArray.map((_, bankIndex) => (
+                <div
+                  className={styles.tableSquare}
+                  style={{
+                    backgroundColor: setColor(row.featureChange, bankIndex),
+                  }}
+                >
+                  <div className={styles.gridTop}></div>
+                  <div className={styles.gridCheck}>
+                    {row.points[bankIndex] !== 0 ? (
+                      <span>✅ </span>
+                    ) : (
+                      <div className={styles.gridFill}></div>
+                    )}
+                  </div>
+                  <div
+                    className={styles.gridVideo}
+                    onClick={() => videoDisplay(row.video[bankIndex])}
+                  >
+                    {row.video[bankIndex] ? (
+                      <span>🎥</span>
+                    ) : (
+                      <div className={styles.gridFill}></div>
+                    )}
+                  </div>
+                  <a
+                    className={styles.gridScreenShot}
+                    href={row.screen[bankIndex]}
+                  >
                     <div>
-                      {row.points[bankIndex] != 0 ? (
-                        <span style={{ fontSize: "1.4em" }}> ✅ </span>
-                      ) : null}
+                      {row.screen[bankIndex] ? (
+                        <span>🗂️</span>
+                      ) : (
+                        <div className={styles.gridFill}></div>
+                      )}
                     </div>
-                    {row.video[bankIndex] && (
-                      <div
-                        className={styles.cameraContain}
-                        onClick={() => videoDisplay(row.video[bankIndex])}
-                      >
-                        <span style={{ fontSize: "1.4em" }}>🎥</span>
-                      </div>
-                    )}
-                    {row.video[bankIndex] && (
-                      <a href={row.screen[bankIndex]}>
-                        <div className={styles.cameraContain}>
-                          <span style={{ fontSize: "1.4em" }}>🗂️</span>
-                        </div>
-                      </a>
-                    )}
-                  </td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </motion.table>
+                  </a>
+                </div>
+              ))}
+            </div>
+          ))}
+        </motion.div>
       </AnimatePresence>
       <AnimatePresence mode="wait">
         {vidDisplay && (
