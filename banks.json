@@ -655,7 +655,7 @@
       "short_name": "amex",
       "bank_name": "American Express",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/amex.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/AmericanExpress.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/AmericanExpress.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -1482,7 +1482,7 @@
       "short_name": "boa",
       "bank_name": "Bank of America",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/boa.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/BankofAmerica.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/BankofAmerica.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -2310,7 +2310,7 @@
       "short_name": "blu",
       "bank_name": "Bluevine",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/blu.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/Bluevine.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/Bluevine.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -3137,7 +3137,7 @@
       "short_name": "cap",
       "bank_name": "Capital One",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/cap.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/CapitalOne.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/CapitalOne.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -3964,7 +3964,7 @@
       "short_name": "chase",
       "bank_name": "Chase",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/chase.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/Chase.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/Chase.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -4796,7 +4796,7 @@
       "short_name": "hunt",
       "bank_name": "Huntington",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/hunt.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/Huntington.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/Huntington.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -5623,7 +5623,7 @@
       "short_name": "nor",
       "bank_name": "NorthOne",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/nor.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/NorthOne.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/NorthOne.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -6450,7 +6450,7 @@
       "short_name": "pnc",
       "bank_name": "PNC",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/pnc.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/PNC.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/PNC.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -7277,7 +7277,7 @@
       "short_name": "reg",
       "bank_name": "Regions",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/reg.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/Regions.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/Regions.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -8104,7 +8104,7 @@
       "short_name": "tdb",
       "bank_name": "TD Bank",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/tdb.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/TDBank.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/TDBank.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -8933,7 +8933,7 @@
       "short_name": "tru",
       "bank_name": "Truist",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/tru.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/Truist.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/Truist.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -9764,7 +9764,7 @@
       "short_name": "usb",
       "bank_name": "U.S. Bank",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/usb.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/USBank.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/USBank.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
@@ -10594,7 +10594,7 @@
       "short_name": "wel",
       "bank_name": "Wells Fargo",
       "logo": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/svg-bank-logo/wel.svg",
-      "asset_zip": "https://mybarlow.barlowresearch.com/testdrive_2025/zips/WellsFargo.zip",
+      "asset_zip": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/bank_zips/WellsFargo.zip",
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
