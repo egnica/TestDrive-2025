@@ -148,8 +148,7 @@ const ButtonSelector = ({ sendDataToParent }) => {
           >
             <h2>Downloadable Materials</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <Image
               src="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/Download-Icon.svg"

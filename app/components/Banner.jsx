@@ -79,7 +79,9 @@ const Banner = () => {
               <h1>{carouselItems[index].title}</h1>
               <p>{carouselItems[index].description}</p>
               <div className={styles.bannerBtnContain}>
-                <button>{carouselItems[index].link_title}</button>
+                <a href={carouselItems[index].link} target="_blank">
+                  <button>{carouselItems[index].link_title}</button>
+                </a>
                 <button>Feature Content</button>
               </div>
             </motion.div>

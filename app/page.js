@@ -39,7 +39,11 @@ export default function Home() {
             ) : numSel === 2 ? (
               <Compare />
             ) : (
-              <div>DOWNLOADS</div>
+              <div style={{ padding: "100px" }}>
+                <h1 style={{ textAlign: "center" }}>
+                  ***DOWNLOADS COMING SOON***
+                </h1>
+              </div>
             )}
           </motion.div>
         )}

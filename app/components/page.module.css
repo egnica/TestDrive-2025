@@ -63,7 +63,9 @@
   display: flex;
   gap: 10px;
 }
-
+.bannerBtnContain button {
+  
+}
 .rotateBtnContain {
   padding-top: 10px;
   text-align: right;
