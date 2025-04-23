@@ -31,10 +31,9 @@ const Table = ({ bankArray, categoryObject, categoryName }) => {
     setVidDisplay(true);
   };
 
-
   let categoryRows = Object.keys(categoryObject[0]).map((categoryKey, i) => ({
     name: categoryObject[0][categoryKey].name,
-    scoreKey: Object.values(featureKeyArray)[i].points, 
+    scoreKey: Object.values(featureKeyArray)[i].points,
     points: bankArray.map(
       (_, bankIndex) => categoryObject[bankIndex][categoryKey].points
     ),
@@ -90,12 +89,12 @@ const Table = ({ bankArray, categoryObject, categoryName }) => {
           <div className={styles.row + " " + styles.titleRow}>
             <div
               className={styles.headerCell}
-              style={{ width: "400px", backgroundColor: " #8f96ff" }}
+              style={{ width: "400px", backgroundColor: "#0592e5" }}
             >
               Features
             </div>
             <div
-              style={{ backgroundColor: " #8f96ff" }}
+              style={{ backgroundColor: "#0592e5" }}
               className={styles.headerCell}
             >
               <p style={{ fontWeight: "600", fontSize: ".8rem" }}>
@@ -113,16 +112,19 @@ const Table = ({ bankArray, categoryObject, categoryName }) => {
                     x: -800,
                     scale: 0.5,
                     backgroundColor: "rgb(255, 255, 255)",
+                    color: "rgb(187, 192, 251)",
                   }}
                   animate={{
                     opacity: 1,
                     x: 0,
                     scale: 1,
-                    backgroundColor: " #8f96ff",
+                    backgroundColor: "#0592e5",
+                    color: "#0592e5",
                   }}
                   whileHover={{
                     scale: 1.06,
-                    backgroundColor: "rgb(187, 192, 251)",
+                    backgroundColor: "#0477ba",
+                    color: "rgb(62, 62, 62)",
                   }}
                   whileTap={{
                     scale: 0.95,
@@ -161,7 +163,7 @@ const Table = ({ bankArray, categoryObject, categoryName }) => {
                   <div className={styles.gridTop}></div>
                   <div className={styles.gridCheck}>
                     {row.points[bankIndex] !== 0 ? (
-                      <span>✅ </span>
+                      <span style={{ fontSize: "2rem" }}>✓</span>
                     ) : (
                       <div className={styles.gridFill}></div>
                     )}

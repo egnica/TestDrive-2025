@@ -12,13 +12,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* ✅ Preload background image manually */}
-        <link
-          rel="preload"
-          as="image"
-          href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/backdrop.jpg"
-        />
-
         {/* ✅ Futura font via local or fallback stack */}
         <style>{`
           @font-face {

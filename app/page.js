@@ -40,8 +40,23 @@ export default function Home() {
               <Compare />
             ) : (
               <div style={{ padding: "100px" }}>
+                <div style={{ textAlign: "center", paddingBottom: "50px" }}>
+                  <h1>MIDDLE MARKET $10MM-&lt;$500MM​</h1>
+                  <p>
+                    Want importance ratings for Middle Market ($10MM&lt;$500MM)
+                    businesses?{" "}
+                    <a
+                      href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/MM-Importance-Ratings.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Click here.
+                    </a>
+                  </p>
+                </div>
+
                 <h1 style={{ textAlign: "center" }}>
-                  ***DOWNLOADS COMING SOON***
+                  *** MORE DOWNLOADS COMING SOON***
                 </h1>
               </div>
             )}

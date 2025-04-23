@@ -58,9 +58,8 @@ const Banner = () => {
                     className={styles.imageWrapper}
                     src={carouselItems[index].image}
                     alt={carouselItems[index].title}
-                    width={950}
-                    height={550}
-                    priority={index === 0}
+                    width={850}
+                    height={450}
                   />
                 </div>
               </motion.div>
@@ -82,7 +81,9 @@ const Banner = () => {
                 <a href={carouselItems[index].link} target="_blank">
                   <button>{carouselItems[index].link_title}</button>
                 </a>
-                <button>Feature Content</button>
+                <a href="">
+                  <button>Feature Content</button>
+                </a>
               </div>
             </motion.div>
           </AnimatePresence>

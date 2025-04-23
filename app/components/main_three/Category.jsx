@@ -56,7 +56,7 @@ const Category = () => {
       <>
         <p style={{ textAlign: "center" }}>{videoCount}</p>
         <p style={{ textAlign: "center" }}>
-          {featureCount}/{actualFeatureCount}
+          {featureCount} / {actualFeatureCount}
         </p>
         <p style={{ textAlign: "center" }}>{matchedCategory.score}</p>
       </>

@@ -159,20 +159,7 @@ const ButtonSelector = ({ sendDataToParent }) => {
           </motion.div>
         </a>
       </div>
-      <div style={{ textAlign: "center", paddingBottom: "50px" }}>
-        <h2>MIDDLE MARKET $10MM-&lt;$500MM​</h2>
-        <p>
-          Want importance ratings for Middle Market ($10MM&lt;$500MM)
-          businesses?{" "}
-          <a
-            href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/MM-Importance-Ratings.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Click here.
-          </a>
-        </p>
-      </div>
+
     </>
   );
 };
