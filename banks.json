@@ -1486,7 +1486,7 @@
       "categorys": [
         {
           "name": "Desktop: Enrolling/Applying",
-          "score": 249,
+          "score": 295,
           "desktop": true,
           "features": [
             {
@@ -1505,10 +1505,10 @@
             },
             {
               "name": "Product or services recommendations based on your company's needs",
-              "points": 0,
+              "points": 46,
               "video": "",
               "featureChange": "",
-              "screenShot": ""
+              "screenShot": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/enrolling_applying/BofA/d_product_recommendations.zip"
             },
             {
               "name": "Ability to open your business checking and savings account(s) online",
@@ -1781,8 +1781,9 @@
         },
         {
           "name": "Desktop: Making Payments and Transfers",
-          "score": 663,
+          "score": 717,
           "desktop": true,
+          "winner": "Bank of America was awarded \"Best Practice\" for this chapter as it earned credit for 12 of the most valuable features related to moving money.",
           "features": [
             {
               "name": "Ability to initiate an online bill payment",
@@ -1870,7 +1871,7 @@
             },
             {
               "name": "Ability to send notification to a recipient that a payment transaction has been initiated",
-              "points": 0,
+              "points": 54,
               "video": "",
               "featureChange": "",
               "screenShot": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/sending/BofA/d_notify_recipient.zip"
@@ -3435,7 +3436,7 @@
         },
         {
           "name": "Desktop: Making Payments and Transfers",
-          "score": 627,
+          "score": 681,
           "desktop": true,
           "features": [
             {
@@ -3524,7 +3525,7 @@
             },
             {
               "name": "Ability to send notification to a recipient that a payment transaction has been initiated",
-              "points": 0,
+              "points": 54,
               "video": "",
               "featureChange": "",
               "screenShot": ""
@@ -4266,7 +4267,6 @@
           "name": "Desktop: Making Payments and Transfers",
           "score": 706,
           "desktop": true,
-          "winner": "Chase was awarded \"Best Practice\" for this chapter as it earned credit for 12 of 13 features assessed - in particular, the ability to send real-time ACH payments.",
           "features": [
             {
               "name": "Ability to initiate an online bill payment",
@@ -4405,7 +4405,7 @@
         },
         {
           "name": "Desktop: Customer Service",
-          "score": 224,
+          "score": 153,
           "desktop": true,
           "features": [
             {
@@ -4438,10 +4438,10 @@
             },
             {
               "name": "Ability to schedule a call from a customer support representative for assistance",
-              "points": 71,
-              "video": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/8_d_customer/chase-d_customer-d_schedule_call.mp4",
+              "points": 0,
+              "video": "",
               "featureChange": "",
-              "screenShot": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/customer/Chase/d_schedule_call.zip"
+              "screenShot": ""
             },
             {
               "name": "Ability to communicate with my bank via video conferencing (i.e., Zoom or WebEx)",
@@ -10202,7 +10202,7 @@
         },
         {
           "name": "Desktop: Customer Service",
-          "score": 355,
+          "score": 284,
           "desktop": true,
           "winner": "U.S. Bank was awarded \"Best Practice\" for this chapter as it earned credit for all six features assessed, including the ability to screen-share with the bank via co-browse",
           "features": [
@@ -10236,10 +10236,10 @@
             },
             {
               "name": "Ability to schedule a call from a customer support representative for assistance",
-              "points": 71,
+              "points": 0,
               "video": "",
               "featureChange": "",
-              "screenShot": "http://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/customer/USBank/d_schedule_call.zip"
+              "screenShot": ""
             },
             {
               "name": "Ability to communicate with my bank via video conferencing (i.e., Zoom or WebEx)",
