@@ -1,17 +1,12 @@
 import { NextResponse } from "next/server";
 
 export function middleware(req) {
-  const cookie = req.cookies.get("PHPSESSID")?.value;
+  const allCookies = req.cookies.getAll();
 
-  console.log(cookie);
+  console.log("All cookies:", allCookies);
 
-  // if (!cookie) {
-  //   // If no PHPSESSID cookie, redirect to login page
-  //   return NextResponse.redirect(
-  //     new URL("https://mybarlow.barlowresearch.com/login.php")
-  //   );
-  // }
+  const sessionCookie = req.cookies.get("PHPSESSID")?.value;
+  console.log("PHPSESSID cookie:", sessionCookie);
 
-  // If cookie exists, allow to continue
   return NextResponse.next();
 }
