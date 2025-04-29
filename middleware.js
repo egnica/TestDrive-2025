@@ -1,12 +1,14 @@
 import { NextResponse } from "next/server";
 
 export function middleware(req) {
-  const allCookies = req.cookies.getAll();
+  const cookieValue = req.cookies.get("testdrive_loggedin")?.value;
 
-  console.log("All cookies:", allCookies);
+  if (cookieValue) {
+    const [userId, token] = cookieValue.split(":");
 
-  const sessionCookie = req.cookies.get("PHPSESSID")?.value;
-  console.log("PHPSESSID cookie:", sessionCookie);
+    console.log("User ID:", userId);
+    console.log("Login token:", token);
+  }
 
   return NextResponse.next();
 }
