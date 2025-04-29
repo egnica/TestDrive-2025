@@ -4,10 +4,13 @@ export function middleware(req) {
   const cookieValue = req.cookies.get("testdrive_loggedin")?.value;
 
   if (cookieValue) {
-    const [userId, token] = cookieValue.split(":");
+    const [maskedUserId, token] = cookieValue.split(":");
 
-    console.log("User ID:", userId);
-    console.log("Login token:", token);
+    const mask = 3243423; // Must match your PHP code
+    const realUserId = parseInt(maskedUserId) - mask;
+
+    console.log("Real User ID:", realUserId);
+    console.log("Token:", token);
   }
 
   return NextResponse.next();
