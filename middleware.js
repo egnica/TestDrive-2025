@@ -14,14 +14,12 @@ export function middleware(req) {
 
     const loginUrl = new URL("https://mybarlow.barlowresearch.com/login.php");
 
-    // Force rd2 to use the production base domain
     const productionUrl = new URL(req.nextUrl.href);
     productionUrl.hostname = "testdrive2025.barlowresearch.com";
     productionUrl.protocol = "https:";
     productionUrl.port = ""; // remove :3000 if present
 
-    loginUrl.searchParams.set("rd3", productionUrl.toString());
-
+    console.log("Redirecting to:", loginUrl.toString());
     return NextResponse.redirect(loginUrl);
   }
 }
