@@ -8,16 +8,12 @@ export function middleware(req) {
     const [maskedUserId, token] = cookieValue.split(":");
     const realUserId = parseInt(maskedUserId) - mask;
 
-    console.log("Raw cookie value:", cookieValue);
-    console.log("Real User ID:", realUserId);
-    console.log("Token:", token);
-
-    // ✅ Let request proceed
     return NextResponse.next();
   } else {
     console.log("testdrive_loggedin cookie missing or malformed:", cookieValue);
-    return NextResponse.redirect(
-      new URL("https://mybarlow.barlowresearch.com/login.php")
-    );
+    const loginUrl = new URL("https://mybarlow.barlowresearch.com/login.php");
+    loginUrl.searchParams.set("rd2", req.nextUrl.href); // send them back to the current TestDrive page
+
+    return NextResponse.redirect(loginUrl);
   }
 }
