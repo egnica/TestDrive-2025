@@ -20,7 +20,7 @@ export function middleware(req) {
     productionUrl.protocol = "https:";
     productionUrl.port = ""; // remove :3000 if present
 
-    loginUrl.searchParams.set("rd2", productionUrl.toString());
+    loginUrl.searchParams.set("rd3", productionUrl.toString());
 
     return NextResponse.redirect(loginUrl);
   }
