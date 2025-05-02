@@ -12,7 +12,9 @@ export function middleware(req) {
   } else {
     console.log("testdrive_loggedin cookie missing or malformed:", cookieValue);
 
-    const loginUrl = new URL("https://mybarlow.barlowresearch.com/login.php");
+    const loginUrl = new URL(
+      "https://mybarlow.barlowresearch.com/login-rd3.php"
+    );
 
     const productionUrl = new URL(req.nextUrl.href);
     productionUrl.hostname = "testdrive2025.barlowresearch.com";
@@ -23,7 +25,6 @@ export function middleware(req) {
 
     // loginUrl.searchParams.set("rd2", productionUrl.toString());
 
-    console.log("Redirecting to:", loginUrl.toString());
     return NextResponse.redirect(loginUrl);
   }
 }
