@@ -1775,7 +1775,7 @@
               "points": 39,
               "video": "",
               "featureChange": "",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/BofA/d_view_3rd%20party.zip"
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/BofA/d_view_3rd_party.zip"
             }
           ]
         },
@@ -1867,7 +1867,7 @@
               "points": 67,
               "video": "",
               "featureChange": "",
-              "screenShot": ""
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/sending/BofA/d_external_transfers.zip"
             },
             {
               "name": "Ability to send notification to a recipient that a payment transaction has been initiated",
@@ -1951,14 +1951,14 @@
               "points": 67,
               "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/8_d_customer/boa-d_customer-d_schedule_app.mp4",
               "featureChange": "",
-              "screenShot": ""
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/customer/BofA/d_schedule_app.zip"
             },
             {
               "name": "Ability to schedule a call from a customer support representative for assistance",
               "points": 0,
               "video": "",
               "featureChange": "",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/customer/BofA/d_schedule_app.zip"
+              "screenShot": ""
             },
             {
               "name": "Ability to communicate with my bank via video conferencing (i.e., Zoom or WebEx)",
@@ -2097,7 +2097,7 @@
         },
         {
           "name": "Mobile: Cash Flow Management",
-          "score": 56,
+          "score": 67,
           "desktop": false,
           "features": [
             {
@@ -2105,14 +2105,14 @@
               "points": 17,
               "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/4_m_cashflow/boa-m_cashflow-m_automatic_categories.mp4",
               "featureChange": "",
-              "screenShot": ""
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Mobile/cashflow/BofA/m_automatic_categories.zip"
             },
             {
               "name": "Ability to create and manage an operating expense budget via mobile app",
               "points": 12,
               "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/4_m_cashflow/boa-m_cashflow-m_budget.mp4",
               "featureChange": "",
-              "screenShot": ""
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Mobile/cashflow/BofA/m_budget.zip"
             },
             {
               "name": "Ability to set up a savings goal with automatic savings contributions via mobile app",
@@ -2126,21 +2126,21 @@
               "points": 13,
               "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/4_m_cashflow/boa-m_cashflow-m_forecasts.mp4",
               "featureChange": "",
-              "screenShot": ""
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Mobile/cashflow/BofA/m_forecasts.zip"
             },
             {
               "name": "Ability to track cash flow performance on a month-to-month or annual basis via mobile app",
               "points": 14,
               "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/4_m_cashflow/boa-m_cashflow-m_monthly_cashflow.mp4",
               "featureChange": "",
-              "screenShot": ""
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Mobile/cashflow/BofA/m_monthly_cashflow.zip"
             },
             {
               "name": "Personalized actionable recommendations based on cash flow patterns via mobile app",
-              "points": 0,
+              "points": 11,
               "video": "",
               "featureChange": "",
-              "screenShot": ""
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Mobile/cashflow/BofA/m_personalized_insights.zip"
             }
           ]
         },
@@ -3430,7 +3430,7 @@
               "points": 39,
               "video": "",
               "featureChange": "",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/CapOne/d_view_3rd%20party.zip"
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/CapOne/d_view_3rd_party.zip"
             }
           ]
         },
@@ -3892,7 +3892,7 @@
               "points": 0,
               "video": "",
               "featureChange": "",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Mobile/card/CapOne/m_atm.zip"
+              "screenShot": ""
             },
             {
               "name": "Ability to lock a business debit/credit card temporarily via mobile app",
@@ -4259,7 +4259,7 @@
               "points": 39,
               "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/5_d_cashflow/chase-d_cashflow-d_view_3rd_party.mp4",
               "featureChange": "",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/Chase/d_view_3rd%20party.zip"
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/Chase/d_view_3rd_party.zip"
             }
           ]
         },
@@ -5088,7 +5088,7 @@
               "points": 39,
               "video": "",
               "featureChange": "",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/Huntington/d_view_3rd%20party.zip"
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/Huntington/d_view_3rd_party.zip"
             }
           ]
         },
@@ -5915,7 +5915,7 @@
               "points": 39,
               "video": "",
               "featureChange": "",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/NorthOne/d_view_3rd%20party.zip"
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/NorthOne/d_view_3rd_party.zip"
             }
           ]
         },
@@ -6719,14 +6719,14 @@
             {
               "name": "Personalized actionable recommendations based on cash flow patterns",
               "points": 0,
-              "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/5_d_cashflow/pnc-d_cashflow-d_personalized_insights.mp4",
+              "video": "",
               "featureChange": "",
               "screenShot": ""
             },
             {
               "name": "Ability to view at least one month of future account balance and cash flow forecasts",
               "points": 26,
-              "video": "",
+              "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/5_d_cashflow/pnc-d_cashflow-d_forcasts.mp4",
               "featureChange": "",
               "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/PNC/d_forecasts.zip"
             },
@@ -6742,7 +6742,7 @@
               "points": 39,
               "video": "",
               "featureChange": "",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/PNC/d_view_3rd%20party.zip"
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/PNC/d_view_3rd_party.zip"
             }
           ]
         },
@@ -7807,14 +7807,14 @@
               "points": 51,
               "video": "",
               "featureChange": "",
-              "screenShot": ""
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Mobile/security/Regions/m_face_login.zip"
             },
             {
               "name": "Ability to quickly view account balances without login via mobile app",
               "points": 0,
               "video": "",
               "featureChange": "",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Mobile/security/Regions/m_quickview.zip"
+              "screenShot": ""
             },
             {
               "name": "Ability to view routing and account numbers for accounts via mobile app",
@@ -8318,7 +8318,7 @@
         },
         {
           "name": "Desktop: Cash Flow Management",
-          "score": 353,
+          "score": 387,
           "desktop": true,
           "features": [
             {
@@ -8386,7 +8386,7 @@
             },
             {
               "name": "Ability to link third-party applications into your company's online banking dashboard (i.e., QuickBooks or ADP)",
-              "points": 0,
+              "points": 34,
               "video": "",
               "featureChange": "",
               "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/TD/d_link_3rd_party.zip"
@@ -8396,7 +8396,7 @@
               "points": 39,
               "video": "",
               "featureChange": "new",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/TD/d_view_3rd%20party.zip"
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/TD/d_view_3rd_party.zip"
             }
           ]
         },
@@ -8635,14 +8635,14 @@
               "points": 51,
               "video": "",
               "featureChange": "",
-              "screenShot": ""
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Mobile/security/TD/m_face_login.zip"
             },
             {
               "name": "Ability to quickly view account balances without login via mobile app",
               "points": 0,
               "video": "",
               "featureChange": "",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Mobile/security/TD/m_quickview.zip"
+              "screenShot": ""
             },
             {
               "name": "Ability to view routing and account numbers for accounts via mobile app",
@@ -10056,7 +10056,7 @@
               "points": 39,
               "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/5_d_cashflow/usb-d_cashflow-d_view_3rd_party.mp4",
               "featureChange": "",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/USBank/d_view_3rd%20party.zip"
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/USBank/d_view_3rd_party.zip"
             }
           ]
         },
@@ -10887,7 +10887,7 @@
               "points": 39,
               "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/5_d_cashflow/wel-d_cashflow-d_view_3rd_party.mp4",
               "featureChange": "",
-              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/WF/d_view_3rd%20party.zip"
+              "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/cashflow/WF/d_view_3rd_party.zip"
             }
           ]
         },
