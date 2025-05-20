@@ -17,6 +17,7 @@ export function middleware(req) {
     );
 
     const productionUrl = new URL(req.nextUrl.href);
+
     productionUrl.hostname = "testdrive2025.barlowresearch.com";
     productionUrl.protocol = "https:";
     productionUrl.port = ""; // remove :3000 if present

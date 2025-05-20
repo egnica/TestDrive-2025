@@ -147,9 +147,7 @@ const ButtonSelector = ({ sendDataToParent }) => {
             href="#lower"
           >
             <h2>Downloadable Materials</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+            <p>Download program content, including Annual Report.</p>
             <Image
               src="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/Download-Icon.svg"
               width={160}
@@ -159,7 +157,6 @@ const ButtonSelector = ({ sendDataToParent }) => {
           </motion.div>
         </a>
       </div>
-
     </>
   );
 };

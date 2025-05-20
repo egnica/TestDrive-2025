@@ -46,7 +46,13 @@ const Feature = ({ feature }) => {
               <div style={{ textAlign: "center", margin: "auto" }}>
                 {checkMark(value.points)}
               </div>
-              <p style={{ textAlign: "center", paddingRight: "15px" }}>
+              <p
+                style={{
+                  textAlign: "center",
+                  paddingRight: "15px",
+                  paddingTop: "9px",
+                }}
+              >
                 {value.points}
               </p>
               <div></div>

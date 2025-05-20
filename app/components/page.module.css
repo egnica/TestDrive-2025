@@ -112,6 +112,7 @@
 }
 .bankItem {
   width: 90px;
+  height: 153px;
   text-align: center;
   padding: 10px;
   border-radius: 20px;
@@ -186,6 +187,8 @@
   display: grid;
   grid-template-columns: 0.17fr 0.85fr 0.5fr 0.5fr 0.5fr 0.08fr;
   padding: 0 0 0 10px;
+}
+.innerRow p {
 }
 
 .innerRow:nth-child(odd) {
@@ -316,6 +319,7 @@
   text-align: center;
   border-radius: 5px;
   width: 200px;
+
   box-shadow: 36px 36px 72px #d9d9d9;
   cursor: pointer;
   border-radius: 12px;

@@ -182,8 +182,8 @@ const Banks = () => {
         {bank && (
           <div className={styles.topTable}>
             <h3>Categories</h3>
-            <h3 style={{ textAlign: "center" }}>Videos</h3>
-            <h3 style={{ textAlign: "center" }}>Features Earned</h3>
+            <h3 style={{ textAlign: "center" }}>Videos Available</h3>
+            <h3 style={{ textAlign: "center" }}>Features Credited</h3>
             <h3 style={{ textAlign: "center" }}>Points Earned</h3>
             <div></div>
           </div>

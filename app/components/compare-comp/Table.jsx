@@ -148,7 +148,7 @@ const Table = ({ bankArray, categoryObject, categoryName }) => {
           </div>
 
           {categoryRows.map((row, rowIndex) => (
-            <div className={styles.row} key={row.name + rowIndex}>
+            <div className={styles.row} key={` RowMapKey ${row.name} + ${rowIndex}`}>
               <div className={styles.featureCell}>{row.name}</div>
               <div className={styles.tableSquareKey}>
                 <p style={{ textAlign: "center" }}>{row.scoreKey}</p>

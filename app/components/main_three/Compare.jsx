@@ -25,6 +25,41 @@ const Compare = () => {
       opacity: 1,
       scale: 1,
       y: 0,
+      height: "150px",
+      overflow: "hidden",
+      transition: { duration: 0.4, ease: "easeInOut" },
+    },
+    exit: {
+      opacity: 0,
+      scale: 0.95,
+      y: -10,
+      height: 0,
+      overflow: "hidden",
+      transition: { duration: 0.3, ease: "easeInOut" },
+    },
+    hover: {
+      scale: 1.03,
+      transition: { duration: 0.2 },
+      boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.1)",
+      cursor: "pointer",
+    },
+    tap: {
+      scale: 0.97,
+      transition: { duration: 0.1 },
+    },
+  };
+  const boxVariantsTwo = {
+    hidden: {
+      opacity: 0,
+      scale: 0.95,
+      y: 20,
+      height: 0,
+      overflow: "hidden",
+    },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      y: 0,
       height: "auto",
       overflow: "hidden",
       transition: { duration: 0.4, ease: "easeInOut" },
@@ -214,7 +249,7 @@ const Compare = () => {
               initial="hidden"
               animate="visible"
               exit="exit"
-              variants={boxVariants}
+              variants={boxVariantsTwo}
               style={{ textAlign: "center" }}
             >
               {categorySelect}
@@ -225,7 +260,7 @@ const Compare = () => {
               initial="hidden"
               animate="visible"
               exit="exit"
-              variants={boxVariants}
+              variants={boxVariantsTwo}
               style={{ textAlign: "center" }}
             >
               Select up to 6 banks
@@ -238,7 +273,7 @@ const Compare = () => {
                 initial="hidden"
                 animate="visible"
                 exit="exit"
-                variants={boxVariants}
+                variants={boxVariantsTwo}
               >
                 {Object.values(BankObject.bank_layout).map(
                   ({ bank_name }, index) => {
@@ -249,7 +284,7 @@ const Compare = () => {
                     return (
                       <motion.div
                         key={`checkBoxBankInd-${bank_name}`}
-                        variants={boxVariants}
+                        variants={boxVariantsTwo}
                         initial="hidden"
                         animate="visible"
                         exit="exit"

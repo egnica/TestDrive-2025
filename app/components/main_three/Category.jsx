@@ -225,9 +225,9 @@ const Category = () => {
                   transition={{ duration: 0.4 }}
                 >
                   <div className={styles.topTable}>
-                    <h3>Banks</h3>
-                    <h3 style={{ textAlign: "center" }}>Videos</h3>
-                    <h3 style={{ textAlign: "center" }}>Features Earned</h3>
+                    <h3 style={{ padding: "12px 0" }}>Banks</h3>
+                    <h3 style={{ textAlign: "center" }}>Videos Available</h3>
+                    <h3 style={{ textAlign: "center" }}>Features Credited </h3>
                     <h3 style={{ textAlign: "center" }}>Points Earned</h3>
                   </div>
 

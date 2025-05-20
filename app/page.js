@@ -58,6 +58,21 @@ export default function Home() {
                 <h1 style={{ textAlign: "center" }}>
                   *** MORE DOWNLOADS COMING SOON***
                 </h1>
+                <div style={{ textAlign: "center" }}>
+                  <h2>2025 Digital Business Banking Annual Report </h2>
+                  <h2>
+                    Downloadable Feature Matrix (previously known as Product
+                    Roadmap){" "}
+                  </h2>
+                  <h2>
+                    Feature Importance Ratings for Small Business Segment
+                    &#40;$100K- &#60;$10MM in annual revenue &#41;
+                  </h2>
+                  <h2>
+                    Feature Importance Ratings for Middle Market Segment
+                    &#40;$10MM- &#60;$500MM in annual revenue&#41;
+                  </h2>
+                </div>
               </div>
             )}
           </motion.div>
