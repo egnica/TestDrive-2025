@@ -29,66 +29,57 @@ const Banner = () => {
 
   return (
     <>
-      <div
-        // style={{
-        //   backgroundImage: `url(${carouselItems[index].image})`,
-        // }}
-        className={styles.carouselContain}
-      >
-        <div>
-          <AnimatePresence mode="wait">
-            {carouselItems.length > 0 && (
-              <motion.div
-                key={carouselItems[index].id}
-                initial={{ opacity: 0, x: -50 }}
-                animate={{
-                  opacity: 1,
-                  x: 0,
-                  transition: {
-                    duration: 0.3,
-                  },
-                }}
-                exit={{
-                  opacity: 0,
-                  transition: { delay: 0.6, duration: 0.4 },
-                }}
-              >
-                <div className={styles.content}>
-                  <Image
-                    className={styles.imageWrapper}
-                    src={carouselItems[index].image}
-                    alt={carouselItems[index].title}
-                    width={850}
-                    height={450}
-                  />
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
+      <div className={styles.carouselContain}>
+        <AnimatePresence mode="wait">
+          <motion.div
+            className={styles.textContain}
+            key={`text-${carouselItems[index].id}`}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <h1>{carouselItems[index].title}</h1>
+            <p>{carouselItems[index].description}</p>
+            <div className={styles.bannerBtnContain}>
+              <a href={carouselItems[index].link} target="_blank">
+                <button>{carouselItems[index].link_title}</button>
+              </a>
+              <a href="">
+                <button>Feature Content</button>
+              </a>
+            </div>
+          </motion.div>
+        </AnimatePresence>
 
-          <AnimatePresence mode="wait">
+        <AnimatePresence mode="wait">
+          {carouselItems.length > 0 && (
             <motion.div
-              key={carouselItems[index].id}
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-              className={styles.textContain}
+              className={styles.content}
+              key={`image-${carouselItems[index].id}`}
+              initial={{ opacity: 0 }}
+              animate={{
+                opacity: 1,
+
+                transition: { duration: 0.3 },
+              }}
+              exit={{
+                opacity: 0,
+                transition: { delay: 0.6, duration: 0.4 },
+              }}
             >
-              <h1>{carouselItems[index].title}</h1>
-              <p>{carouselItems[index].description}</p>
-              <div className={styles.bannerBtnContain}>
-                <a href={carouselItems[index].link} target="_blank">
-                  <button>{carouselItems[index].link_title}</button>
-                </a>
-                <a href="">
-                  <button>Feature Content</button>
-                </a>
-              </div>
+              <Image
+                className={styles.imageWrapper}
+                src={carouselItems[index].image}
+                alt={carouselItems[index].title}
+                width={850}
+                height={450}
+              />
             </motion.div>
-          </AnimatePresence>
-        </div>
+          )}
+        </AnimatePresence>
       </div>
+
       <div className={styles.rotateBtnContain}>
         {carouselItems.map((_, i) => (
           <button

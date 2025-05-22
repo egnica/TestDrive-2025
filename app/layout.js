@@ -1,14 +1,15 @@
 import "./globals.css";
-
-// ✅ You don't need Google fonts anymore
-// import { Geist, Geist_Mono } from "next/font/google";
-
+import styles from "./page.module.css";
+import Image from "next/image";
 export const metadata = {
   title: "Test Drive 2025",
   description: "Test Drive 2025",
 };
 
 export default function RootLayout({ children }) {
+  const logo =
+    "https://barlowresearch.com/wp-content/uploads/2024/06/barlow-row-blk-logo.png";
+
   return (
     <html lang="en">
       <head>
@@ -21,7 +22,16 @@ export default function RootLayout({ children }) {
           }
         `}</style>
       </head>
-      <body style={{ fontFamily: "Futura, sans-serif" }}>{children}</body>
+
+      <body style={{ fontFamily: "Futura, sans-serif" }}>
+        <header>
+          <a href="https://mybarlow.barlowresearch.com/mybarlow/index.php">
+            <Image src={logo} width={270} height={70} alt="barlow logo" />
+          </a>
+        </header>
+
+        {children}
+      </body>
     </html>
   );
 }

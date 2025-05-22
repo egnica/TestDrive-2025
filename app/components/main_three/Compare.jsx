@@ -182,6 +182,7 @@ const Compare = () => {
       <AnimatePresence mode="wait">
         {desktop && (
           <motion.div
+            className={styles.btnKeyCont}
             key="nav-buttons"
             initial="hidden"
             animate="visible"
@@ -202,6 +203,26 @@ const Compare = () => {
             >
               Back
             </button>
+            {bankArray && (
+              <div className={styles.keyContain}>
+                <div>
+                  <span style={{ fontSize: "1.5em" }}>✓</span> = Bank earned
+                  credit for feature
+                </div>
+                <div>
+                  <span style={{ fontSize: "1.5em" }}>🎥</span> = Video of UX
+                  offered
+                </div>
+                <div>
+                  {" "}
+                  <span style={{ fontSize: "1.5em" }}>🗂️</span> = Downloadable
+                  screenshots of UX offered
+                </div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+              </div>
+            )}
           </motion.div>
         )}
       </AnimatePresence>
