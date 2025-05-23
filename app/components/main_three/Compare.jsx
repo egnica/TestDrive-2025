@@ -189,38 +189,81 @@ const Compare = () => {
             exit="exit"
             variants={boxVariants}
           >
-            <button
-              className={styles.btnComp}
-              style={{ width: "100px", height: "50px", marginRight: "10px" }}
-              onClick={startOver}
-            >
-              Start Over
-            </button>
-            <button
-              className={styles.btnComp}
-              style={{ width: "100px", height: "50px" }}
-              onClick={backButton}
-            >
-              Back
-            </button>
+            <div>
+              <button
+                className={styles.btnComp}
+                style={{ width: "100px", height: "50px", marginRight: "10px" }}
+                onClick={startOver}
+              >
+                Start Over
+              </button>
+
+              {categorySelect && (
+                <button
+                  className={styles.btnComp}
+                  style={{ width: "100px", height: "50px" }}
+                  onClick={backButton}
+                >
+                  Back
+                </button>
+              )}
+            </div>
+
             {bankArray && (
               <div className={styles.keyContain}>
-                <div>
-                  <span style={{ fontSize: "1.5em" }}>✓</span> = Bank earned
-                  credit for feature
+                <div className={styles.setContain}>
+                  <div>
+                    <span style={{ fontSize: "1.5em" }}>✓</span> = Bank earned
+                    credit for feature
+                  </div>
+
+                  <div>
+                    <span style={{ fontSize: "1.5em" }}>🗂️</span> = Downloadable
+                    screenshots of UX offered
+                  </div>
+
+                  <div>
+                    <span style={{ fontSize: "1.5em" }}>🎥</span> = Video of UX
+                    offered
+                  </div>
                 </div>
-                <div>
-                  <span style={{ fontSize: "1.5em" }}>🎥</span> = Video of UX
-                  offered
+
+                <div className={styles.setContain}>
+                  <div style={{ display: "flex" }}>
+                    <div
+                      style={{
+                        border: "1px solid rgb(190, 190, 190)",
+                        height: "28px",
+                        width: "28px",
+                        backgroundColor: "#d9f2d0",
+                        marginRight: "8px",
+                      }}
+                    ></div>
+                    <div>= Feature is new to this bank's platform</div>
+                  </div>
+
+                  <div
+                    style={{
+                      display: "flex",
+                    }}
+                  >
+                    <div
+                      style={{
+                        height: "28px",
+                        width: "47px",
+                        border: "1px solid rgb(190, 190, 190)",
+                        backgroundColor: "#f8e0d3",
+                        marginRight: "8px",
+                      }}
+                    ></div>
+                    <div>
+                      = Feature appeared in previous year's platform, but is no
+                      longer available
+                    </div>
+                  </div>
+
+                  <div></div>
                 </div>
-                <div>
-                  {" "}
-                  <span style={{ fontSize: "1.5em" }}>🗂️</span> = Downloadable
-                  screenshots of UX offered
-                </div>
-                <div>4</div>
-                <div>5</div>
-                <div>6</div>
               </div>
             )}
           </motion.div>
