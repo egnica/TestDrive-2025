@@ -1,3 +1,80 @@
-.page {
-  padding: 20px;
+/* Repository Page */
+
+.repoContain {
+  animation: fadeIn 4s;
+
+  padding: 80px 80px;
+  background-image: url("https://mybarlow.barlowresearch.com/mybarlow/testdrive2024/images/repo-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+.repoContain a {
+  text-decoration: none;
+}
+.headContain {
+  display: flex;
+}
+.h1Contain {
+  background-color: #00000089;
+  border-radius: 10px;
+  padding: 0 20px;
+  width: auto;
+  display: inline-block;
+  margin: auto;
+}
+.h1Contain h1 {
+  color: #f0f8ff;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.684);
+  font-size: 3em;
+  margin: 0;
+}
+.listContain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.4fr 1fr;
+  grid-gap: 20px;
+}
+.listContain2 {
+  padding-top: 10px;
+  border-bottom: #7777779d solid;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1.4fr 1fr;
+  background-color: rgba(255, 255, 255, 0.664);
+  padding: 15px;
+  border-radius: 10px;
+}
+.listContain2 p {
+  margin-top: 0;
+}
+
+.listBtn {
+  color: aliceblue;
+  background-color: #0392e5;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.listBtn:hover {
+  background-color: #02476f;
+  animation: ease-in 0.5s;
+  cursor: pointer;
+}
+.titlePost {
+  font-size: 1.15em;
+  font-weight: 500;
+}
+.section2Btn {
+  color: aliceblue;
+  background-color: #0392e5;
+  width: fit-content;
+  padding: 15px;
+}
+.section2Btn:hover {
+  background-color: #02476f;
+  animation: ease-in 0.5s;
+  cursor: pointer;
 }

@@ -7,16 +7,18 @@
       "description": "Chase small business users can send money to accounts they own at other financial institutions using the RTP rails. The service has no fee.",
       "link_title": "Watch here!",
       "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/chase-real-time.mp4",
-      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/chase-realtime.jpg"
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/chase-realtime.jpg",
+      "date": "02/28/2025"
     },
     {
       "id": "13",
       "carousel": true,
       "title": "U.S. Bank Updates to Mobile App",
-      "description": "On November 20, U.S. Bank released an updated app with new features, including the ability to create a savings goal, personalized financial insights, and the ability to apply for merchant services.",
+      "description": "On November 20 2024, U.S. Bank released an updated app with new features, including the ability to create a savings goal, personalized financial insights, and the ability to apply for merchant services.",
       "link_title": "Watch here!",
       "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/US_BankMobile_App.mp4",
-      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/US_BankMobile_App.jpg"
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/US_BankMobile_App.jpg",
+      "date": "12/20/2024"
     },
 
     {
@@ -26,7 +28,8 @@
       "description": "A feature not offered in most platforms - Truist offers business customers a series of calculators on their mobile app that estimate dollars saved based on loan payment changes. ",
       "link_title": "Watch here!",
       "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/Truist-Calculator.mp4",
-      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/Truist-Calculator.jpg"
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-three/Truist-Calculator.jpg",
+      "date": "10/28/2024"
     },
     {
       "id": "11",
@@ -35,7 +38,8 @@
       "description": "Bank of America business banking customers now have the ability to see their aggregate cash flow by linking external accounts to Bank of America’s Banking Dashboard. ",
       "link_title": "Watch here!",
       "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/Business_Dashboard.mp4",
-      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/Business_Dashboard.jpg"
+      "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/slot-two/Business_Dashboard.jpg",
+      "date": "10/28/2024"
     },
     {
       "id": "10",
