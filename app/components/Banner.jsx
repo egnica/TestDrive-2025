@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 const Banner = () => {
   const carouselItems = PostObject.Post.filter((item) => item.carousel);
@@ -42,12 +43,12 @@ const Banner = () => {
             <h1>{carouselItems[index].title}</h1>
             <p>{carouselItems[index].description}</p>
             <div className={styles.bannerBtnContain}>
-              <a href={carouselItems[index].link} target="_blank">
+              <Link href={carouselItems[index].link} target="_blank">
                 <button>{carouselItems[index].link_title}</button>
-              </a>
-              <a href="">
+              </Link>
+              <Link href={"./repository"}>
                 <button>Feature Content</button>
-              </a>
+              </Link>
             </div>
           </motion.div>
         </AnimatePresence>

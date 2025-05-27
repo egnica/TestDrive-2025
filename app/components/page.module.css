@@ -6,7 +6,7 @@
 
 /* Carousel */
 .carouselContain {
-  background-image: url("https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/background-3.png");
+  background-image: url("https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/images/background-3.webp");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -73,6 +73,7 @@
 }
 .bannerBtnContain button {
   height: 40px;
+  cursor: pointer;
 }
 .rotateBtnContain {
   padding-top: 10px;
