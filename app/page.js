@@ -41,6 +41,21 @@ export default function Home() {
             ) : (
               <div style={{ padding: "100px" }}>
                 <div style={{ textAlign: "center", paddingBottom: "50px" }}>
+                  <h1>2025 Digital Business Banking Annual Report​</h1>
+                  <p>
+                    Here's the 2025 Digital Business Banking Annual
+                    Report:&nbsp;
+                    <a
+                      href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/downloads/annual-report.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Click here.
+                    </a>
+                  </p>
+                </div>
+
+                <div style={{ textAlign: "center", paddingBottom: "50px" }}>
                   <h1>MIDDLE MARKET $10MM-&lt;$500MM​</h1>
                   <p>
                     Want importance ratings for Middle Market ($10MM&lt;$500MM)
@@ -56,12 +71,12 @@ export default function Home() {
                 </div>
 
                 <div style={{ textAlign: "center", paddingBottom: "50px" }}>
-                  <h1>2025 Digital Business Banking Annual Report​</h1>
+                  <h1>SMALL BUSINESS $100K- &#60;$10MM </h1>
                   <p>
-                    Here's the 2025 Digital Business Banking Annual
-                    Report:&nbsp;
+                    Want importance ratings for Small Business Market
+                    ($10MM&lt;$500MM) businesses:&nbsp;
                     <a
-                      href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/downloads/annual-report.pdf"
+                      href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/downloads/SB-importance-ratings.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -86,40 +101,6 @@ export default function Home() {
                       Click here.
                     </a>
                   </p>
-                </div>
-
-                <div style={{ textAlign: "center", paddingBottom: "50px" }}>
-                  <div style={{ lineHeight: "15px" }}>
-                    <h1>
-                      Feature Importance Ratings for Small Business Segment
-                    </h1>
-                    <h3> &#40;$100K- &#60;$10MM in annual revenue &#41;​</h3>
-                  </div>
-                  <p>
-                    Access Full List of Platform Features, and A Checklist of
-                    Which Platform Offers That Feature:&nbsp;
-                    <a
-                      href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/downloads/feature-matrix.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Click here.
-                    </a>
-                  </p>
-                </div>
-
-                <h1 style={{ textAlign: "center" }}>
-                  *** MORE DOWNLOADS COMING SOON***
-                </h1>
-                <div style={{ textAlign: "center" }}>
-                  <h2>
-                    Feature Importance Ratings for Small Business Segment
-                    &#40;$100K- &#60;$10MM in annual revenue &#41;
-                  </h2>
-                  <h2>
-                    Feature Importance Ratings for Middle Market Segment
-                    &#40;$10MM- &#60;$500MM in annual revenue&#41;
-                  </h2>
                 </div>
               </div>
             )}
