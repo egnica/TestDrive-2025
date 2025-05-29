@@ -593,7 +593,7 @@
 }
 .cancelBtn {
   display: grid;
-  position: fixed;
+  float: right;
   place-content: center;
   background-color: #0a1178;
   width: 30px;

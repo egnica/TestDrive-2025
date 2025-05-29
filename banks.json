@@ -3989,14 +3989,14 @@
             {
               "name": "Product or services recommendations based on your company's needs",
               "points": 46,
-              "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/1_d_enrolling/chase-d_enrolling-d_product_recommendations.mp4",
+              "video": "",
               "featureChange": "",
               "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/enrolling_applying/Chase/d_product_recommendations.zip"
             },
             {
               "name": "Ability to open your business checking and savings account(s) online",
               "points": 45,
-              "video": "",
+              "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/1_d_enrolling/chase-d_enrolling-d_product_recommendations.mp4",
               "featureChange": "",
               "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/enrolling_applying/Chase/d_checking_account.zip"
             },
@@ -6481,14 +6481,14 @@
             {
               "name": "Ability to open your business checking and savings account(s) online",
               "points": 45,
-              "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/1_d_enrolling/pnc-d_enrolling-d_checking_account.mp4",
+              "video": "",
               "featureChange": "",
               "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/enrolling_applying/PNC/d_checking_account.zip"
             },
             {
               "name": "Ability to apply for a business loan or line of credit online",
               "points": 33,
-              "video": "",
+              "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/1_d_enrolling/pnc-d_enrolling-d_checking_account.mp4",
               "featureChange": "new",
               "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/enrolling_applying/PNC/d_loan.zip"
             },
@@ -9392,7 +9392,7 @@
             {
               "name": "Access to customer support via live chat that connects you to a human representative",
               "points": 80,
-              "video": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/video/8_d_customer/tru-d_customer-d_live_chat_FAIL1.mp4",
+              "video": "",
               "featureChange": "",
               "screenShot": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/feature_zips/Desktop/customer/Truist/d_live_chat.zip"
             },

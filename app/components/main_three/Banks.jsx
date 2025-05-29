@@ -281,7 +281,32 @@ const Banks = () => {
               )
             )
           )}
+        {bank && (
+          <div style={{ maxWidth: "700px" }}>
+            <ul>
+              <li>Features: Name / description of feature </li>
+              <li>
+                % Top Priority / Very Important: % of small business owners that
+                indicated that the said feature is Top Priority or Very
+                Important. Importance ratings translate into points i.e., more
+                important features receive more points in the platform
+                assessment.
+              </li>
+              <li>Videos available: CX videos available for this feature </li>
+              <li>
+                Features Credited: Indicates whether a digital platform offers a
+                specific feature
+              </li>
+              <li>
+                Points Earned: Indicates how many points are awarded to the
+                platform for a feature. Points count toward online and mobile
+                platform rankings.{" "}
+              </li>
+            </ul>
+          </div>
+        )}
       </div>
+
       <div style={{ height: "200px" }}></div>
     </>
   );

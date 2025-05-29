@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
           <a href="https://mybarlow.barlowresearch.com/mybarlow/index.php">
             <Image src={logo} width={270} height={70} alt="barlow logo" />
           </a>
+          <h1>DIGITAL BUSINESS BANKING TEST DRIVE</h1>
         </header>
 
         {children}
