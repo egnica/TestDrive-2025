@@ -1,7 +1,8 @@
 import axios from "axios";
 import https from "https";
 
-export async function POST() {
+export async function POST(req) {
+  console.log("📌 /api/tracking route triggered");
   try {
     const agent = new https.Agent({ rejectUnauthorized: false });
 
@@ -47,15 +48,14 @@ export async function POST() {
 
     return new Response("Log entry created", { status: 200 });
   } catch (err) {
-    console.error("Error logging homepage visit:", {
+    console.error("🔥 Error in /api/tracking:", {
       message: err.message,
-      code: err.code,
-      responseData: err.response?.data,
-      responseStatus: err.response?.status,
-      requestData: err.config?.data,
+      response: err.response?.data,
+      status: err.response?.status,
       headers: err.config?.headers,
+      dataSent: err.config?.data,
     });
 
-    return new Response("Error", { status: 500 });
+    return new Response("Internal Server Error", { status: 500 });
   }
 }
