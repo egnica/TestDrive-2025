@@ -13,6 +13,10 @@ import Compare from "./components/main_three/Compare";
 export default function Home() {
   const [numSel, setNumSel] = useState(null);
 
+  useEffect(() => {
+    fetch("/api/tracking", { method: "POST" });
+  }, []);
+
   const selectNum = (num) => {
     setNumSel(num);
   };

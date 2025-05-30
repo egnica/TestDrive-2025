@@ -8,7 +8,14 @@ export function middleware(req) {
     const [maskedUserId, token] = cookieValue.split(":");
     const realUserId = parseInt(maskedUserId) - mask;
 
-    return NextResponse.next();
+    const requestHeaders = new Headers(req.headers);
+    requestHeaders.set("x-user-id", realUserId.toString());
+
+    return NextResponse.next({
+      request: {
+        headers: requestHeaders,
+      },
+    });
   } else {
     console.log("testdrive_loggedin cookie missing or malformed:", cookieValue);
 
@@ -17,14 +24,11 @@ export function middleware(req) {
     );
 
     const productionUrl = new URL(req.nextUrl.href);
-
     productionUrl.hostname = "testdrive2025.barlowresearch.com";
     productionUrl.protocol = "https:";
-    productionUrl.port = ""; // remove :3000 if present
+    productionUrl.port = "";
 
     loginUrl.searchParams.set("rd3", productionUrl.toString());
-
-    // loginUrl.searchParams.set("rd2", productionUrl.toString());
 
     return NextResponse.redirect(loginUrl);
   }
