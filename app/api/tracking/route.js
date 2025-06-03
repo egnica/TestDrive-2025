@@ -13,7 +13,7 @@ export async function POST(req) {
 
   try {
     const createResponse = await axios.post(
-      "https://database.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/layouts/TestDrive2025Users/records",
+      "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/layouts/TestDrive2025Users/records",
       {
         fieldData: {
           user_id: userId,
