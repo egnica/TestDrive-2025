@@ -1,52 +1,61 @@
 import axios from "axios";
 import https from "https";
-import { NextResponse } from "next/server";
 
 export async function POST(req) {
-  console.log("📌 /api/tracking route triggered");
-
-  // Setup agent to bypass SSL verification (temporary dev workaround)
-  const agent = new https.Agent({ rejectUnauthorized: false });
-
-  // Extract user ID from header or fallback
-  const userId = req.headers.get("x-user-id") || 99999;
-
   try {
+    const agent = new https.Agent({ rejectUnauthorized: false });
+
+    // Step 1: Login to FileMaker API
+    const loginResponse = await axios.post(
+      "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/sessions",
+      {},
+      {
+        auth: {
+          username: "api_user",
+          password: "pA!4rZu82&MxTqV9",
+        },
+        httpsAgent: agent,
+      }
+    );
+
+    const token = loginResponse.data.response.token;
+
+    // Step 2: Build the new log entry
+    const userId = req.headers.get("x-user-id") || "unknown";
+    const timestamp = new Date().toLocaleString("en-US", {
+      timeZone: "America/Chicago",
+    });
+
+    const interaction = `${timestamp} - Visited Home Page`;
+
+    // Step 3: Create record in FileMaker
     const createResponse = await axios.post(
       "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/layouts/TestDrive2025Users/records",
       {
         fieldData: {
-          user_id: userId,
+          UserID: userId,
+          InteractionLog: interaction,
         },
       },
       {
-        httpsAgent: agent,
-        auth: {
-          // username: process.env.FILEMAKER_API_USERNAME,
-          // password: process.env.FILEMAKER_API_PASSWORD,
-          username: "api_user",
-          password: "pA!4rZu82&MxTqV9",
-        },
         headers: {
-          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
         },
+        httpsAgent: agent,
       }
     );
 
-    console.log("✅ Record created:", createResponse.data);
-    return NextResponse.json({ success: true }, { status: 200 });
-  } catch (error) {
-    console.error("🔥 Error in /api/tracking:", {
-      message: error.message,
-      response: error.response?.data || {},
-      status: error.response?.status,
-      headers: error.config?.headers,
-      dataSent: JSON.stringify(error.config?.data),
+    return new Response("Log entry created", { status: 200 });
+  } catch (err) {
+    console.error("Error logging homepage visit:", {
+      message: err.message,
+      code: err.code,
+      responseData: err.response?.data,
+      responseStatus: err.response?.status,
+      requestData: err.config?.data,
+      headers: err.config?.headers,
     });
 
-    return NextResponse.json(
-      { success: false, error: "Failed to create record" },
-      { status: 500 }
-    );
+    return new Response("Error", { status: 500 });
   }
 }
