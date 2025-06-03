@@ -13,6 +13,20 @@ import Compare from "./components/main_three/Compare";
 export default function Home() {
   const [numSel, setNumSel] = useState(null);
 
+  async function logInteraction(interactionText) {
+    try {
+      await fetch("/api/tracking", {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ interaction: interactionText }),
+      });
+    } catch (err) {
+      console.error("Logging failed:", err);
+    }
+  }
+
   useEffect(() => {
     fetch("/api/tracking", { method: "POST" });
   }, []);
@@ -51,6 +65,11 @@ export default function Home() {
                     Report:&nbsp;
                     <a
                       href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/downloads/annual-report.pdf"
+                      onClick={() =>
+                        logInteraction(
+                          "2025 Digital Business Banking Annual Report"
+                        )
+                      }
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -66,6 +85,9 @@ export default function Home() {
                     businesses:&nbsp;
                     <a
                       href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/MM-Importance-Ratings.pdf"
+                      onClick={() =>
+                        logInteraction("MIDDLE MARKET $10MM-&lt;$500MM")
+                      }
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -81,6 +103,9 @@ export default function Home() {
                     ($10MM&lt;$500MM) businesses:&nbsp;
                     <a
                       href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/downloads/SB-importance-ratings.pdf"
+                      onClick={() =>
+                        logInteraction("SMALL BUSINESS $100K- < $10MM")
+                      }
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -98,6 +123,9 @@ export default function Home() {
                     Access Full List of Platform Features, and A Checklist of
                     Which Platform Offers That Feature:&nbsp;
                     <a
+                      onClick={() =>
+                        logInteraction("Downloadable Feature Matrix")
+                      }
                       href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/downloads/feature-matrix.pdf"
                       target="_blank"
                       rel="noopener noreferrer"

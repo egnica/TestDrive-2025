@@ -1,38 +1,35 @@
 import axios from "axios";
 import https from "https";
 
+const agent = new https.Agent({ rejectUnauthorized: false });
+
+async function loginToFileMaker() {
+  const loginResponse = await axios.post(
+    "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/sessions",
+    {},
+    {
+      auth: {
+        username: process.env.FILEMAKER_API_USERNAME,
+        password: process.env.FILEMAKER_API_PASSWORD,
+      },
+      httpsAgent: agent,
+    }
+  );
+
+  return loginResponse.data.response.token;
+}
+
 export async function POST(req) {
   try {
-    const agent = new https.Agent({ rejectUnauthorized: false });
+    const token = await loginToFileMaker();
 
-    console.log("🔍 ENV USERNAME:", process.env.FILEMAKER_API_USERNAME);
-    console.log("🔍 ENV PASSWORD:", process.env.FILEMAKER_API_PASSWORD);
-
-    // Step 1: Login to FileMaker API
-    const loginResponse = await axios.post(
-      "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/sessions",
-      {},
-      {
-        auth: {
-          username: process.env.FILEMAKER_API_USERNAME,
-          password: process.env.FILEMAKER_API_PASSWORD,
-        },
-        httpsAgent: agent,
-      }
-    );
-
-    const token = loginResponse.data.response.token;
-
-    // Step 2: Build the new log entry
     const userId = req.headers.get("x-user-id") || "unknown";
     const timestamp = new Date().toLocaleString("en-US", {
       timeZone: "America/Chicago",
     });
-
     const interaction = `${timestamp} - Visited Home Page`;
 
-    // Step 3: Create record in FileMaker
-    const createResponse = await axios.post(
+    await axios.post(
       "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/layouts/TestDrive2025Users/records",
       {
         fieldData: {
@@ -50,13 +47,78 @@ export async function POST(req) {
 
     return new Response("Log entry created", { status: 200 });
   } catch (err) {
-    console.error("Error logging homepage visit:", {
+    console.error("Error logging homepage visit (POST):", {
       message: err.message,
-      code: err.code,
-      responseData: err.response?.data,
       responseStatus: err.response?.status,
-      requestData: err.config?.data,
-      headers: err.config?.headers,
+      responseData: err.response?.data,
+    });
+
+    return new Response("Error", { status: 500 });
+  }
+}
+
+export async function PATCH(req) {
+  try {
+    const token = await loginToFileMaker();
+
+    const { interaction } = await req.json();
+    const userId = req.headers.get("x-user-id");
+
+    if (!userId || !interaction) {
+      return new Response("Missing user ID or interaction", { status: 400 });
+    }
+
+    // Step 1: Find latest record by UserID
+    const findResponse = await axios.post(
+      "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/layouts/TestDrive2025Users/_find",
+      {
+        query: [{ UserID: userId }],
+        sort: [{ fieldName: "CreationTimestamp", sortOrder: "descend" }],
+        limit: 1,
+      },
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+        httpsAgent: agent,
+      }
+    );
+
+    const record = findResponse.data.response.data?.[0];
+    const recordId = record?.recordId;
+
+    if (!recordId) {
+      return new Response("No matching record found", { status: 404 });
+    }
+
+    const previousLog = record.fieldData.InteractionLog || "";
+    const timestamp = new Date().toLocaleString("en-US", {
+      timeZone: "America/Chicago",
+    });
+    const newLog = `${previousLog}\n${timestamp} - ${interaction}`;
+
+    // Step 2: Patch the record
+    await axios.patch(
+      `https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/layouts/TestDrive2025Users/records/${recordId}`,
+      {
+        fieldData: {
+          InteractionLog: newLog,
+        },
+      },
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+        httpsAgent: agent,
+      }
+    );
+
+    return new Response("Interaction updated", { status: 200 });
+  } catch (err) {
+    console.error("Error updating interaction (PATCH):", {
+      message: err.message,
+      responseStatus: err.response?.status,
+      responseData: err.response?.data,
     });
 
     return new Response("Error", { status: 500 });
