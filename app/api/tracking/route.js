@@ -5,6 +5,9 @@ export async function POST(req) {
   try {
     const agent = new https.Agent({ rejectUnauthorized: false });
 
+    console.log("🔍 ENV USERNAME:", process.env.FILEMAKER_API_USERNAME);
+    console.log("🔍 ENV PASSWORD:", process.env.FILEMAKER_API_PASSWORD);
+
     // Step 1: Login to FileMaker API
     const loginResponse = await axios.post(
       "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/sessions",
