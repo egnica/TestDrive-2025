@@ -97,6 +97,13 @@ export async function PATCH(req) {
     });
     const newLog = `${previousLog}\n${timestamp} - ${interaction}`;
 
+    console.log(`********RecordID -> ${recordId}`);
+    console.log(
+      "🔧 PATCH URL:",
+      `https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/layouts/TestDrive2025Users/records/${recordId}`
+    );
+    console.log("📝 New Log Preview:", newLog);
+
     // Step 2: Patch the record
     await axios.patch(
       `https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/layouts/TestDrive2025Users/records/${recordId}`,
