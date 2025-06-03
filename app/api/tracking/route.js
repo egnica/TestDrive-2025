@@ -11,8 +11,8 @@ export async function POST(req) {
       {},
       {
         auth: {
-          username: "api_user",
-          password: "pA!4rZu82&MxTqV9",
+          username: process.env.FILEMAKER_API_USERNAME,
+          password: process.env.FILEMAKER_API_PASSWORD,
         },
         httpsAgent: agent,
       }
