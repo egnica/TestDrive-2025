@@ -4,7 +4,7 @@ import https from "https";
 const agent = new https.Agent({ rejectUnauthorized: false });
 
 async function loginToFileMaker() {
-  console.log("🧪 FM Username:", process.env.FILEMAKER_API_USERNAME); // <-- ADD THIS
+  console.log("🧪 FM Username:", process.env.FILEMAKER_API_USERNAME);
 
   const loginResponse = await axios.post(
     "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/sessions",
@@ -21,11 +21,32 @@ async function loginToFileMaker() {
   return loginResponse.data.response.token;
 }
 
+function extractUserIdFromCookie(req) {
+  const mask = 3243423;
+  const cookieHeader = req.headers.get("cookie");
+  let userId = "unknown";
+
+  if (cookieHeader) {
+    const cookies = Object.fromEntries(
+      cookieHeader.split(";").map((c) => c.trim().split("="))
+    );
+
+    const cookieValue = cookies["testdrive_loggedin"];
+
+    if (cookieValue && cookieValue.includes(":")) {
+      const [maskedUserId] = cookieValue.split(":");
+      userId = parseInt(maskedUserId) - mask;
+    }
+  }
+
+  return userId;
+}
+
 export async function POST(req) {
   try {
     const token = await loginToFileMaker();
+    const userId = extractUserIdFromCookie(req);
 
-    const userId = req.headers.get("x-user-id") || "unknown";
     const timestamp = new Date().toLocaleString("en-US", {
       timeZone: "America/Chicago",
     });
@@ -62,9 +83,8 @@ export async function POST(req) {
 export async function PATCH(req) {
   try {
     const token = await loginToFileMaker();
-
     const { interaction } = await req.json();
-    const userId = req.headers.get("x-user-id");
+    const userId = extractUserIdFromCookie(req);
 
     if (!userId || !interaction) {
       return new Response("Missing user ID or interaction", { status: 400 });
