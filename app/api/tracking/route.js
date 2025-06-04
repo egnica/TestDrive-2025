@@ -1,11 +1,10 @@
 import axios from "axios";
 import https from "https";
-import { cookies } from "next/headers";
 
 const agent = new https.Agent({ rejectUnauthorized: false });
 
 async function loginToFileMaker() {
-  console.log("🧪 FM Username:", process.env.FILEMAKER_API_USERNAME);
+  console.log("🧪 FM Username:", process.env.FILEMAKER_API_USERNAME); // <-- ADD THIS
 
   const loginResponse = await axios.post(
     "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/sessions",
@@ -22,30 +21,11 @@ async function loginToFileMaker() {
   return loginResponse.data.response.token;
 }
 
-function extractUserIdFromCookie(req) {
-  const mask = 3243423;
-
-  function extractUserIdFromCookie() {
-    const mask = 3243423;
-    const cookieValue = cookies().get("testdrive_loggedin")?.value;
-    let userId = "unknown";
-
-    if (cookieValue && cookieValue.includes(":")) {
-      const [maskedUserId] = cookieValue.split(":");
-      userId = parseInt(maskedUserId) - mask;
-    }
-
-    return userId;
-  }
-
-  return userId;
-}
-
 export async function POST(req) {
   try {
     const token = await loginToFileMaker();
-    const userId = extractUserIdFromCookie(req);
 
+    const userId = req.headers.get("x-user-id") || "unknown";
     const timestamp = new Date().toLocaleString("en-US", {
       timeZone: "America/Chicago",
     });
@@ -82,8 +62,9 @@ export async function POST(req) {
 export async function PATCH(req) {
   try {
     const token = await loginToFileMaker();
+
     const { interaction } = await req.json();
-    const userId = extractUserIdFromCookie(req);
+    const userId = req.headers.get("x-user-id");
 
     if (!userId || !interaction) {
       return new Response("Missing user ID or interaction", { status: 400 });
@@ -149,16 +130,6 @@ export async function PATCH(req) {
       responseData: err.response?.data,
     });
 
-    return new Response(
-      JSON.stringify({
-        message: err.message,
-        responseStatus: err.response?.status,
-        responseData: err.response?.data,
-      }),
-      {
-        status: 500,
-        headers: { "Content-Type": "application/json" },
-      }
-    );
+    return new Response("Error", { status: 500 });
   }
 }
