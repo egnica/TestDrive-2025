@@ -60,6 +60,9 @@ export default function Home() {
               <Compare />
             ) : (
               <div style={{ padding: "100px" }}>
+                <button onClick={() => logInteraction("THIS IS A TEST")}>
+                  CLICK THIS TO SEE IF IT LOGS
+                </button>
                 <div style={{ textAlign: "center", paddingBottom: "50px" }}>
                   <h1>2025 Digital Business Banking Annual Report​</h1>
                   <p>
