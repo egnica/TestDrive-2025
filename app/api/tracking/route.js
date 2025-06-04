@@ -1,5 +1,6 @@
 import axios from "axios";
 import https from "https";
+import { cookies } from "next/headers";
 
 const agent = new https.Agent({ rejectUnauthorized: false });
 
@@ -23,20 +24,18 @@ async function loginToFileMaker() {
 
 function extractUserIdFromCookie(req) {
   const mask = 3243423;
-  const cookieHeader = req.headers.get("cookie");
-  let userId = "unknown";
 
-  if (cookieHeader) {
-    const cookies = Object.fromEntries(
-      cookieHeader.split(";").map((c) => c.trim().split("="))
-    );
-
-    const cookieValue = cookies["testdrive_loggedin"];
+  function extractUserIdFromCookie() {
+    const mask = 3243423;
+    const cookieValue = cookies().get("testdrive_loggedin")?.value;
+    let userId = "unknown";
 
     if (cookieValue && cookieValue.includes(":")) {
       const [maskedUserId] = cookieValue.split(":");
       userId = parseInt(maskedUserId) - mask;
     }
+
+    return userId;
   }
 
   return userId;
