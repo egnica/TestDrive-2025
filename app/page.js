@@ -14,6 +14,8 @@ export default function Home() {
   const [numSel, setNumSel] = useState(null);
 
   async function logInteraction(interactionText) {
+    console.log("🧪 Sending interaction:", interactionText); // Add this
+
     try {
       await fetch("/api/tracking", {
         method: "PATCH",
