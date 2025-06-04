@@ -4,9 +4,7 @@ import https from "https";
 const agent = new https.Agent({ rejectUnauthorized: false });
 
 async function loginToFileMaker() {
-
-    console.log("🧪 FM Username:", process.env.FILEMAKER_API_USERNAME); // <-- ADD THIS
-
+  console.log("🧪 FM Username:", process.env.FILEMAKER_API_USERNAME); // <-- ADD THIS
 
   const loginResponse = await axios.post(
     "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/sessions",
@@ -132,6 +130,16 @@ export async function PATCH(req) {
       responseData: err.response?.data,
     });
 
-    return new Response("Error", { status: 500 });
+    return new Response(
+      JSON.stringify({
+        message: err.message,
+        responseStatus: err.response?.status,
+        responseData: err.response?.data,
+      }),
+      {
+        status: 500,
+        headers: { "Content-Type": "application/json" },
+      }
+    );
   }
 }
