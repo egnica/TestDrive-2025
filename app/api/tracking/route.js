@@ -1,11 +1,10 @@
 import axios from "axios";
 import https from "https";
+import { cookies } from "next/headers"; // <- app router cookie access
 
 const agent = new https.Agent({ rejectUnauthorized: false });
 
 async function loginToFileMaker() {
-  console.log("🧪 FM Username:", process.env.FILEMAKER_API_USERNAME); // <-- ADD THIS
-
   const loginResponse = await axios.post(
     "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/sessions",
     {},
@@ -25,18 +24,42 @@ export async function POST(req) {
   try {
     const token = await loginToFileMaker();
 
-    const userId = req.headers.get("x-user-id") || "unknown";
+    // 1. Parse interaction from the request body
+    const { interaction } = await req.json();
+
+    // 2. Try to get user ID from the header
+    let userId = req.headers.get("x-user-id");
+
+    // 3. If header is missing, fall back to cookie
+    if (!userId) {
+      const cookieStore = cookies();
+      const cookieValue = cookieStore.get("testdrive_loggedin")?.value;
+      const mask = 3243423;
+
+      if (cookieValue && cookieValue.includes(":")) {
+        const [maskedUserId] = cookieValue.split(":");
+        userId = parseInt(maskedUserId) - mask;
+      } else {
+        console.warn("⚠️ Cookie missing or malformed:", cookieValue);
+        return new Response("Unauthorized", { status: 401 });
+      }
+    }
+
+    if (!interaction) {
+      return new Response("Missing interaction", { status: 400 });
+    }
+
     const timestamp = new Date().toLocaleString("en-US", {
       timeZone: "America/Chicago",
     });
-    const interaction = `${timestamp} - Visited Home Page`;
+    const log = `${timestamp} - ${interaction}`;
 
     await axios.post(
       "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/layouts/TestDrive2025Users/records",
       {
         fieldData: {
           UserID: userId,
-          InteractionLog: interaction,
+          InteractionLog: log,
         },
       },
       {
@@ -47,84 +70,9 @@ export async function POST(req) {
       }
     );
 
-    return new Response("Log entry created", { status: 200 });
+    return new Response("Interaction logged", { status: 200 });
   } catch (err) {
-    console.error("Error logging homepage visit (POST):", {
-      message: err.message,
-      responseStatus: err.response?.status,
-      responseData: err.response?.data,
-    });
-
-    return new Response("Error", { status: 500 });
-  }
-}
-
-export async function PATCH(req) {
-  try {
-    const token = await loginToFileMaker();
-
-    const { interaction } = await req.json();
-    const userId = req.headers.get("x-user-id");
-
-    if (!userId || !interaction) {
-      return new Response("Missing user ID or interaction", { status: 400 });
-    }
-
-    // Step 1: Find latest record by UserID
-    const findResponse = await axios.post(
-      "https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/layouts/TestDrive2025Users/_find",
-      {
-        query: [{ UserID: userId }],
-        sort: [{ fieldName: "CreationTimestamp", sortOrder: "descend" }],
-        limit: 1,
-      },
-      {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-        httpsAgent: agent,
-      }
-    );
-
-    const record = findResponse.data.response.data?.[0];
-    const recordId = record?.recordId;
-
-    if (!recordId) {
-      return new Response("No matching record found", { status: 404 });
-    }
-
-    const previousLog = record.fieldData.InteractionLog || "";
-    const timestamp = new Date().toLocaleString("en-US", {
-      timeZone: "America/Chicago",
-    });
-    const newLog = `${previousLog}\n${timestamp} - ${interaction}`;
-
-    console.log(`********RecordID -> ${recordId}`);
-    console.log(
-      "🔧 PATCH URL:",
-      `https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/layouts/TestDrive2025Users/records/${recordId}`
-    );
-    console.log("📝 New Log Preview:", newLog);
-
-    // Step 2: Patch the record
-    await axios.patch(
-      `https://tdengine.barlowresearch.com/fmi/data/vLatest/databases/TestDrive2025Users/layouts/TestDrive2025Users/records/${recordId}`,
-      {
-        fieldData: {
-          InteractionLog: newLog,
-        },
-      },
-      {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-        httpsAgent: agent,
-      }
-    );
-
-    return new Response("Interaction updated", { status: 200 });
-  } catch (err) {
-    console.error("Error updating interaction (PATCH):", {
+    console.error("Error logging interaction (POST):", {
       message: err.message,
       responseStatus: err.response?.status,
       responseData: err.response?.data,

@@ -13,12 +13,23 @@ import Compare from "./components/main_three/Compare";
 export default function Home() {
   const [numSel, setNumSel] = useState(null);
 
-  async function logInteraction(interactionText) {
-    console.log("🧪 Sending interaction:", interactionText); // Add this
+  useEffect(() => {
+    fetch("/api/tracking", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        interaction: "Visited Home Page",
+      }),
+    });
+  }, []);
 
+  async function logInteraction(interactionText) {
+    console.log("🧪 Sending interaction:", interactionText);
     try {
       await fetch("/api/tracking", {
-        method: "PATCH",
+        method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
@@ -28,10 +39,6 @@ export default function Home() {
       console.error("Logging failed:", err);
     }
   }
-
-  useEffect(() => {
-    fetch("/api/tracking", { method: "POST" });
-  }, []);
 
   const selectNum = (num) => {
     setNumSel(num);
