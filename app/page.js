@@ -70,8 +70,7 @@ export default function Home() {
                 <div style={{ textAlign: "center", paddingBottom: "50px" }}>
                   <h1>2025 Digital Business Banking Annual Report​</h1>
                   <p>
-                    Here's the 2025 Digital Business Banking Annual
-                    Report:&nbsp;
+                    2025 Digital Business Banking Annual Report:&nbsp;
                     <a
                       href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/downloads/annual-report.pdf"
                       onClick={() =>
@@ -88,15 +87,17 @@ export default function Home() {
                 </div>
 
                 <div style={{ textAlign: "center", paddingBottom: "50px" }}>
-                  <h1>MIDDLE MARKET $10MM-&lt;$500MM​</h1>
+                  <h1>
+                    Feature Importance Ratings: Middle Market Banking Segment
+                    $10MM-&lt;$500MM​
+                  </h1>
                   <p>
-                    Want importance ratings for Middle Market ($10MM&lt;$500MM)
+                    Feature importance ratings for Middle Market segment
+                    (businesses with $10MM&lt;$500MM in annual revenue)
                     businesses:&nbsp;
                     <a
                       href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/MM-Importance-Ratings.pdf"
-                      onClick={() =>
-                        logInteraction("MIDDLE MARKET $10MM-&lt;$500MM")
-                      }
+                      onClick={() => logInteraction("MIDDLE MARKET Report")}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -106,15 +107,16 @@ export default function Home() {
                 </div>
 
                 <div style={{ textAlign: "center", paddingBottom: "50px" }}>
-                  <h1>SMALL BUSINESS $100K- &#60;$10MM </h1>
+                  <h1>
+                    Feature Importance Ratings: Small Business Banking Segment
+                    $100K- &#60;$10MM{" "}
+                  </h1>
                   <p>
-                    Want importance ratings for Small Business Market
-                    ($10MM&lt;$500MM) businesses:&nbsp;
+                    Feature importance ratings for Small Business segment
+                    (businesses with $100k&lt;$10MM in annual revenue):&nbsp;
                     <a
                       href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/downloads/SB-importance-ratings.pdf"
-                      onClick={() =>
-                        logInteraction("SMALL BUSINESS $100K- < $10MM")
-                      }
+                      onClick={() => logInteraction("SMALL BUSINESS Report")}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -126,11 +128,14 @@ export default function Home() {
                 <div style={{ textAlign: "center", paddingBottom: "50px" }}>
                   <div style={{ lineHeight: "15px" }}>
                     <h1>Downloadable Feature Matrix</h1>
-                    <h3>(previously known as Product Roadmap)​</h3>
+                    <h3>
+                      (perviously known as Product Roadmap or Test Drive
+                      Roadmap)​
+                    </h3>
                   </div>
                   <p>
-                    Access Full List of Platform Features, and A Checklist of
-                    Which Platform Offers That Feature:&nbsp;
+                    Access full list of platform features, and a checklist of
+                    which platform offers that feature:&nbsp;
                     <a
                       onClick={() =>
                         logInteraction("Downloadable Feature Matrix")
