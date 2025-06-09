@@ -16,6 +16,20 @@ const Banks = () => {
     index: null,
   });
 
+  async function logInteraction(interactionText) {
+    try {
+      await fetch("/api/tracking", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ interaction: interactionText }),
+      });
+    } catch (err) {
+      console.error("Logging failed:", err);
+    }
+  }
+
   const bankHandler = (bankName) => {
     bankName === bank ? setBank(null) : setBank(bankName);
   };
@@ -171,7 +185,13 @@ const Banks = () => {
                   &nbsp; = indicates category winner
                 </p>
               </motion.div>
-              <a href={zipBank} className={styles.downloadBtn}>
+              <a
+                href={zipBank}
+                className={styles.downloadBtn}
+                onClick={() =>
+                  logInteraction(`Bank view - ${bank} - downloaded screenshots`)
+                }
+              >
                 Download <br /> Screenshots
               </a>
             </>
