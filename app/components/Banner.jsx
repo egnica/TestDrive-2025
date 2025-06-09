@@ -69,6 +69,8 @@ const Banner = () => {
               </Link>
               <Link href={"./repository"} className={styles.bannerBtn}>
                 Feature Content
+                <br />
+                Archive
               </Link>
             </div>
           </motion.div>
