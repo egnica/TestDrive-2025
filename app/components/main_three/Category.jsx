@@ -15,6 +15,20 @@ const Category = () => {
     index: null,
   });
 
+  async function logInteraction(interactionText) {
+    try {
+      await fetch("/api/tracking", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ interaction: interactionText }),
+      });
+    } catch (err) {
+      console.error("Logging failed:", err);
+    }
+  }
+
   const categoryClick = (name) => {
     name === selectedCategory
       ? setSelectedCategory(null)
@@ -158,6 +172,11 @@ const Category = () => {
                   href={categoryZip[0].screenShot}
                   className={styles.downloadBtn}
                   style={{ padding: "10px" }}
+                  onClick={() =>
+                    logInteraction(
+                      `Category view - ${selectedCategory} - downloaded screenshots`
+                    )
+                  }
                 >
                   Download <br /> Screenshots
                 </a>
