@@ -103,6 +103,7 @@
   appearance: button;
   text-decoration: none;
   font-weight: 300;
+  color: #4b4b4b;
 }
 
 .bannerBtn:focus {
