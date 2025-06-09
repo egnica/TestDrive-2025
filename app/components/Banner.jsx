@@ -13,6 +13,20 @@ const Banner = () => {
   const [index, setIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
+  async function logInteraction(interactionText) {
+    try {
+      await fetch("/api/tracking", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ interaction: interactionText }),
+      });
+    } catch (err) {
+      console.error("Logging failed:", err);
+    }
+  }
+
   useEffect(() => {
     if (isPaused) return;
 
@@ -43,11 +57,18 @@ const Banner = () => {
             <h1>{carouselItems[index].title}</h1>
             <p>{carouselItems[index].description}</p>
             <div className={styles.bannerBtnContain}>
-              <Link href={carouselItems[index].link} target="_blank">
-                <button>{carouselItems[index].link_title}</button>
+              <Link
+                href={carouselItems[index].link}
+                className={styles.bannerBtn}
+                target="_blank"
+                onClick={() => {
+                  logInteraction(carouselItems[index].logInteraction);
+                }}
+              >
+                {carouselItems[index].link_title}
               </Link>
-              <Link href={"./repository"}>
-                <button>Feature Content</button>
+              <Link href={"./repository"} className={styles.bannerBtn}>
+                Feature Content
               </Link>
             </div>
           </motion.div>

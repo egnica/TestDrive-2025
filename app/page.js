@@ -26,7 +26,7 @@ export default function Home() {
   }, []);
 
   async function logInteraction(interactionText) {
-    console.log("🧪 Sending interaction:", interactionText);
+  
     try {
       await fetch("/api/tracking", {
         method: "POST",

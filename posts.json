@@ -8,7 +8,8 @@
       "link_title": "Welcome!",
       "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/assets/about-page.pdf",
       "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/assets/welcome.jpg",
-      "date": "05/28/2025"
+      "date": "05/28/2025",
+      "logInteraction": "Downloaded about-page.pdf from homepage banner"
     },
     {
       "id": "15",
@@ -18,7 +19,8 @@
       "link_title": "View here!",
       "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/assets/winners.pdf",
       "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/assets/winners.jpg",
-      "date": "05/28/2025"
+      "date": "05/28/2025",
+      "logInteraction": "Downloaded winners.pdf from homepage banner"
     },
     {
       "id": "14",
@@ -28,7 +30,8 @@
       "link_title": "View here!",
       "link": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/assets/annual_report.pdf",
       "image": "https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/banner/assets/annual_report.jpg",
-      "date": "02/28/2025"
+      "date": "02/28/2025",
+      "logInteraction": "Downloaded 2025 Annual Report from homepage banner"
     },
     {
       "id": "13",

@@ -90,6 +90,29 @@
   cursor: pointer;
 }
 
+.bannerBtn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.bannerBtn:hover {
+  background-color: #005ec2;
+}
+
+.bannerBtn:active {
+  transform: scale(0.97);
+  background-color: #004a9f;
+}
+
 /*    SET OF BUTTONS BELOW BANNER  */
 
 .mainBtnContain {
