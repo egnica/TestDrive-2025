@@ -89,7 +89,8 @@ export default function Home() {
                   <h1>Feature Importance: Middle Market Banking</h1>
                   <p>
                     Feature importance ratings for Middle Market segment
-                    (businesses with $10MM -&lt;$500MM in annual revenue):&nbsp;
+                    (businesses with $10MM &mdash;&lt;$500MM in annual
+                    revenue):&nbsp;
                     <a
                       href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/downloads/MM-Importance-Ratings.pdf"
                       onClick={() => logInteraction("MIDDLE MARKET Report")}
@@ -105,7 +106,8 @@ export default function Home() {
                   <h1>Feature Importance: Small Business Banking</h1>
                   <p>
                     Feature importance ratings for Small Business segment
-                    (businesses with $100K -&lt;$10MM in annual revenue):&nbsp;
+                    (businesses with $100K &mdash;&lt;$10MM in annual
+                    revenue):&nbsp;
                     <a
                       href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/downloads/SB-importance-ratings.pdf"
                       onClick={() => logInteraction("SMALL BUSINESS Report")}
