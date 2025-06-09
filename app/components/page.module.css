@@ -26,7 +26,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: min(90vw, 800px);
-
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid #b1b2b3;
@@ -62,9 +61,8 @@
   font-size: 1.1rem;
   border-radius: 10px;
   background: linear-gradient(285deg, #e8e7e7e0);
-
   color: #4b4b4b;
-  margin: auto;
+  /* margin: auto; */
 }
 .bannerBtnContain {
   min-height: 50px;
