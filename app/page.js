@@ -26,7 +26,6 @@ export default function Home() {
   }, []);
 
   async function logInteraction(interactionText) {
-  
     try {
       await fetch("/api/tracking", {
         method: "POST",
@@ -87,10 +86,7 @@ export default function Home() {
                 </div>
 
                 <div style={{ textAlign: "center", paddingBottom: "50px" }}>
-                  <h1>
-                    Feature Importance Ratings: Middle Market Banking Segment
-                    $10MM-&lt;$500MM​
-                  </h1>
+                  <h1>Feature Importance: Middle Market Banking</h1>
                   <p>
                     Feature importance ratings for Middle Market segment
                     (businesses with $10MM&lt;$500MM in annual revenue)
@@ -107,10 +103,7 @@ export default function Home() {
                 </div>
 
                 <div style={{ textAlign: "center", paddingBottom: "50px" }}>
-                  <h1>
-                    Feature Importance Ratings: Small Business Banking Segment
-                    $100K- &#60;$10MM{" "}
-                  </h1>
+                  <h1>Feature Importance: Small Business Banking</h1>
                   <p>
                     Feature importance ratings for Small Business segment
                     (businesses with $100k&lt;$10MM in annual revenue):&nbsp;
