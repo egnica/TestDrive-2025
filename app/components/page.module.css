@@ -91,15 +91,13 @@
 }
 
 .bannerBtn {
-  all: unset;
-  display: inline-block;
+  display: grid;
+  place-content: center;
   padding: 2px 6px;
   font-size: 13px;
   line-height: normal;
   text-align: center;
-  white-space: nowrap;
-  cursor: default;
-  border: 1px solid ButtonBorder;
+  cursor: pointer;
   background-color: ButtonFace;
   color: ButtonText;
   appearance: button;
