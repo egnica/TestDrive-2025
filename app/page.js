@@ -91,7 +91,7 @@ export default function Home() {
                     Feature importance ratings for Middle Market segment
                     (businesses with $10MM -&lt;$500MM in annual revenue):&nbsp;
                     <a
-                      href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/zips/MM-Importance-Ratings.pdf"
+                      href="https://mybarlow.barlowresearch.com/mybarlow/testdrive2025/downloads/MM-Importance-Ratings.pdf"
                       onClick={() => logInteraction("MIDDLE MARKET Report")}
                       target="_blank"
                       rel="noopener noreferrer"
